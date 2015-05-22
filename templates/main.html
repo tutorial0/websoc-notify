@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block body %}
+	<style>
+	progress {
+		width: 100%;
+	}
+	progress[value] {
+		-webkit-appearance: none;
+		appearance: none;
+	}
+	progress::-webkit-progress-value {
+		background-color: #2ecc71;
+	}
+	progress[value]::-webkit-progress-bar {
+		background-color: #bdc3c7;
+	}
+	progress[value^='0.4']::-webkit-progress-value,
+	progress[value^='0.5']::-webkit-progress-value,
+	progress[value^='0.6']::-webkit-progress-value,
+	progress[value^='0.7']::-webkit-progress-value{
+		background-color: #f1c40f;
+	}
+	progress[value^='0.8']::-webkit-progress-value,
+	progress[value^='0.9']::-webkit-progress-value,
+	progress[value^='1']::-webkit-progress-value {
+		background-color: #e74c3c;
+	}
+	$tr progress {
+		padding: 0;
+	}
+	</style>
+
+	<table>
+		{% import string %}
+		{% for course in data %}
+		<tr><th colspan='14'>{{ course[0] }}</th></tr>
+		<tr>
+			{% for header in table_headers %}
+				<th>{{ escape(header) }}</th>
+			{% end %}
+		</tr>
+			{% for row in sorted(course[1], key=lambda x:x[0][1]) %}
+				{% set row = row[0] %}
+				<tr>
+				{% for i in range(len(row)) %}
+					{% if i == len(row)-1 %}
+					<td data-val="{{ row[i] }}">
+					{% else %}
+					<td>
+					{% end %}
+					{{ row[i] }}</td>
+				{% end %}
+				</tr>
+				<tr>
+					<td align='right' style='font-weight: 800;'>{{ '{:0>5.2f}% full'.format(row['enrolled']/row['max_slots']*100) }}</td>
+					<td align='right'>{{ row['enrolled'] }}/{{ row['max_slots'] }}</td>
+					<td colspan='12'><progress value='{{ row['enrolled']/row['max_slots'] }}'></progress></td>
+				</tr>
+			{% end %}
+		{% end %}
+	</table>
+{% end %}

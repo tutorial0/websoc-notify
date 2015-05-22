@@ -1,43 +1,13 @@
-<html>
-<head>
-	<title>{% block title %}Scrape History{% end %}</title>
-	<style>
-	body { font-family: Calibri; }
-	table {
-    	border-collapse: collapse;
-	}
-	
-	table, th, td {
-	    border: 1px solid black;
-	}
-	th {
-		background: #3498db;
-		color: white;
-	}
-	th[colspan='13'] {
-		text-align: left;
-		padding-left: 5px;
-		background: #2c3e50;
-	}
-	th, td {
-		padding: 1px 5px;
-	}
-	tr:nth-child(even) {
-		background:#ecf0f1;
-	}
-	td[data-val] {
-		background: #e74c3c;
-	}
-	td[data-val="OPEN"] {
-		background: #27ae60;
-	}
-	</style>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Scrape History{% end %}
+{% block body %}
+
 	<table>
 		{% import string %}
-		{% for course in data %}
-		<tr><th colspan='13'>{{ '{} - {} {}'.format(course[0][1], string.capwords(course[0][2]), ' '.join(course[0][4:6])) }}</th></tr>
+		{% for course in sorted(data, key=lambda x:x[0][1]) %}
+		{% set c = course[0] %}
+		<tr><th colspan='14'>{{ '{} - {} {}'.format(c[1], string.capwords(c[2]), ' '.join([c[4], c[5]])) }}</th></tr>
 		<tr>
 			{% for header in table_headers %}
 				<th>{{ escape(header) }}</th>
@@ -57,5 +27,5 @@
 			{% end %}
 		{% end %}
 	</table>
-</body>
-</html>
+	
+{% end %}

@@ -3,15 +3,16 @@ from bs4 import BeautifulSoup
 
 
 FIELDNAMES = ['code', 'name', 'num', 'c_type', 'section', 'instructor',
-              'time', 'room', 'max_slots', 'enrolled', 'waitlisted', 'status']
+              'time', 'room', 'final', 'max_slots', 'enrolled', 'waitlisted', 'status']
 
 class Course:
-    def __init__(self, soup: bs4.element.Tag):
+    def __init__(self, soup: bs4.element.Tag=None):
         for name in FIELDNAMES:
             self.__dict__[name] = None
 
         if type(soup).__name__ == 'Tag':
             self._parse(soup)
+            
 
     def _parse(self, in_soup: bs4.element.Tag):
         '''
@@ -37,20 +38,21 @@ class Course:
                           ]
         '''
         soup = in_soup.parent.contents
-        self.code = int(soup[0].string)
-        self.c_type = soup[1].string
-        self.section = soup[2].string
+        self.code = int(_str(soup[0]))
+        self.c_type = _str(soup[1])
+        self.section = _str(soup[2])
         instructor = []
         for s in soup[4]:
             if s.string != None:
-                instructor.append(s.string)
+                instructor.append(_str(s))
         self.instructor = '/'.join(instructor)
-        self.time = strip_soup(soup[5].string)
-        self.room = soup[6].string
-        self.max_slots = int(soup[8].string)
-        self.enrolled = int(soup[9].string.split('/')[-1].strip())
-        self.waitlisted = soup[10].string
-        self.status = soup[16].string
+        self.time = strip_soup(_str(soup[5]))
+        self.room = _str(soup[6])
+        self.final = strip_soup(_str(soup[7]))
+        self.max_slots = int(_str(soup[8]))
+        self.enrolled = int(_str(soup[9]).split('/')[-1].strip())
+        self.waitlisted = int(_str(soup[10])) if _str(soup[10]) != 'n/a' else None
+        self.status = _str(soup[16])
 
         self.num, self.name = self._get_name_and_num(in_soup)
 
@@ -60,18 +62,39 @@ class Course:
                 get_color = element.get('bgcolor')
                 td = element.td
                 if get_color == '#fff0ff' and type(td.get('class')) == list and 'CourseTitle' in td.get('class'):
-                    num = strip_soup(td.contents[0].string)
-                    name = strip_soup(td.contents[1].string)
+                    num = strip_soup(_str(td.contents[0]))
+                    name = strip_soup(_str(td.contents[1]))
                     return (num, name)
 
     def to_dict(self) -> dict:
         return self.__dict__
 
     def __eq__(self, c) -> bool:
-        return self.code == c.code
+        if type(c) == int: return self.code == c
+        return self.__dict__ == c.__dict__
+    
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
+    def __cmp__(self, other):
+        c = self.code
+        other = other.code if type(other) != int else other
+        if c < other:
+            return -1
+        if c == other:
+            return 0
+        else:
+            return 1
+ 
     def __str__(self) -> str:
         return str(self.to_dict())
+    
+    def __hash__(self):
+        return hash(self.code)
+    
+    
+def _str(soup):
+    return str(soup.string)
 
 def strip_soup(s: str) -> str:
     return s.replace('\xa0', '').strip()
