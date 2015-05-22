@@ -115,7 +115,7 @@ class App:
         notification_set = set()
         queued_sql_entries = []
         for new in new_data:
-            if new.code not in [x.code for x in self._last_course_data]:
+            if new not in self._last_course_data:
                 logging.info('Added {code} (max: {c_max}) ({num} {c_type} {section} -- {instructor})'.format(
                     c_max = new.max_slots, code = new.code, num = new.num, c_type = new.c_type,
                     section = new.section, instructor = new.instructor
@@ -123,8 +123,13 @@ class App:
                 #pprint.pprint(new.to_dict())
                 if new not in queued_sql_entries:
                     queued_sql_entries.append(new)
+                    
+                self._last_course_data.append(new)
             else:
-                old = self._last_course_data[self._last_course_data.index(new)]
+                i = self._last_course_data.index(new)
+                old = self._last_course_data[i]
+                self._last_course_data[i] = new
+                
                 changes = scrape_websoc.dict_changes(old.__dict__, new.__dict__)
 
                 if changes:
@@ -144,9 +149,6 @@ class App:
             
         if queued_sql_entries:
             self.write_sqlite(queued_sql_entries)
-        
-        
-        self._last_course_data.extend(new_data)
     
     def loop(self) -> None:
         try:

@@ -70,8 +70,7 @@ class Course:
         return self.__dict__
 
     def __eq__(self, c) -> bool:
-        if type(c) == int: return self.code == c
-        return self.__dict__ == c.__dict__
+        return self.code == c.code
     
     def __ne__(self, other):
         return not self.__eq__(other)
