@@ -7,7 +7,6 @@ import traceback
 from logger import *
 from sqlite_manager import sqlite_manager
 from config import *
-from pathlib import Path
 from Course import Course
 
 class UserData:
@@ -48,7 +47,7 @@ class App:
     def __init__(self):
         self._users = []
         self._last_course_data = []
-        initialize_logger(str(Path(LOG_DIRECTORY)))
+        initialize_logger(LOG_DIRECTORY)
         with sqlite_manager(WEBSOC_TERM, row_factory=True) as s_manager:
             for course in s_manager.get_all_latest():
                 d = {k:course[k] for k in course.keys() if k != 'last_updated'}

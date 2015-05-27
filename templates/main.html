@@ -34,7 +34,7 @@
 	<table>
 		{% import string %}
 		{% for course in data %}
-		<tr><th colspan='14'>{{ course[0] }}</th></tr>
+		<tr><th colspan='14'>{{ course[0] }} - {{ ', '.join(sorted(str(x[0][1]) for x in course[1])) }}</th></tr>
 		<tr>
 			{% for header in table_headers %}
 				<th>{{ escape(header) }}</th>

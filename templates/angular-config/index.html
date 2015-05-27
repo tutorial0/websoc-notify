@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular-xeditable Starter Template</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <!-- Bootstrap 3 css -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Angular.js -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.2/angular.min.js"></script>
+    <!-- Angular-xeditable -->
+    <link href="angular-xeditable/css/xeditable.css" rel="stylesheet">
+    <script src="angular-xeditable/js/xeditable.js"></script>
+    <!-- ngTagsInput -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- app.js -->
+    <script src="app.js"></script>
+</head>
+<body style="padding: 20px">
+    <div ng-controller="Ctrl as ctrl">
+        <table class="table table-bordered table-hover table-condensed">
+            <tr ng-repeat="(rownum, row) in newData">
+                <td ng-repeat="key in sortOrder">
+                    <a href="#" editable-text="row.{{key}}" ng-if="!$last">{{ newData[rownum][key] || "empty" }}</a>
+                    <div ng-if="$last">
+                        <tags-input allowed-tags-pattern="[0-9]{5}" ng-model="data[rownum]['_courses']"></tags-input>
+                    </div>
+                </td>
+                <td><button class="btn btn-danger" ng-click="removeUser(rownum)">del</button></td>
+            </tr>
+            <tr><td colspan="4"><button class="btn btn-default" ng-click="addUser()">Add row</button></td></tr>
+            <tr><td colspan="4"><button class="btn btn-default" ng-click="submit()">Submit</button></td></tr>
+        </table>
+        <div id="debug" style="margin-top: 30px">
+            <pre>{{ newData | json }}</pre>
+        </div>
+    </div>
+</body>
+</html>
