@@ -54,7 +54,7 @@ class Application(tornado.web.Application):
             (r"/ap/(.*)", AntplannerFetchHandler),
             (r"/user_data", UserDataStatusHandler),
             (r"/user_data/ws", UserDataStatusSocket),
-            (r"/angular_app/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/angular-config'})
+            (r"/angular_app/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/angular-config', "default_filename": "index.html"})
             ]
         super(Application, self).__init__(handlers, debug=True)
 
