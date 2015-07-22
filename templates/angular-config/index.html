@@ -28,7 +28,7 @@
                 <td ng-repeat="key in sortOrder">
                     <a href="#" editable-text="row.{{key}}" ng-if="!$last">{{ newData[rownum][key] || "empty" }}</a>
                     <div ng-if="$last">
-                        <tags-input allowed-tags-pattern="[0-9]{5}" ng-model="data[rownum]['_courses']"></tags-input>
+                        <tags-input allowed-tags-pattern="^[0-9]{5}$" ng-model="data[rownum]['_courses']"></tags-input>
                     </div>
                 </td>
                 <td><button class="btn btn-danger" ng-click="removeUser(rownum)">del</button></td>

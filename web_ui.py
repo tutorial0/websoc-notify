@@ -117,9 +117,11 @@ class UserDataStatusHandler(tornado.web.RequestHandler):
     
     def put(self):
         try:
+            ## TODO: Data validation
             soc_runner = self.application.soc_runner
             d = json.loads(self.request.body.decode())
             soc_runner._users = list(map(lambda x: UserData(user=x['_user'], email=x['_email'], courses=x['_courses']), d.values()))
+            soc_runner.loop()
             print(soc_runner._users)
         except ValueError:
             self.write('ValueError!')

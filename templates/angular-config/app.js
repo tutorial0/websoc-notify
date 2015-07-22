@@ -7,6 +7,12 @@ app.run(function(editableOptions) {
 
 
 app.controller('Ctrl', ['$scope', '$http', function($scope, $http) {
+    function bindWatch(index) {
+        $scope.$watch('data['+index+']["_courses"].length', function(v) {
+            $scope.newData[index]['_courses'] = $scope.data[index]['_courses'].map(function(item) { return parseInt(item.text) || item; });
+        });
+    }
+
     $scope.sortOrder = ['_user', '_email', '_courses'];
 
     $http.get('/user_data')
@@ -15,9 +21,7 @@ app.controller('Ctrl', ['$scope', '$http', function($scope, $http) {
         $scope.newData = angular.copy(res.data);
     }).then( function(){
         angular.forEach($scope.data, function(value, i) {
-            $scope.$watch('data['+i+']["_courses"].length', function(v) {
-                $scope.newData[i]['_courses'] = $scope.data[i]['_courses'].map(function(item) { return parseInt(item.text) || item; });
-            });
+            bindWatch(i);
         });
     });
 
@@ -34,6 +38,8 @@ app.controller('Ctrl', ['$scope', '$http', function($scope, $http) {
             '_email': '',
             '_courses': []
         };
+
+        bindWatch(newKey);
 
         $scope.newData[newKey] = angular.copy($scope.data[newKey]);
     };
