@@ -75,19 +75,31 @@ def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
         i = iter(c)
         p = next(i)
         d = defaultdict(list)
+        p_set = set()
+        l_set = set()
+
         d[p]
+        p_set.add(p)
         for course in i:
-            if p.c_type == course.c_type:
+            if course.c_type == "Lab":
+                ## TODO: dedupe for x-linked classes
+                l_set.add(course)
+            elif p.c_type == course.c_type:
                 p = course
+                p_set.add(p)
                 d[p]
             else:
                 d[p].append(course)
+
+        for p in p_set:
+            for l in l_set:
+                d[p].append(l)
         o[s] = d
     return o
 
 
 if __name__ == '__main__':
-    courses = get_department('MATH')
+    courses = get_department('CSE')
     d = parse_sections(courses)
 
     for k,v in sorted(d.items()):
