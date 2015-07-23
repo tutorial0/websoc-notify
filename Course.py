@@ -51,7 +51,7 @@ class Course:
         self.final = strip_soup(_str(soup[7]))
         self.max_slots = int(_str(soup[8]))
         self.enrolled = int(_str(soup[9]).split('/')[-1].strip())
-        self.waitlisted = int(_str(soup[10])) if _str(soup[10]) != 'n/a' else None
+        self.waitlisted = int(_str(soup[10])) if _str(soup[10]) != 'n/a' and 'off' not in _str(soup[10]) else None
         self.status = _str(soup[16])
 
         self.num, self.name = self._get_name_and_num(in_soup)
