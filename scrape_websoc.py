@@ -66,7 +66,11 @@ def get_department(dept: str) -> [Course]:
                 if (s.has_attr('class') and s['class'] == ['blue-bar']):
                     break
                 elif s.find('th') == None and s.find('table') == None:
-                    d[c].append(Course(s.td))
+                    new_c = Course(s.td)
+                    for i in d[c]:
+                        if new_c.section == i.section:
+                            return d
+                    d[c].append(new_c)
     return d
 
 def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
