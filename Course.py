@@ -1,9 +1,45 @@
 from libs import bs4
 from bs4 import BeautifulSoup
-
+import re
+from datetime import datetime, timedelta, time
 
 FIELDNAMES = ['code', 'name', 'num', 'c_type', 'section', 'instructor',
               'time', 'room', 'final', 'max_slots', 'enrolled', 'waitlisted', 'status']
+
+DAYS = {'Monday':'M', 'Tuesday':'Tu', 'Wednesday':'W', 'Thursday':'Th', 'Friday':'F'}
+
+class CourseTime:
+    def __init__(self, timestring: str):
+        self.string = timestring
+        if timestring == 'TBA':
+            return
+
+        days, s_time = timestring.split()
+
+        self.days = set()
+        self.start, self.end = [datetime.strptime(t, '%I:%M').time() for t in s_time.strip('p').split('-')]
+
+        if s_time[-1] == 'p':
+            self.end = self.end.replace(hour=self.end.hour+12)
+            # TODO: ugly
+            if self.start < time(hour=10) or self.start == time():
+                self.start = self.start.replace(hour=self.start.hour+12)
+
+
+        for d in DAYS.values():
+            if d in days:
+                self.days.add(d)
+
+    def conflicts_with(self, other) -> bool:
+        if self.string == 'TBA' or other.string == 'TBA':
+            return True
+        return self.start < other.end and other.start < self.end and self.days.intersection(other.days)
+
+    def __repr__(self):
+        return 'CourseTime({})'.format(self.string)
+
+    def __str__(self):
+        return self.string
 
 class Course:
     def __init__(self, soup: bs4.element.Tag=None):
@@ -46,7 +82,7 @@ class Course:
             if s.string != None:
                 instructor.append(_str(s))
         self.instructor = '/'.join(instructor)
-        self.time = strip_soup(_str(soup[5]))
+        self.time = CourseTime(strip_soup(_str(soup[5])))
         self.room = _str(soup[6])
         self.final = strip_soup(_str(soup[7]))
         self.max_slots = int(_str(soup[8]))
@@ -65,6 +101,9 @@ class Course:
                     num = strip_soup(_str(td.contents[0]))
                     name = strip_soup(_str(td.contents[1]))
                     return (num, name)
+
+    def conflicts_with(self, other):
+        return self.time.conflicts_with(other.time)
 
     def to_dict(self) -> dict:
         return self.__dict__
@@ -95,8 +134,9 @@ class Course:
 def _str(soup):
     return str(soup.string)
 
+spaces = re.compile(r' {2,}')
 def strip_soup(s: str) -> str:
-    return s.replace('\xa0', '').strip()
+    return spaces.sub(' ', s.replace('\xa0', '').strip()).replace('- ', '-')
 
 def course_from_data(code, num, name, c_type, section, instructor,
                      time, room, max_slots, enrolled, status) -> Course:

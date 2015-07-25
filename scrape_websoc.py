@@ -45,7 +45,7 @@ def query_websoc(course_codes: [int]) -> [Course]:
 
     return classes
 
-def get_department(dept: str) -> [Course]:
+def get_department(dept: str) -> {str: [Course]}:
     d = defaultdict(list)
     values = {'Submit' : 'Display Web Results',
           'YearTerm' : WEBSOC_TERM,
@@ -74,10 +74,14 @@ def get_department(dept: str) -> [Course]:
     return d
 
 def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
+    '''
+                    Lecture        Corresponding discussions
+    'Course Num': { <Course Obj>: [<Course Obj>, <Course Obj>, ...] }
+    '''
     o = dict()
-    for s,c in courses.items():
+    for num,c in courses.items():
         i = iter(c)
-        p = next(i)
+        p = next(i)                         # points at current lecture
         d = defaultdict(list)
         p_set = set()
         l_set = set()
@@ -85,20 +89,19 @@ def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
         d[p]
         p_set.add(p)
         for course in i:
-            if course.c_type == "Lab":
-                ## TODO: dedupe for x-linked classes
+            if course.c_type == "Lab":      # special case for CS labs
                 l_set.add(course)
-            elif p.c_type == course.c_type:
-                p = course
-                p_set.add(p)
-                d[p]
-            else:
+            elif p.c_type == course.c_type: # is a new lecture
+                p = course                  # change pointer
+                p_set.add(p)                # for CS labs
+                d[p]                        # init in dictionary
+            else:                           # otherwise discussion
                 d[p].append(course)
 
         for p in p_set:
             for l in l_set:
                 d[p].append(l)
-        o[s] = d
+        o[num] = d
     return o
 
 
@@ -110,6 +113,6 @@ if __name__ == '__main__':
         print(k)
         for i,c_list in sorted(v.items(), key=lambda x:x[0].code):
             print('  ', i.code, i.c_type, i.section)
-            for c in c_list:
+            for c in sorted(c_list, key=lambda x:x.code):
                 print('      ', c.code, c.c_type, c.section)
 
