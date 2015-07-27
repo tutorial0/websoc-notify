@@ -10,7 +10,7 @@ def permute_schedules(courses: {str: {Course: [Course]}}):
             for c in children:
                 group.add((lec,c))
             if not children:
-                group.add((lec,lec))
+                group.add((lec,None))
         d.append(group)
     return exclude_duplicates(itertools.product(*d))
 
@@ -25,6 +25,8 @@ def exclude_duplicates(cs: iter):
 #         print('------------------------------')
         for (a1,a2),(b1,b2) in itertools.combinations(i, 2):
 #             print(a1.code,a2.code,b1.code,b2.code)
+            if a2 is None and not (a1.conflicts_with(b1) or a1.conflicts_with(b2)):
+                continue
             if a1.conflicts_with(b1) or a1.conflicts_with(b2) or a2.conflicts_with(b1) or a2.conflicts_with(b2):
                 valid = False
                 break

@@ -111,6 +111,7 @@ class Course:
                     return (num, name)
 
     def conflicts_with(self, other):
+        if other is None: return False
         return self.time.conflicts_with(other.time)
 
     def to_dict(self) -> dict:

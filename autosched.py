@@ -14,7 +14,7 @@ def gen(*classes):
     course_data = parse_sections(course_data)
     start = datetime.now()
     for i, x in enumerate(permute_schedules(course_data)):
-        print(['{} {} {} ({})'.format(y.num, y.c_type, y.section, y.code) for y in itertools.chain.from_iterable(x)])
+        print(['{} {} {} ({})'.format(y.num, y.c_type, y.section, y.code) for y in itertools.chain.from_iterable(x) if y])
     end = datetime.now()
     print('generated {} schedules in {}s'.format(i, (end-start).total_seconds()))
 
