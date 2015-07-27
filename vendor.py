@@ -1,5 +1,3 @@
-# Richard Li, Lab 14
-
 #
 # Copyright 2014 Jon Wayne Parrott, [proppy], Michael R. Bernstein
 #
