@@ -9,31 +9,38 @@ FIELDNAMES = ['code', 'name', 'num', 'c_type', 'section', 'instructor',
 DAYS = {'Monday':'M', 'Tuesday':'Tu', 'Wednesday':'W', 'Thursday':'Th', 'Friday':'F'}
 
 class CourseTime:
-    def __init__(self, timestring: str):
+    def __init__(self, timestring):
         self.string = timestring
-        if timestring == 'TBA':
+        if 'TBA' in timestring:
             return
+        self.times = dict()
 
-        days, s_time = timestring.split()
+        for ts in timestring:
+            days, s_time = strip_soup(ts).split()
 
-        self.days = set()
-        self.start, self.end = [datetime.strptime(t, '%I:%M').time() for t in s_time.strip('p').split('-')]
+            day_set = set()
+            start, end = [datetime.strptime(t, '%I:%M').time() for t in s_time.strip('p').split('-')]
 
-        if s_time[-1] == 'p':
-            self.end = self.end.replace(hour=self.end.hour+12)
-            # TODO: ugly
-            if self.start < time(hour=10) or self.start == time():
-                self.start = self.start.replace(hour=self.start.hour+12)
+            if s_time[-1] == 'p':
+                end = end.replace(hour=end.hour+12)
+                # TODO: ugly
+                if start < time(hour=10) or start == time():
+                    start = start.replace(hour=start.hour+12)
 
+            for d in DAYS.values():
+                if d in days:
+                    day_set.add(d)
 
-        for d in DAYS.values():
-            if d in days:
-                self.days.add(d)
+            self.times[tuple(day_set)] = {'start': start, 'end': end }
 
     def conflicts_with(self, other) -> bool:
-        if self.string == 'TBA' or other.string == 'TBA':
+        if 'TBA' in self.string or 'TBA' in other.string:
             return True
-        return self.start < other.end and other.start < self.end and self.days.intersection(other.days)
+        for day1,time1 in self.times.items():
+            for day2,time2 in other.times.items():
+                if time1['start'] < time2['end'] and time2['start'] < time1['end'] and set(day1).intersection(set(day2)):
+                    return True
+        return False
 
     def __repr__(self):
         return 'CourseTime({})'.format(self.string)
@@ -74,6 +81,7 @@ class Course:
                           ]
         '''
         soup = in_soup.parent.contents
+        print(soup)
         self.code = int(_str(soup[0]))
         self.c_type = _str(soup[1])
         self.section = _str(soup[2])
@@ -82,7 +90,7 @@ class Course:
             if s.string != None:
                 instructor.append(_str(s))
         self.instructor = '/'.join(instructor)
-        self.time = CourseTime(strip_soup(_str(soup[5])))
+        self.time = CourseTime(list(soup[5].stripped_strings))
         self.room = _str(soup[6])
         self.final = strip_soup(_str(soup[7]))
         self.max_slots = int(_str(soup[8]))
