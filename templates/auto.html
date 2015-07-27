@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.js"></script>
+    <script>
+    function pad(n, width, z) {
+        z = z || '0';
+        n = n + '';
+        return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+    }
+    $(document).ready(function() {
+
+        // page is now ready, initialize the calendar...
+        m = moment();
+        $('#calendar').fullCalendar({
+            header: '',
+            defaultDate: m.day('Monday'),
+            defaultView: "agendaWeek",
+            minTime: "08:00:00",
+            maxTime: "22:00:00",
+            weekends: false,
+            columnFormat: { week: "ddd" },
+            timeFormat: "",
+            allDaySlot: false,
+            contentHeight: 695,
+        });
+
+        var pointer = 1;
+        function renderEvents(data, id) {
+            id = id.toString();
+            $('#calendar').fullCalendar('removeEvents');
+            for(var i = 0; i < data['1'].length; i++) {
+                $('#calendar').fullCalendar('renderEvent', data[id][i]);
+            }
+            $('#number').text(pad(pointer, digits)+' / '+len);
+        }
+
+
+        var schedules;
+        $.ajax({url: "http://localhost:8088/auto_data"})
+        .done(function(data) {
+            schedules = data;
+            console.log(data);
+            len = Object.keys(data).length;
+            digits = len.toString().length
+            $('#generated').text('Generated '+len);
+            renderEvents(data, pointer);
+            if (len !== 1) {
+                $('#next').prop('disabled', false);
+            }
+
+            $('#prev').click(function() {
+                pointer--;
+                renderEvents(data, pointer);
+                if (pointer === 1) {
+                    $("#prev").prop("disabled", true);
+                }
+            });
+            $('#next').click(function() {
+                pointer++;
+                renderEvents(data, pointer);
+                if (pointer === len) {
+                    $("#next").prop("disabled", true);
+                }
+                if (pointer > 1) {
+                    $("#prev").prop("disabled", false);
+                }
+            });
+        });
+
+
+    });
+    </script>
+</head>
+<body>
+    <div id='calendar'></div>
+    <div id='controls'>
+        <span id='generated'>Loading...</span>
+        <br>
+        <button id='prev' disabled>&laquo;</button>
+        <span id='number'> / </span>
+        <button id='next' disabled>&raquo;</button>
+    </div>
+
+</body>
+</html>
