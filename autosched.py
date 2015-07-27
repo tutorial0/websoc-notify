@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
             for i, x in enumerate(permute_schedules(course_data), 1):
                 for c in itertools.filterfalse(lambda x: x is None, itertools.chain.from_iterable(x)):
-                    rand_color = random_color()
+                    rand_color = "{0:06x}".format(hash(c))
                     for days, time in c.time.times.items():
                         for day in days:
                             tdelta = datetime.timedelta(days=self.date_mapping[day])
