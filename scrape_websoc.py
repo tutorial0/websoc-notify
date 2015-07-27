@@ -45,6 +45,8 @@ def query_websoc(course_codes: [int]) -> [Course]:
 
     return classes
 
+
+class_regex = re.compile(r'^[0-9]{5}$')
 def get_department(dept: str) -> {str: [Course]}:
     d = defaultdict(list)
     values = {'Submit' : 'Display Web Results',
@@ -58,22 +60,30 @@ def get_department(dept: str) -> {str: [Course]}:
         the_page = response.read()
         soup = BeautifulSoup(the_page)
 
-        courses = soup.find_all('td', class_="CourseTitle")
+#         courses = soup.find_all('td', class_="CourseTitle")
+#         for course in courses:
+#             parent = course.parent
+#             c = strip_soup(course.contents[0])
+#             for s in parent.find_next_siblings('tr'):
+#                 if (s.has_attr('class') and s['class'] == ['blue-bar']):
+#                     print('breaking!')
+#                     break
+#                 elif s.find('th') == None and s.find('table') == None and not s.find('td', colspan=17):
+#                     new_c = Course(s.td)
+#                     for i in d[c]:
+#                         if new_c.section == i.section:
+#                             return d
+#                     d[c].append(new_c)
+        courses = soup.find_all('td', text=class_regex)
         for course in courses:
-            parent = course.parent
-            c = strip_soup(course.contents[0])
-            for s in parent.find_next_siblings('tr'):
-                if (s.has_attr('class') and s['class'] == ['blue-bar']):
-                    break
-                elif s.find('th') == None and s.find('table') == None:
-                    new_c = Course(s.td)
-                    for i in d[c]:
-                        if new_c.section == i.section:
-                            return d
-                    d[c].append(new_c)
+            # TODO: dedupe
+            new_c = Course(course)
+            c_num = new_c.num
+            d[c_num].append(new_c)
     return d
 
 def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
+    ## TODO: move to schedule.py?
     '''
                     Lecture        Corresponding discussions
     'Course Num': { <Course Obj>: [<Course Obj>, <Course Obj>, ...] }
