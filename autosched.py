@@ -15,7 +15,16 @@ def random_color():
     # hex(52) -> "0x34", so [2:] is the two hex digits, without the 0x prefix
     return "#"+str(hex(random.randint(20,255)))[2:]+str(hex(random.randint(20,255)))[2:]+str(hex(random.randint(20,255)))[2:]
 
-
+def hsv_to_rgb(h, s, v):
+    if s == 0.0: return [v, v, v]
+    i = int(h*6.) # XXX assume int() truncates!
+    f = (h*6.)-i; p,q,t = v*(1.-s), v*(1.-s*f), v*(1.-s*(1.-f)); i%=6
+    if i == 0: return [v, t, p]
+    if i == 1: return [q, v, p]
+    if i == 2: return [p, v, t]
+    if i == 3: return [p, q, v]
+    if i == 4: return [t, p, v]
+    if i == 5: return [v, p, q]
 
 
 def gen(*classes):
@@ -25,12 +34,13 @@ def gen(*classes):
         course_data[c] = pickle.loads(r.get(c))
     course_data = parse_sections(course_data)
     start = datetime.datetime.now()
-    for i, x in enumerate(permute_schedules(course_data)):
+    for i, x in enumerate(permute_schedules(course_data), 1):
         print(['{} {} {} ({})'.format(y.num, y.c_type, y.section, y.code) for y in itertools.chain.from_iterable(x) if y])
     end = datetime.datetime.now()
     print('generated {} schedules in {}s'.format(i, (end-start).total_seconds()))
 
 if __name__ == "__main__":
+#     gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
     import tornado.web
     class DataHandler(tornado.web.RequestHandler):
         def set_default_headers(self):
@@ -49,8 +59,11 @@ if __name__ == "__main__":
             monday = today - datetime.timedelta(days=today.weekday())
 
             for i, x in enumerate(permute_schedules(course_data), 1):
+                colors = []
                 for c in itertools.filterfalse(lambda x: x is None, itertools.chain.from_iterable(x)):
-                    rand_color = "{0:06x}".format(hash(c))
+                    h,s,v = ((hash(c)**4)%2047)/1000,.9,243.2
+                    rgb = hsv_to_rgb(h, s, v)
+                    rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
                     for days, time in c.time.times.items():
                         for day in days:
                             tdelta = datetime.timedelta(days=self.date_mapping[day])
@@ -69,4 +82,3 @@ if __name__ == "__main__":
     app = Application()
     app.listen(8088)
     tornado.ioloop.IOLoop.current().start()
-# gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
