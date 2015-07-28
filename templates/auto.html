@@ -84,7 +84,7 @@
 
 
         var schedules;
-        $.ajax({url: "http://localhost:8088/auto_data"})
+        $.ajax({url: "/auto_data/{{ courses }}"})
         .done(function(data) {
             schedules = data;
             console.log(data);

@@ -6,7 +6,7 @@ import datetime
 from schedule import permute_schedules
 import itertools
 from collections import defaultdict
-
+import urllib.parse
 
 
 import random
@@ -40,19 +40,27 @@ def gen(*classes):
     print('generated {} schedules in {}s'.format(i, (end-start).total_seconds()))
 
 if __name__ == "__main__":
-    gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
+#     gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
     import tornado.web
+
+    class AutoPageHandler(tornado.web.RequestHandler):
+        def get(self, courses=None):
+            if courses:
+                self.render('auto.html', courses=courses)
+            else:
+                self.write(':(')
     class DataHandler(tornado.web.RequestHandler):
         def set_default_headers(self):
             self.set_header("Access-Control-Allow-Origin", "*")
         date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
 
-        def get(self):
+        def get(self, courses):
+            courses = urllib.parse.unquote(courses).replace('&amp;','&').split(',')
             r = redis.StrictRedis()
             d = defaultdict(dict)
             d['metadata'] = dict()
             course_data = {}
-            for c in ['EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D']:
+            for c in courses:
                 course_data[c] = pickle.loads(r.get(c))
             course_data = parse_sections(course_data)
 
@@ -82,9 +90,11 @@ if __name__ == "__main__":
     class Application(tornado.web.Application):
         def __init__(self):
             handlers = [
-                (r"/auto_data", DataHandler),
+                (r"/auto_data/(.*)", DataHandler),
+                (r"/auto/(.*)", AutoPageHandler),
+                (r"/auto", AutoPageHandler)
             ]
-            super(Application, self).__init__(handlers, debug=True)
+            super(Application, self).__init__(handlers, debug=True, template_path='templates/')
     app = Application()
     app.listen(8088)
     tornado.ioloop.IOLoop.current().start()
