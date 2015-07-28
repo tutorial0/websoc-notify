@@ -10,13 +10,14 @@ DAYS = {'Monday':'M', 'Tuesday':'Tu', 'Wednesday':'W', 'Thursday':'Th', 'Friday'
 
 class CourseTime:
     def __init__(self, timestring):
+        timestring = [strip_soup(t) for t in timestring]
         self.string = timestring
         if 'TBA' in timestring:
             return
         self.times = dict()
 
         for ts in timestring:
-            days, s_time = strip_soup(ts).split()
+            days, s_time = ts.split()
 
             day_set = set()
             start, end = [datetime.strptime(t, '%I:%M').time() for t in s_time.strip('p').split('-')]
@@ -46,7 +47,7 @@ class CourseTime:
         return 'CourseTime({})'.format(self.string)
 
     def __str__(self):
-        return self.string
+        return '\n'.join(self.string)
 
 class Course:
     def __init__(self, soup: bs4.element.Tag=None):
@@ -116,6 +117,9 @@ class Course:
 
     def to_dict(self) -> dict:
         return self.__dict__
+
+    def to_json(self) -> dict:
+        return dict((k,str(v)) if type(v) is CourseTime else (k,v) for k,v in self.__dict__.items())
 
     def __eq__(self, c) -> bool:
         return self.code == c.code

@@ -5,6 +5,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.js"></script>
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+	html {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+	}
+	.fc-content {font-size: 11px;}
+	#calendar { float: left;}
+	#course-meta { float: right; }
+	#calendar, #course-meta { width: 50%; }
+	#controls { width: 100%; float: left;}
+
+
+	#info {
+		border-collapse: collapse;
+	}
+
+	#info, #info th, #info td {
+		border: 1px solid black;
+		padding: 1px 5px;
+	}
+	#info th {
+		background: #3498db;
+		color: white;
+	}
+	#info th[colspan='14'] {
+		text-align: left;
+		padding-left: 5px;
+		background: #2c3e50;
+	}
+	#info tr:nth-child(even) {
+		background: #bdc3c7;
+	}
+	#info td[data-val] {
+		background: #e74c3c;
+	}
+	#info td[data-val="OPEN"] {
+		background: #2ecc71;
+	}
+
+	</style>
     <script>
     function pad(n, width, z) {
         z = z || '0';
@@ -25,15 +66,27 @@
             columnFormat: { week: "ddd" },
             timeFormat: "",
             allDaySlot: false,
-            contentHeight: 695,
+            contentHeight: 615,
         });
 
         var pointer = 1;
         function renderEvents(data, id) {
             id = id.toString();
             $('#calendar').fullCalendar('removeEvents');
-            $('#calendar').fullCalendar('addEventSource', data[id]);
+            $('#calendar').fullCalendar('addEventSource', data[id]['cal_events']);
             $('#number').text(pad(pointer, digits)+' / '+len);
+
+			$('#course-meta table').html('<tbody></tbody>');
+			for (var i = 0; i < data[id]['course_ids'].length; i++) {
+				var meta = data['metadata'][data[id]['course_ids'][i]];
+				var $tbody = $('#course-meta table tbody:last-child');
+				var html = '<tr>'
+				for(var key in meta) {
+					html += '<td>' + meta[key] + '</td>';
+				}
+				html += '</tr>';
+				$tbody.append(html);
+			}
         }
 
 
@@ -42,7 +95,7 @@
         .done(function(data) {
             schedules = data;
             console.log(data);
-            len = Object.keys(data).length;
+            len = Object.keys(data).length - 1; // 1 key used for metadata
             digits = len.toString().length
             $('#generated').text('Generated '+len);
             renderEvents(data, pointer);
@@ -78,6 +131,10 @@
 </head>
 <body>
     <div id='calendar'></div>
+	<div id='course-meta'>
+		<h3>Course Info</h3>
+		<table id='info'></table>
+	</div>
     <div id='controls'>
         <span id='generated'>Loading...</span>
         <br>

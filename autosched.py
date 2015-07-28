@@ -40,7 +40,7 @@ def gen(*classes):
     print('generated {} schedules in {}s'.format(i, (end-start).total_seconds()))
 
 if __name__ == "__main__":
-#     gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
+    gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
     import tornado.web
     class DataHandler(tornado.web.RequestHandler):
         def set_default_headers(self):
@@ -49,7 +49,8 @@ if __name__ == "__main__":
 
         def get(self):
             r = redis.StrictRedis()
-            d = defaultdict(list)
+            d = defaultdict(dict)
+            d['metadata'] = dict()
             course_data = {}
             for c in ['EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D']:
                 course_data[c] = pickle.loads(r.get(c))
@@ -59,18 +60,22 @@ if __name__ == "__main__":
             monday = today - datetime.timedelta(days=today.weekday())
 
             for i, x in enumerate(permute_schedules(course_data), 1):
-                colors = []
+                d[i]['cal_events'] = []
+                course_ids = set()
                 for c in itertools.filterfalse(lambda x: x is None, itertools.chain.from_iterable(x)):
-                    h,s,v = ((hash(c)**4)%2047)/1000,.9,243.2
+                    h,s,v = ((hash(c)**4)%2047)/1000,.7,243.2-25
                     rgb = hsv_to_rgb(h, s, v)
                     rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
                     for days, time in c.time.times.items():
                         for day in days:
                             tdelta = datetime.timedelta(days=self.date_mapping[day])
-                            d[i].append({'title': '{} - {} {} ({})'.format(c.num,c.c_type,c.section,c.code),
+                            d[i]['cal_events'].append({'title': '{} - {} {} ({})'.format(c.num,c.c_type,c.section,c.code),
                                          'start':datetime.datetime.combine(monday+tdelta, time['start']).isoformat(),
                                          'end':datetime.datetime.combine(monday+tdelta, time['end']).isoformat(),
                                          'color':rand_color})
+                            course_ids.add(c.code)
+                            d['metadata'][c.code] = c.to_json()
+                d[i]['course_ids'] = list(sorted(course_ids))
             self.write(d)
 
     class Application(tornado.web.Application):

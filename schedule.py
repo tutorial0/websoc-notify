@@ -34,15 +34,14 @@ def exclude_duplicates(cs: iter):
             yield i
 
 if __name__ == '__main__':
-    pass
-#     courses = get_department('CSE')
-#     d = parse_sections(courses)
-#     sub = {k: d[k] for k in ('CSE 31', 'CSE 31L')}
-#
-#     i = 0
-#     start = datetime.now()
-#     for x in permute_schedules(sub):
-#         i += 1
-#         print(['{} {} {} ({})'.format(y.num, y.c_type, y.section, y.code) for y in itertools.chain.from_iterable(x)])
-#     end = datetime.now()
-#     print('generated {}/{} schedules (discarded {} due to conflicts) in {}s'.format(i, hm, hm-i, (end-start).total_seconds()))
+    courses = get_department('CSE')
+    d = parse_sections(courses)
+    sub = {k: d[k] for k in ('CSE 31', 'CSE 31L')}
+
+    i = 0
+    start = datetime.now()
+    for x in permute_schedules(sub):
+        i += 1
+        print(['{} {} {} ({})'.format(y.num, y.c_type, y.section, y.code) for y in itertools.chain.from_iterable(x)])
+    end = datetime.now()
+    print('generated {}/{} schedules (discarded {} due to conflicts) in {}s'.format(i, hm, hm-i, (end-start).total_seconds()))
