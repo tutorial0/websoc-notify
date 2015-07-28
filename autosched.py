@@ -61,11 +61,13 @@ if __name__ == "__main__":
 
             for i, x in enumerate(permute_schedules(course_data), 1):
                 d[i]['cal_events'] = []
-                course_ids = set()
+                course_ids = {}
                 for c in itertools.filterfalse(lambda x: x is None, itertools.chain.from_iterable(x)):
                     h,s,v = ((hash(c)**4)%2047)/1000,.7,243.2-25
                     rgb = hsv_to_rgb(h, s, v)
                     rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
+
+                    course_ids[c.code] = rand_color
                     for days, time in c.time.times.items():
                         for day in days:
                             tdelta = datetime.timedelta(days=self.date_mapping[day])
@@ -73,9 +75,8 @@ if __name__ == "__main__":
                                          'start':datetime.datetime.combine(monday+tdelta, time['start']).isoformat(),
                                          'end':datetime.datetime.combine(monday+tdelta, time['end']).isoformat(),
                                          'color':rand_color})
-                            course_ids.add(c.code)
                             d['metadata'][c.code] = c.to_json()
-                d[i]['course_ids'] = list(sorted(course_ids))
+                d[i]['course_ids'] = course_ids
             self.write(d)
 
     class Application(tornado.web.Application):

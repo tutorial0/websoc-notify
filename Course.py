@@ -47,7 +47,7 @@ class CourseTime:
         return 'CourseTime({})'.format(self.string)
 
     def __str__(self):
-        return '\n'.join(self.string)
+        return '\n'.join(strip_soup(s) for s in self.string)
 
 class Course:
     def __init__(self, soup: bs4.element.Tag=None):

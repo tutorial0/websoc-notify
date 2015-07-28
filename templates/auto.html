@@ -16,6 +16,7 @@
 	#course-meta { float: right; }
 	#calendar, #course-meta { width: 50%; }
 	#controls { width: 100%; float: left;}
+	#info { font-size: 11px; }
 
 
 	#info {
@@ -34,15 +35,6 @@
 		text-align: left;
 		padding-left: 5px;
 		background: #2c3e50;
-	}
-	#info tr:nth-child(even) {
-		background: #bdc3c7;
-	}
-	#info td[data-val] {
-		background: #e74c3c;
-	}
-	#info td[data-val="OPEN"] {
-		background: #2ecc71;
 	}
 
 	</style>
@@ -77,10 +69,11 @@
             $('#number').text(pad(pointer, digits)+' / '+len);
 
 			$('#course-meta table').html('<tbody></tbody>');
-			for (var i = 0; i < data[id]['course_ids'].length; i++) {
-				var meta = data['metadata'][data[id]['course_ids'][i]];
+			for (var course_id in data[id]['course_ids']) {
+				var color = data[id]['course_ids'][course_id];
+				var meta = data['metadata'][course_id];
 				var $tbody = $('#course-meta table tbody:last-child');
-				var html = '<tr>'
+				var html = '<tr style="background-color: ' + color + ';">'
 				for(var key in meta) {
 					html += '<td>' + meta[key] + '</td>';
 				}
