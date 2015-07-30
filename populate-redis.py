@@ -20,9 +20,10 @@ def get_all_departments():
 def populate_redis():
     depts = get_all_departments()
     r = redis.Redis(host='localhost', port=6379, db=0)
-    for dept in depts:
+    for i, dept in enumerate(depts, 1):
         with r.pipeline() as pipe:
             print('----', dept)
+            pipe.zadd('DEPARTMENTS', dept, i)
             data = schedule.get_department(dept)
             if data.keys(): # in case of no courses
                 pipe.sadd(dept, *data.keys())

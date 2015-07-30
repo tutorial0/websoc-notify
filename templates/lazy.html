@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+</head>
+<body>
+
+<select id='dept'><option></option></select>
+<select id='course'></select>
+<button type="button" id='add'>add</button>
+<br>
+<span id='course_list'></span>
+<br>
+<button type="button" id='go'>i'm lazy</button>
+
+
+<script>
+$(document).ready(function() {
+    var $dept = $('#dept');
+    var $course = $('#course');
+
+    var $course_list = $('#course_list');
+    var course_list = []
+
+    $.getJSON("/course_info", function (data) {
+        for (var i in data.response) {
+            $dept.append("<option value='" + data.response[i] + "'>" + data.response[i] + "</option>");
+        }
+    });
+
+    $dept.change(function() {
+        $course.empty();
+        var dept = $dept.val();
+        $.getJSON("/course_info/"+dept, function (data) {
+            for (var i in data.response) {
+                $course.append("<option value='" + data.response[i] + "'>" + data.response[i] + "</option>");
+            }
+        });
+    });
+
+    $('#add').on('click', function() {
+        if ($course.val() && course_list.indexOf($course.val()) === -1) {
+            course_list.push($course.val());
+        }
+        $course_list.text(course_list.join());
+    });
+
+    $('#go').on('click', function() {
+        window.location.href = '/auto/' + course_list.join();
+    });
+
+});
+</script>
+
+</body>
+</html>

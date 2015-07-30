@@ -48,7 +48,15 @@ if __name__ == "__main__":
             if courses:
                 self.render('auto.html', courses=courses)
             else:
-                self.write(':(')
+                self.render('lazy.html')
+
+    class CourseInfoHandler(tornado.web.RequestHandler):
+        def get(self, subject=None):
+            r = redis.StrictRedis()
+            self.set_header('Content-Type', 'application/javascript')
+            obj = r.smembers(subject) if subject else r.zrange('DEPARTMENTS', 0, -1)
+            self.write({'response': [x.decode() for x in obj]})
+
     class DataHandler(tornado.web.RequestHandler):
         def set_default_headers(self):
             self.set_header("Access-Control-Allow-Origin", "*")
@@ -70,7 +78,7 @@ if __name__ == "__main__":
             for i, x in enumerate(permute_schedules(course_data), 1):
                 d[i]['cal_events'] = []
                 course_ids = {}
-                for c in itertools.filterfalse(lambda x: x is None, itertools.chain.from_iterable(x)):
+                for c in itertools.filterfalse(lambda x: x is None or x.time.string == ['TBA'], itertools.chain.from_iterable(x)):
                     h,s,v = ((hash(c)**4)%2047)/1000,.7,243.2-25
                     rgb = hsv_to_rgb(h, s, v)
                     rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
@@ -91,6 +99,7 @@ if __name__ == "__main__":
         def __init__(self):
             handlers = [
                 (r"/auto_data/(.*)", DataHandler),
+                (r"/course_info(?:/(.*))?", CourseInfoHandler),
                 (r"/auto/(.*)", AutoPageHandler),
                 (r"/auto", AutoPageHandler)
             ]
