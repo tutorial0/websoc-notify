@@ -36,7 +36,7 @@ class CourseTime:
 
     def conflicts_with(self, other) -> bool:
         if 'TBA' in self.string or 'TBA' in other.string:
-            return True
+            return False
         for day1,time1 in self.times.items():
             for day2,time2 in other.times.items():
                 if time1['start'] < time2['end'] and time2['start'] < time1['end'] and set(day1).intersection(set(day2)):
