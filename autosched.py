@@ -7,7 +7,7 @@ from schedule import permute_schedules
 import itertools
 from collections import defaultdict
 import urllib.parse
-
+import re
 
 import random
 
@@ -26,6 +26,16 @@ def hsv_to_rgb(h, s, v):
     if i == 4: return [t, p, v]
     if i == 5: return [v, p, q]
 
+def sorted_nicely(l):
+    """ Sorts the given iterable in the way that is expected.
+ 
+    Required arguments:
+    l -- The iterable to be sorted.
+ 
+    """
+    convert = lambda text: int(text) if text.isdigit() else text
+    alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key.decode())]
+    return sorted(l, key = alphanum_key)
 
 def gen(*classes):
     r = redis.StrictRedis()
@@ -54,7 +64,7 @@ if __name__ == "__main__":
         def get(self, subject=None):
             r = redis.StrictRedis()
             self.set_header('Content-Type', 'application/javascript')
-            obj = r.smembers(subject) if subject else r.zrange('DEPARTMENTS', 0, -1)
+            obj = sorted_nicely(r.smembers(subject)) if subject else r.zrange('DEPARTMENTS', 0, -1)
             self.write({'response': [x.decode() for x in obj]})
 
     class DataHandler(tornado.web.RequestHandler):

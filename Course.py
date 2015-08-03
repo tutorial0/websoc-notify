@@ -82,7 +82,6 @@ class Course:
                           ]
         '''
         soup = in_soup.parent.contents
-        print(soup)
         self.code = int(_str(soup[0]))
         self.c_type = _str(soup[1])
         self.section = _str(soup[2])
