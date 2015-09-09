@@ -1,4 +1,7 @@
-from libs import bs4
+import vendor
+vendor.add('libs')
+
+import bs4
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime, timedelta, time
@@ -56,7 +59,7 @@ class Course:
 
         if type(soup).__name__ == 'Tag':
             self._parse(soup)
-            
+
 
     def _parse(self, in_soup: bs4.element.Tag):
         '''
@@ -122,7 +125,7 @@ class Course:
 
     def __eq__(self, c) -> bool:
         return self.code == c.code
-    
+
     def __ne__(self, other):
         return not self.__eq__(other)
 
@@ -135,14 +138,14 @@ class Course:
             return 0
         else:
             return 1
- 
+
     def __str__(self) -> str:
         return str(self.to_dict())
-    
+
     def __hash__(self):
         return hash(self.code)
-    
-    
+
+
 def _str(soup):
     return str(soup.string)
 

@@ -1,4 +1,7 @@
-from libs import bs4
+import vendor
+vendor.add('libs')
+
+import bs4
 from bs4 import BeautifulSoup
 import urllib.request
 from Course import *
@@ -17,10 +20,10 @@ def dict_changes(past_dict, current_dict):
 def make_websoc_request(values: dict) -> urllib.request.Request:
     ## TODO:
     ## check to make sure its actually websoc before trying to scrape
-    url = 'http://websoc.reg.uci.edu/perl/WebSoc'
+    url = 'https://www.reg.uci.edu/perl/WebSoc'
     data = urllib.parse.urlencode(values)
     data = data.encode('utf-8')
-    req = urllib.request.Request(url, data)
+    req = urllib.request.Request(url, data, method='POST')
     return req
 
 def query_websoc(course_codes: [int]) -> [Course]:
@@ -38,7 +41,6 @@ def query_websoc(course_codes: [int]) -> [Course]:
         with urllib.request.urlopen(req) as response:
             the_page = response.read()
             soup = BeautifulSoup(the_page)
-    
             lines = soup.find_all('td', text=course_codes)
             for line in lines:
                 classes.append(Course(line))
@@ -59,7 +61,6 @@ def get_department(dept: str) -> {str: [Course]}:
     with urllib.request.urlopen(req) as response:
         the_page = response.read()
         soup = BeautifulSoup(the_page)
-
 #         courses = soup.find_all('td', class_="CourseTitle")
 #         for course in courses:
 #             parent = course.parent
@@ -75,6 +76,7 @@ def get_department(dept: str) -> {str: [Course]}:
 #                             return d
 #                     d[c].append(new_c)
         courses = soup.find_all('td', text=class_regex)
+        #print(soup)
         for course in courses:
             # TODO: dedupe
             new_c = Course(course)
@@ -125,4 +127,3 @@ if __name__ == '__main__':
             print('  ', i.code, i.c_type, i.section)
             for c in sorted(c_list, key=lambda x:x.code):
                 print('      ', c.code, c.c_type, c.section)
-

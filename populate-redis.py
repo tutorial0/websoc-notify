@@ -1,3 +1,6 @@
+import vendor
+vendor.add('libs')
+
 import redis
 import schedule
 from bs4 import BeautifulSoup
@@ -13,7 +16,7 @@ def get_all_departments():
         soup = BeautifulSoup(page)
         dept_select = soup.find('select', attrs={'name':'Dept'})
         for dept in dept_select.find_all('option'):
-            if dept.get('style') == None and dept['value'] != ' ALL': 
+            if dept.get('style') == None and dept['value'] != ' ALL':
                 depts.append(dept['value'])
     return depts
 

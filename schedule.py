@@ -36,7 +36,7 @@ def exclude_duplicates(cs: iter):
 if __name__ == '__main__':
     courses = get_department('CSE')
     d = parse_sections(courses)
-    sub = {k: d[k] for k in ('CSE 31', 'CSE 31L')}
+    sub = {k: d[k] for k in ('CSE 41', 'CSE 31L')}
 
     i = 0
     start = datetime.now()
