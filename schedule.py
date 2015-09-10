@@ -2,15 +2,17 @@ from Course import *
 import itertools
 from scrape_websoc import *
 
-def permute_schedules(courses: {str: {Course: [Course]}}):
+def permute_schedules(courses: {str: {Course: [Course]}}, only:{int}=None):
     d = []
     for x in courses.values():
         group = set()
         for lec, children in x.items():
-            for c in children:
-                group.add((lec,c))
-            if not children:
-                group.add((lec,None))
+            if not only or lec.code in only:
+                for c in children:
+                    if not only or c.code in only:
+                        group.add((lec,c))
+                if not children:
+                    group.add((lec,None))
         d.append(group)
     return exclude_duplicates(itertools.product(*d))
 

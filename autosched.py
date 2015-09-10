@@ -116,12 +116,12 @@ if __name__ == "__main__":
             course_data = {}
             for c in courses:
                 course_data[c] = pickle.loads(r.get(c))
-            course_data = parse_sections(course_data, course_codes)
+            course_data = parse_sections(course_data)
 
             today = datetime.date.today()
             monday = today - datetime.timedelta(days=today.weekday())
 
-            for i, x in enumerate(permute_schedules(course_data), 1):
+            for i, x in enumerate(permute_schedules(course_data, course_codes), 1):
                 d[i]['cal_events'] = []
                 course_ids = {}
                 for c in itertools.filterfalse(lambda x: x is None or x.time.string == ['TBA'], itertools.chain.from_iterable(x)):
