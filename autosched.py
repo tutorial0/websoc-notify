@@ -57,13 +57,44 @@ if __name__ == "__main__":
     import tornado.web
 
     class AutoPageHandler(tornado.web.RequestHandler):
-        def get(self, courses=None):
+        def get(self, courses=None, course_codes=None):
             if courses:
-                self.render('auto.html', courses=courses)
+                self.render('auto.html', courses=courses, course_codes=course_codes)
             else:
-                self.render('lazy.html')
+                self.render('auto-main.html')
 
     class CourseInfoHandler(tornado.web.RequestHandler):
+        def get(self, course):
+            # '''
+            # returns data in the following JSON structure:
+            # {
+            #     'response': {
+            #         "0": {
+            #             "lec": {course_data},
+            #             "dis": [{course_data}, ...]
+            #         }
+            #     }
+            # }
+            # '''
+            # r = redis.StrictRedis()
+            # self.set_header('Content-Type', 'application/javascript')
+            # obj = pickle.loads(r.get(course))
+            # obj = parse_sections({course: obj})
+            # d = {}
+            # for i,(k,v) in enumerate(obj[course].items()):
+            #     d[i] = {"lec": k.to_json(), "dis": [x.to_json() for x in v]}
+            # self.write({'response': d })
+            r = redis.StrictRedis()
+            self.set_header('Content-Type', 'application/javascript')
+            obj = pickle.loads(r.get(course))
+            parsed = parse_sections({course: obj})[course]
+            mappings = defaultdict(list)
+            for k,v in parsed.items():
+                for item in v:
+                    mappings[item.code].append(k.code)
+            self.write({'response': [x.to_json() for x in obj], 'mappings': mappings})
+
+    class DeptInfoHandler(tornado.web.RequestHandler):
         def get(self, subject=None):
             r = redis.StrictRedis()
             self.set_header('Content-Type', 'application/javascript')
@@ -75,15 +106,17 @@ if __name__ == "__main__":
             self.set_header("Access-Control-Allow-Origin", "*")
         date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
 
-        def get(self, courses):
+        def get(self, courses, course_codes=set()):
             courses = urllib.parse.unquote(courses).replace('&amp;','&').split(',')
+            course_codes = set(int(x) for x in urllib.parse.unquote(course_codes).replace('&amp;','&').split(','))
+
             r = redis.StrictRedis()
             d = defaultdict(dict)
             d['metadata'] = dict()
             course_data = {}
             for c in courses:
                 course_data[c] = pickle.loads(r.get(c))
-            course_data = parse_sections(course_data)
+            course_data = parse_sections(course_data, course_codes)
 
             today = datetime.date.today()
             monday = today - datetime.timedelta(days=today.weekday())
@@ -111,10 +144,12 @@ if __name__ == "__main__":
     class Application(tornado.web.Application):
         def __init__(self):
             handlers = [
-                (r"/auto_data/(.*)", DataHandler),
-                (r"/course_info(?:/(.*))?", CourseInfoHandler),
-                (r"/auto/(.*)", AutoPageHandler),
-                (r"/auto", AutoPageHandler)
+                (r"/auto_data/(.*)(?:/)(.*)?", DataHandler),
+                (r"/course_info/(.*)", CourseInfoHandler),
+                (r"/dept_info(?:/(.*))?", DeptInfoHandler),
+                (r"/auto/(.*)(?:/(.*))?", AutoPageHandler),
+                (r"/auto", AutoPageHandler),
+                (r"/assets/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/assets/'})
             ]
             super(Application, self).__init__(handlers, debug=True, template_path='templates/')
     app = Application()

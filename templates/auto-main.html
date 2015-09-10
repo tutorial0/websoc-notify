@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app='courseSelectionApp'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src="assets/js/auto-main.js"></script>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+	body { font-family: Open Sans; }
+	table {
+    	border-collapse: collapse;
+	}
+
+	table, th, td {
+	    border: 1px solid black;
+	    padding: 1px 5px;
+	}
+	th {
+		background: #3498db;
+		color: white;
+	}
+	th[colspan='10'] {
+		text-align: left;
+		padding-left: 5px;
+		background: #2c3e50;
+	}
+	tr[data-val] {
+		background: #ef8091;
+	}
+	tr[data-val="OPEN"] {
+		background: #80efa7;
+	}
+	</style>
+</head>
+<body>
+    <div ng-controller="CourseController as dcourses">
+        <form ng-submit="dcourses.add()">
+            <select ng-model="dept" ng-change="updateCourseList()" ng-options="dept for dept in depts"></select>
+            <select ng-model="course" ng-options="course for course in courses"></select>
+            <input type="submit" value="add">
+        </form>
+
+        <br>
+        <div ng-repeat="course in courseList">
+            {{! course }}
+            <as-courseinfo data-course="{{! course }}"></as-courseinfo>
+        </div>
+        <br>
+        <button type="button" id='go'>i'm lazy</button>
+    </div>
+
+</body>
+</html>

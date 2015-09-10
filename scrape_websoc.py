@@ -84,7 +84,7 @@ def get_department(dept: str) -> {str: [Course]}:
             d[c_num].append(new_c)
     return d
 
-def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
+def parse_sections(courses: {str: [Course]}, only: {int}=None) -> {str: {Course: [Course]}}:
     ## TODO: move to schedule.py?
     '''
                     Lecture        Corresponding discussions
@@ -92,6 +92,7 @@ def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
     '''
     o = dict()
     for num,c in courses.items():
+        c = [x for x in c if not only or x.code in only]
         i = iter(c)
         p = next(i)                         # points at current lecture
         d = defaultdict(list)
