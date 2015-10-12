@@ -63,6 +63,11 @@ if __name__ == "__main__":
             else:
                 self.render('auto-main.html')
 
+        def post(self):
+            courses = self.get_argument('courses')
+            course_codes = self.get_argument('course_codes')
+            self.render('auto.html', courses=courses, course_codes=course_codes)
+
     class CourseInfoHandler(tornado.web.RequestHandler):
         def get(self, course):
             # '''
@@ -104,10 +109,14 @@ if __name__ == "__main__":
     class DataHandler(tornado.web.RequestHandler):
         def set_default_headers(self):
             self.set_header("Access-Control-Allow-Origin", "*")
-        date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
 
-        def get(self, courses, course_codes=set()):
+        date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
+        # def get(self, courses, course_codes=set()):
+        def post(self):
+            courses = self.get_argument('courses')
+            course_codes = self.get_argument('course_codes')
             courses = urllib.parse.unquote(courses).replace('&amp;','&').split(',')
+            print(courses)
             course_codes = set(int(x) for x in urllib.parse.unquote(course_codes).replace('&amp;','&').split(','))
 
             r = redis.StrictRedis()
@@ -141,13 +150,17 @@ if __name__ == "__main__":
                 d[i]['course_ids'] = course_ids
             self.write(d)
 
+        def calc_score(cal_events: []):
+            pass
+
+
     class Application(tornado.web.Application):
         def __init__(self):
             handlers = [
-                (r"/auto_data/(.*)(?:/)(.*)?", DataHandler),
+                (r"/auto_data/", DataHandler),
                 (r"/course_info/(.*)", CourseInfoHandler),
                 (r"/dept_info(?:/(.*))?", DeptInfoHandler),
-                (r"/auto/(.*)(?:/(.*))?", AutoPageHandler),
+                (r"/auto/(.*?)(?:/(.*))+?", AutoPageHandler),
                 (r"/auto", AutoPageHandler),
                 (r"/assets/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/assets/'})
             ]

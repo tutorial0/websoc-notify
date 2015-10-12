@@ -84,7 +84,11 @@
 
 
         var schedules;
-        $.ajax({url: "/auto_data/{{ courses }}"})
+        $.ajax({
+			url: "/auto_data/",
+			method: 'POST',
+			data: { 'courses': '{{ courses }}', 'course_codes': '{{ course_codes }}' }
+		})
         .done(function(data) {
             schedules = data;
             console.log(data);

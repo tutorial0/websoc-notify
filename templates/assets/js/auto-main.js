@@ -19,6 +19,10 @@ app.controller('CourseController', ['$scope', '$http', function($scope, $http) {
         window.location.href = '/auto/' + $scope.courseList.join() + '/' + cc;
     };
 
+    this.remove = function(course) {
+        $scope.courseList.splice($scope.courseList.indexOf(course), 1);
+    };
+
     $scope.updateCourseList = function() {
         $http.get('/dept_info/'+$scope.dept).then(function(res) {
             $scope.courses = res.data.response;
@@ -44,7 +48,7 @@ app.directive('asCourseinfo', function($http, $compile) {
             $http.get('/course_info/'+scope.course).then(function(res) {
                 scope.data = res.data.response;
                 console.log(res.data);
-                var el = angular.element('<table><tr><th></th><th ng-repeat="field in sortOrder">{{ field }}</tr></table>')
+                var el = angular.element('<table><tr><th></th><th ng-repeat="field in sortOrder">{{ field }}</th></tr></table>')
                 el.append('<tr ng-repeat="row in data" data-code=\'{{ row["code"] }}\' data-val=\'{{ row["status"] }}\'><td><input type="checkbox" ng-model=\'selected[row["code"]]\' ng-init=\'selected[row["code"]] = row["status"] === "OPEN"\'></td><td ng-repeat="field in sortOrder">{{ row[field] }}</td></tr>');
                 $compile(el)(scope);
                 element.append(el);

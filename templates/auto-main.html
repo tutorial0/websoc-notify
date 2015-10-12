@@ -47,7 +47,7 @@
 
         <br>
         <div ng-repeat="course in courseList">
-            {{! course }}
+            {{! course }} <button ng-click="dcourses.remove('{{! course }}');">&#x2715;</button>
             <as-courseinfo data-course="{{! course }}"></as-courseinfo>
         </div>
         <br>
