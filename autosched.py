@@ -11,6 +11,7 @@ import itertools
 from collections import defaultdict
 import urllib.parse
 import re
+from functools import reduce
 
 import random
 
@@ -39,6 +40,14 @@ def sorted_nicely(l):
     convert = lambda text: int(text) if text.isdigit() else text
     alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key.decode())]
     return sorted(l, key = alphanum_key)
+
+def is_int(x):
+    try:
+        int(x)
+    except:
+        return False
+    else:
+        return True
 
 def gen(*classes):
     r = redis.StrictRedis()
@@ -148,11 +157,33 @@ if __name__ == "__main__":
                                          'color':rand_color})
                             d['metadata'][c.code] = c.to_json()
                 d[i]['course_ids'] = course_ids
-            self.write(d)
 
+            d_temp = {k:d[k] for k in d.keys() if is_int(k)}
+            sorted_smallest_gaps = sorted(d_temp, key=lambda x: DataHandler.calc_score(d[x]['cal_events']))
+
+            d_2 = dict()
+            for i, j in enumerate(sorted_smallest_gaps, 1):
+                d_2[i] = d[j]
+
+            d_2['metadata'] = d['metadata']
+            self.write(d_2)
+
+        @staticmethod
         def calc_score(cal_events: []):
-            pass
+            d = defaultdict(list)
+            score = defaultdict(int)
+            for event in cal_events:
+                dt_obj_start = datetime.datetime.strptime(event['start'], '%Y-%m-%dT%H:%M:%S')
+                dt_obj_end = datetime.datetime.strptime(event['end'], '%Y-%m-%dT%H:%M:%S')
+                d[dt_obj_start.day].append((dt_obj_start, dt_obj_end))
 
+            for day in d.keys():
+                i = iter(sorted(d[day], key=lambda x: x[0]))
+                e = next(i)
+                for event in i:
+                    score[day] += (event[0] - e[1]).total_seconds() # event.start - e.end
+                    e = event
+            return reduce(lambda a,b: a+b, score.values())
 
     class Application(tornado.web.Application):
         def __init__(self):
