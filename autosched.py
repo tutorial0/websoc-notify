@@ -61,141 +61,141 @@ def gen(*classes):
     end = datetime.datetime.now()
     print('generated {} schedules in {}s'.format(i, (end-start).total_seconds()))
 
-if __name__ == "__main__":
 #     gen('EECS 31L', 'I&C Sci 45C', 'Chinese 1A', 'I&C Sci 6B', 'Math 3D')
-    import tornado.web
+import tornado.web
 
-    class AutoPageHandler(tornado.web.RequestHandler):
-        def get(self, courses=None, course_codes=None):
-            if courses:
-                self.render('auto.html', courses=courses, course_codes=course_codes)
-            else:
-                self.render('auto-main.html')
-
-        def post(self):
-            courses = self.get_argument('courses')
-            course_codes = self.get_argument('course_codes')
+class AutoPageHandler(tornado.web.RequestHandler):
+    def get(self, courses=None, course_codes=None):
+        if courses:
             self.render('auto.html', courses=courses, course_codes=course_codes)
+        else:
+            self.render('auto-main.html')
 
-    class CourseInfoHandler(tornado.web.RequestHandler):
-        def get(self, course):
-            # '''
-            # returns data in the following JSON structure:
-            # {
-            #     'response': {
-            #         "0": {
-            #             "lec": {course_data},
-            #             "dis": [{course_data}, ...]
-            #         }
-            #     }
-            # }
-            # '''
-            # r = redis.StrictRedis()
-            # self.set_header('Content-Type', 'application/javascript')
-            # obj = pickle.loads(r.get(course))
-            # obj = parse_sections({course: obj})
-            # d = {}
-            # for i,(k,v) in enumerate(obj[course].items()):
-            #     d[i] = {"lec": k.to_json(), "dis": [x.to_json() for x in v]}
-            # self.write({'response': d })
-            r = redis.StrictRedis()
-            self.set_header('Content-Type', 'application/javascript')
-            obj = pickle.loads(r.get(course))
-            parsed = parse_sections({course: obj})[course]
-            mappings = defaultdict(list)
-            for k,v in parsed.items():
-                for item in v:
-                    mappings[item.code].append(k.code)
-            self.write({'response': [x.to_json() for x in obj], 'mappings': mappings})
+    def post(self):
+        courses = self.get_argument('courses')
+        course_codes = self.get_argument('course_codes')
+        self.render('auto.html', courses=courses, course_codes=course_codes)
 
-    class DeptInfoHandler(tornado.web.RequestHandler):
-        def get(self, subject=None):
-            r = redis.StrictRedis()
-            self.set_header('Content-Type', 'application/javascript')
-            obj = sorted_nicely(r.smembers(subject)) if subject else r.zrange('DEPARTMENTS', 0, -1)
-            self.write({'response': [x.decode() for x in obj]})
+class CourseInfoHandler(tornado.web.RequestHandler):
+    def get(self, course):
+        # '''
+        # returns data in the following JSON structure:
+        # {
+        #     'response': {
+        #         "0": {
+        #             "lec": {course_data},
+        #             "dis": [{course_data}, ...]
+        #         }
+        #     }
+        # }
+        # '''
+        # r = redis.StrictRedis()
+        # self.set_header('Content-Type', 'application/javascript')
+        # obj = pickle.loads(r.get(course))
+        # obj = parse_sections({course: obj})
+        # d = {}
+        # for i,(k,v) in enumerate(obj[course].items()):
+        #     d[i] = {"lec": k.to_json(), "dis": [x.to_json() for x in v]}
+        # self.write({'response': d })
+        r = redis.StrictRedis()
+        self.set_header('Content-Type', 'application/javascript')
+        obj = pickle.loads(r.get(course))
+        parsed = parse_sections({course: obj})[course]
+        mappings = defaultdict(list)
+        for k,v in parsed.items():
+            for item in v:
+                mappings[item.code].append(k.code)
+        self.write({'response': [x.to_json() for x in obj], 'mappings': mappings})
 
-    class DataHandler(tornado.web.RequestHandler):
-        def set_default_headers(self):
-            self.set_header("Access-Control-Allow-Origin", "*")
+class DeptInfoHandler(tornado.web.RequestHandler):
+    def get(self, subject=None):
+        r = redis.StrictRedis()
+        self.set_header('Content-Type', 'application/javascript')
+        obj = sorted_nicely(r.smembers(subject)) if subject else r.zrange('DEPARTMENTS', 0, -1)
+        self.write({'response': [x.decode() for x in obj]})
 
-        date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
-        # def get(self, courses, course_codes=set()):
-        def post(self):
-            courses = self.get_argument('courses')
-            course_codes = self.get_argument('course_codes')
-            courses = urllib.parse.unquote(courses).replace('&amp;','&').split(',')
-            print(courses)
-            course_codes = set(int(x) for x in urllib.parse.unquote(course_codes).replace('&amp;','&').split(','))
+class DataHandler(tornado.web.RequestHandler):
+    def set_default_headers(self):
+        self.set_header("Access-Control-Allow-Origin", "*")
 
-            r = redis.StrictRedis()
-            d = defaultdict(dict)
-            d['metadata'] = dict()
-            course_data = {}
-            for c in courses:
-                course_data[c] = pickle.loads(r.get(c))
-            course_data = parse_sections(course_data)
+    date_mapping = {'M': 0, 'Tu': 1, 'W': 2, 'Th': 3, 'F': 4}
+    # def get(self, courses, course_codes=set()):
+    def post(self):
+        courses = self.get_argument('courses')
+        course_codes = self.get_argument('course_codes')
+        courses = urllib.parse.unquote(courses).replace('&amp;','&').split(',')
+        print(courses)
+        course_codes = set(int(x) for x in urllib.parse.unquote(course_codes).replace('&amp;','&').split(','))
 
-            today = datetime.date.today()
-            monday = today - datetime.timedelta(days=today.weekday())
+        r = redis.StrictRedis()
+        d = defaultdict(dict)
+        d['metadata'] = dict()
+        course_data = {}
+        for c in courses:
+            course_data[c] = pickle.loads(r.get(c))
+        course_data = parse_sections(course_data)
 
-            for i, x in enumerate(permute_schedules(course_data, course_codes), 1):
-                d[i]['cal_events'] = []
-                course_ids = {}
-                for c in itertools.filterfalse(lambda x: x is None or x.time.string == ['TBA'], itertools.chain.from_iterable(x)):
-                    h,s,v = ((hash(c)**4)%2047)/1000,.7,243.2-25
-                    rgb = hsv_to_rgb(h, s, v)
-                    rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
+        today = datetime.date.today()
+        monday = today - datetime.timedelta(days=today.weekday())
 
-                    course_ids[c.code] = rand_color
-                    for days, time in c.time.times.items():
-                        for day in days:
-                            tdelta = datetime.timedelta(days=self.date_mapping[day])
-                            d[i]['cal_events'].append({'title': '{} - {} {} ({})'.format(c.num,c.c_type,c.section,c.code),
-                                         'start':datetime.datetime.combine(monday+tdelta, time['start']).isoformat(),
-                                         'end':datetime.datetime.combine(monday+tdelta, time['end']).isoformat(),
-                                         'color':rand_color})
-                            d['metadata'][c.code] = c.to_json()
-                d[i]['course_ids'] = course_ids
+        for i, x in enumerate(permute_schedules(course_data, course_codes), 1):
+            d[i]['cal_events'] = []
+            course_ids = {}
+            for c in itertools.filterfalse(lambda x: x is None or x.time.string == ['TBA'], itertools.chain.from_iterable(x)):
+                h,s,v = ((hash(c)**4)%2047)/1000,.7,243.2-25
+                rgb = hsv_to_rgb(h, s, v)
+                rand_color = '#'+str(hex(int(rgb[0])))[2:] + str(hex(int(rgb[1])))[2:] + str(hex(int(rgb[2])))[2:]
 
-            d_temp = {k:d[k] for k in d.keys() if is_int(k)}
-            sorted_smallest_gaps = sorted(d_temp, key=lambda x: DataHandler.calc_score(d[x]['cal_events']))
+                course_ids[c.code] = rand_color
+                for days, time in c.time.times.items():
+                    for day in days:
+                        tdelta = datetime.timedelta(days=self.date_mapping[day])
+                        d[i]['cal_events'].append({'title': '{} - {} {} ({})'.format(c.num,c.c_type,c.section,c.code),
+                                     'start':datetime.datetime.combine(monday+tdelta, time['start']).isoformat(),
+                                     'end':datetime.datetime.combine(monday+tdelta, time['end']).isoformat(),
+                                     'color':rand_color})
+                        d['metadata'][c.code] = c.to_json()
+            d[i]['course_ids'] = course_ids
 
-            d_2 = dict()
-            for i, j in enumerate(sorted_smallest_gaps, 1):
-                d_2[i] = d[j]
+        d_temp = {k:d[k] for k in d.keys() if is_int(k)}
+        sorted_smallest_gaps = sorted(d_temp, key=lambda x: DataHandler.calc_score(d[x]['cal_events']))
 
-            d_2['metadata'] = d['metadata']
-            self.write(d_2)
+        d_2 = dict()
+        for i, j in enumerate(sorted_smallest_gaps, 1):
+            d_2[i] = d[j]
 
-        @staticmethod
-        def calc_score(cal_events: []):
-            d = defaultdict(list)
-            score = defaultdict(int)
-            for event in cal_events:
-                dt_obj_start = datetime.datetime.strptime(event['start'], '%Y-%m-%dT%H:%M:%S')
-                dt_obj_end = datetime.datetime.strptime(event['end'], '%Y-%m-%dT%H:%M:%S')
-                d[dt_obj_start.day].append((dt_obj_start, dt_obj_end))
+        d_2['metadata'] = d['metadata']
+        self.write(d_2)
 
-            for day in d.keys():
-                i = iter(sorted(d[day], key=lambda x: x[0]))
-                e = next(i)
-                for event in i:
-                    score[day] += (event[0] - e[1]).total_seconds() # event.start - e.end
-                    e = event
-            return reduce(lambda a,b: a+b, score.values())
+    @staticmethod
+    def calc_score(cal_events: []):
+        d = defaultdict(list)
+        score = defaultdict(int)
+        for event in cal_events:
+            dt_obj_start = datetime.datetime.strptime(event['start'], '%Y-%m-%dT%H:%M:%S')
+            dt_obj_end = datetime.datetime.strptime(event['end'], '%Y-%m-%dT%H:%M:%S')
+            d[dt_obj_start.day].append((dt_obj_start, dt_obj_end))
 
-    class Application(tornado.web.Application):
-        def __init__(self):
-            handlers = [
-                (r"/auto_data/", DataHandler),
-                (r"/course_info/(.*)", CourseInfoHandler),
-                (r"/dept_info(?:/(.*))?", DeptInfoHandler),
-                (r"/auto/(.*?)(?:/(.*))+?", AutoPageHandler),
-                (r"/auto", AutoPageHandler),
-                (r"/assets/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/assets/'})
-            ]
-            super(Application, self).__init__(handlers, debug=True, template_path='templates/')
+        for day in d.keys():
+            i = iter(sorted(d[day], key=lambda x: x[0]))
+            e = next(i)
+            for event in i:
+                score[day] += (event[0] - e[1]).total_seconds() # event.start - e.end
+                e = event
+        return reduce(lambda a,b: a+b, score.values())
+
+class Application(tornado.web.Application):
+    def __init__(self):
+        handlers = [
+            (r"/auto_data/", DataHandler),
+            (r"/course_info/(.*)", CourseInfoHandler),
+            (r"/dept_info(?:/(.*))?", DeptInfoHandler),
+            (r"/auto/(.*?)(?:/(.*))+?", AutoPageHandler),
+            (r"/auto", AutoPageHandler),
+            (r"/assets/(.*)", tornado.web.StaticFileHandler, {'path': 'templates/assets/'})
+        ]
+        super(Application, self).__init__(handlers, debug=True, template_path='templates/')
+if __name__ == "__main__":
     app = Application()
     app.listen(8088)
     tornado.ioloop.IOLoop.current().start()

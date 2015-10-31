@@ -1,0 +1,1705 @@
+---- AC ENG
+         [<Course.Course object at 0x108eb7c50>]
+         [<Course.Course object at 0x108eb7860>, <Course.Course object at 0x108eb79b0>, <Course.Course object at 0x108eb7b00>]
+         [<Course.Course object at 0x108ead828>, <Course.Course object at 0x108ead940>, <Course.Course object at 0x108eadb38>, <Course.Course object at 0x108eadc88>, <Course.Course object at 0x108eaddd8>, <Course.Course object at 0x108eadf28>, <Course.Course object at 0x108eadf98>, <Course.Course object at 0x108eb11d0>, <Course.Course object at 0x108eb1320>, <Course.Course object at 0x108eb1470>, <Course.Course object at 0x108eb15c0>, <Course.Course object at 0x108eb1710>, <Course.Course object at 0x108eb1860>, <Course.Course object at 0x108eb19b0>, <Course.Course object at 0x108eb1b00>, <Course.Course object at 0x108eb1c50>, <Course.Course object at 0x108eb1da0>, <Course.Course object at 0x108eb1ef0>, <Course.Course object at 0x108eb1f28>, <Course.Course object at 0x108eb51d0>, <Course.Course object at 0x108eb5320>, <Course.Course object at 0x108eb5470>, <Course.Course object at 0x108eb55c0>]
+         [<Course.Course object at 0x108eb5be0>, <Course.Course object at 0x108eb5da0>, <Course.Course object at 0x108eb5f28>, <Course.Course object at 0x108eb70b8>, <Course.Course object at 0x108eb7208>, <Course.Course object at 0x108eb7358>, <Course.Course object at 0x108eb74a8>, <Course.Course object at 0x108eb75f8>, <Course.Course object at 0x108eb7630>]
+         [<Course.Course object at 0x108105a58>, <Course.Course object at 0x108e8f828>, <Course.Course object at 0x108e9d3c8>, <Course.Course object at 0x108e9d4e0>, <Course.Course object at 0x108e9d630>, <Course.Course object at 0x108e9d6a0>, <Course.Course object at 0x108e9d898>, <Course.Course object at 0x108e9da20>, <Course.Course object at 0x108e9db70>, <Course.Course object at 0x108e9dcc0>, <Course.Course object at 0x108e9de10>, <Course.Course object at 0x108e9de80>, <Course.Course object at 0x108ea20b8>, <Course.Course object at 0x108ea2208>, <Course.Course object at 0x108ea2278>, <Course.Course object at 0x108ea23c8>, <Course.Course object at 0x108ea2588>, <Course.Course object at 0x108ea26d8>, <Course.Course object at 0x108ea2828>, <Course.Course object at 0x108ea2978>, <Course.Course object at 0x108ead550>, <Course.Course object at 0x108ead710>]
+         [<Course.Course object at 0x108ea2a90>, <Course.Course object at 0x108ea2c50>, <Course.Course object at 0x108ea2da0>, <Course.Course object at 0x108ea2ef0>, <Course.Course object at 0x108ea2fd0>, <Course.Course object at 0x108ea71d0>, <Course.Course object at 0x108ea7320>, <Course.Course object at 0x108ea7470>, <Course.Course object at 0x108ea75c0>, <Course.Course object at 0x108ea7710>, <Course.Course object at 0x108ea7860>, <Course.Course object at 0x108ea79b0>, <Course.Course object at 0x108ea7a20>, <Course.Course object at 0x108ea7c50>, <Course.Course object at 0x108ea7da0>, <Course.Course object at 0x108ea7ef0>, <Course.Course object at 0x108ea7fd0>, <Course.Course object at 0x108eaa1d0>, <Course.Course object at 0x108eaa320>, <Course.Course object at 0x108eaa470>, <Course.Course object at 0x108eaa5c0>, <Course.Course object at 0x108eaa710>, <Course.Course object at 0x108eaa860>, <Course.Course object at 0x108eaa9b0>, <Course.Course object at 0x108eaab00>, <Course.Course object at 0x108eaac50>, <Course.Course object at 0x108eaacc0>, <Course.Course object at 0x108eaaeb8>, <Course.Course object at 0x108eaafd0>, <Course.Course object at 0x108ead198>, <Course.Course object at 0x108ead2e8>, <Course.Course object at 0x108ead438>]
+         [<Course.Course object at 0x108eb56d8>, <Course.Course object at 0x108eb5898>, <Course.Course object at 0x108e8f898>, <Course.Course object at 0x108e9d2b0>, <Course.Course object at 0x108eb5ac8>]
+         [<Course.Course object at 0x108eb7da0>]
+         [<Course.Course object at 0x108eba6a0>, <Course.Course object at 0x108eba710>]
+         [<Course.Course object at 0x108eba390>, <Course.Course object at 0x108eba550>]
+         [<Course.Course object at 0x108eb7ef0>, <Course.Course object at 0x108eba080>, <Course.Course object at 0x108eba1d0>]
+---- AFAM
+         [<Course.Course object at 0x108f76080>, <Course.Course object at 0x108f761d0>]
+         [<Course.Course object at 0x108f70e48>]
+         [<Course.Course object at 0x108f70b38>]
+         [<Course.Course object at 0x108ebe518>, <Course.Course object at 0x108f70208>, <Course.Course object at 0x108f70320>, <Course.Course object at 0x108f70470>, <Course.Course object at 0x108f705c0>, <Course.Course object at 0x108f70710>, <Course.Course object at 0x108f70860>]
+         [<Course.Course object at 0x108f78a58>]
+         [<Course.Course object at 0x108f76f60>, <Course.Course object at 0x108f78160>, <Course.Course object at 0x108f78320>, <Course.Course object at 0x108f784e0>, <Course.Course object at 0x108f786a0>, <Course.Course object at 0x108f78860>]
+         [<Course.Course object at 0x108f70f28>]
+         [<Course.Course object at 0x108f70cc0>]
+         [<Course.Course object at 0x108f709b0>]
+         [<Course.Course object at 0x108f76320>, <Course.Course object at 0x108f76518>, <Course.Course object at 0x108f766d8>, <Course.Course object at 0x108f76898>, <Course.Course object at 0x108f76a58>, <Course.Course object at 0x108f76c18>, <Course.Course object at 0x108f76d68>]
+---- ANATOMY
+         [<Course.Course object at 0x1090b1160>]
+         [<Course.Course object at 0x1090b45c0>]
+         [<Course.Course object at 0x1090aff60>]
+         [<Course.Course object at 0x1090aaf28>, <Course.Course object at 0x1090ac128>, <Course.Course object at 0x1090ac2e8>, <Course.Course object at 0x1090ac4a8>, <Course.Course object at 0x1090ac668>, <Course.Course object at 0x1090ac828>, <Course.Course object at 0x1090ac9e8>, <Course.Course object at 0x1090acba8>, <Course.Course object at 0x1090acd68>, <Course.Course object at 0x1090acf28>, <Course.Course object at 0x1090ad128>, <Course.Course object at 0x1090ad2e8>, <Course.Course object at 0x1090ad4a8>, <Course.Course object at 0x1090ad668>, <Course.Course object at 0x1090ad828>, <Course.Course object at 0x1090ad9e8>, <Course.Course object at 0x1090adba8>, <Course.Course object at 0x1090add68>, <Course.Course object at 0x1090adf60>, <Course.Course object at 0x1090af160>, <Course.Course object at 0x1090af320>, <Course.Course object at 0x1090af4e0>, <Course.Course object at 0x1090af6a0>, <Course.Course object at 0x1090af860>, <Course.Course object at 0x1090afa20>, <Course.Course object at 0x1090afbe0>, <Course.Course object at 0x1090afda0>]
+         [<Course.Course object at 0x1090b12e8>]
+         [<Course.Course object at 0x1090b13c8>]
+         [<Course.Course object at 0x1090b4080>]
+         [<Course.Course object at 0x1090b4780>]
+         [<Course.Course object at 0x108eba1d0>, <Course.Course object at 0x1090a4320>, <Course.Course object at 0x1090a4470>, <Course.Course object at 0x1090a4630>, <Course.Course object at 0x1090a47f0>, <Course.Course object at 0x1090a49b0>, <Course.Course object at 0x1090a4b70>, <Course.Course object at 0x1090a4d30>, <Course.Course object at 0x1090a4ef0>, <Course.Course object at 0x1090a80f0>, <Course.Course object at 0x1090a82b0>, <Course.Course object at 0x1090a8470>, <Course.Course object at 0x1090a8630>, <Course.Course object at 0x1090a87f0>, <Course.Course object at 0x1090a89b0>, <Course.Course object at 0x1090a8b70>, <Course.Course object at 0x1090a8d30>, <Course.Course object at 0x1090a8ef0>, <Course.Course object at 0x1090aa128>, <Course.Course object at 0x1090aa2e8>, <Course.Course object at 0x1090aa4a8>, <Course.Course object at 0x1090aa668>, <Course.Course object at 0x1090aa828>, <Course.Course object at 0x1090aa9e8>, <Course.Course object at 0x1090aaba8>, <Course.Course object at 0x1090aad68>]
+         [<Course.Course object at 0x1090b4240>]
+         [<Course.Course object at 0x1090b4b00>]
+         [<Course.Course object at 0x1090b1e80>]
+         [<Course.Course object at 0x1090b15f8>, <Course.Course object at 0x1090b1780>, <Course.Course object at 0x1090b1940>, <Course.Course object at 0x1090b1b00>, <Course.Course object at 0x1090b1cc0>]
+         [<Course.Course object at 0x1090b4cc0>]
+         [<Course.Course object at 0x1090b4400>]
+         [<Course.Course object at 0x1090b4eb8>]
+         [<Course.Course object at 0x1090b4940>]
+---- ANESTH
+         [<Course.Course object at 0x108f78198>]
+         [<Course.Course object at 0x1090f5c50>]
+         [<Course.Course object at 0x1090fa240>]
+         [<Course.Course object at 0x1090fa048>]
+         [<Course.Course object at 0x1090f5e10>]
+         [<Course.Course object at 0x1090fa400>]
+         [<Course.Course object at 0x1090f5a58>]
+---- ANTHRO
+         [<Course.Course object at 0x108df7a90>, <Course.Course object at 0x108df7780>]
+         [<Course.Course object at 0x108dfebe0>]
+         [<Course.Course object at 0x108dfed30>, <Course.Course object at 0x108dfee48>, <Course.Course object at 0x108dfefd0>, <Course.Course object at 0x108dfb208>, <Course.Course object at 0x108dfb320>, <Course.Course object at 0x108dfb4a8>, <Course.Course object at 0x108dfb5f8>, <Course.Course object at 0x108dfb748>, <Course.Course object at 0x108dfb860>, <Course.Course object at 0x108dfb9e8>, <Course.Course object at 0x108dfbc18>, <Course.Course object at 0x108dfbd68>, <Course.Course object at 0x108dfbeb8>, <Course.Course object at 0x108dfbf60>, <Course.Course object at 0x108df7dd8>, <Course.Course object at 0x108df7cf8>]
+         [<Course.Course object at 0x108df2cc0>, <Course.Course object at 0x108df2f28>, <Course.Course object at 0x108df2f60>, <Course.Course object at 0x108df0198>, <Course.Course object at 0x108df02e8>, <Course.Course object at 0x108df0438>, <Course.Course object at 0x108df05c0>, <Course.Course object at 0x108df0710>]
+         [<Course.Course object at 0x108deb3c8>, <Course.Course object at 0x108deb588>, <Course.Course object at 0x108deb748>, <Course.Course object at 0x108deb940>, <Course.Course object at 0x108debb38>, <Course.Course object at 0x108debcf8>, <Course.Course object at 0x108debef0>, <Course.Course object at 0x108ded0f0>, <Course.Course object at 0x108ded2b0>, <Course.Course object at 0x108ded4a8>, <Course.Course object at 0x108ded6a0>, <Course.Course object at 0x108ded860>, <Course.Course object at 0x108deda20>, <Course.Course object at 0x108dedbe0>, <Course.Course object at 0x108dedda0>, <Course.Course object at 0x108dedf98>, <Course.Course object at 0x108de8198>, <Course.Course object at 0x108de8358>, <Course.Course object at 0x108de8518>, <Course.Course object at 0x108de86d8>, <Course.Course object at 0x108de8898>]
+         [<Course.Course object at 0x108de8a90>, <Course.Course object at 0x108de8c88>]
+         [<Course.Course object at 0x1090a4278>, <Course.Course object at 0x108e0da20>, <Course.Course object at 0x108e0d278>, <Course.Course object at 0x108e0d080>, <Course.Course object at 0x108e08160>, <Course.Course object at 0x108e08278>, <Course.Course object at 0x108e08470>, <Course.Course object at 0x108e08668>, <Course.Course object at 0x108e08710>, <Course.Course object at 0x108e088d0>, <Course.Course object at 0x108e08a58>, <Course.Course object at 0x108e08be0>, <Course.Course object at 0x108e08dd8>, <Course.Course object at 0x108e08e80>, <Course.Course object at 0x108e05eb8>, <Course.Course object at 0x108e05e48>, <Course.Course object at 0x108e05be0>, <Course.Course object at 0x108e05a90>, <Course.Course object at 0x108e05940>, <Course.Course object at 0x108e057b8>, <Course.Course object at 0x108e05518>, <Course.Course object at 0x108e054a8>, <Course.Course object at 0x108e05470>, <Course.Course object at 0x108e05198>, <Course.Course object at 0x108e05080>, <Course.Course object at 0x108e034a8>, <Course.Course object at 0x108e03cf8>, <Course.Course object at 0x108e03c50>, <Course.Course object at 0x108e039e8>, <Course.Course object at 0x108e03940>, <Course.Course object at 0x108e037f0>, <Course.Course object at 0x108e036d8>]
+         [<Course.Course object at 0x108e00f98>, <Course.Course object at 0x108dfc080>, <Course.Course object at 0x108dfc278>, <Course.Course object at 0x108dfc400>, <Course.Course object at 0x108dfc518>, <Course.Course object at 0x108dfc630>, <Course.Course object at 0x108dfc7b8>, <Course.Course object at 0x108dfc940>, <Course.Course object at 0x108dfcac8>, <Course.Course object at 0x108dfcc50>]
+         [<Course.Course object at 0x108de3d68>]
+         [<Course.Course object at 0x108df72e8>, <Course.Course object at 0x108df25c0>]
+         [<Course.Course object at 0x108d52390>, <Course.Course object at 0x108d52550>, <Course.Course object at 0x108d52710>, <Course.Course object at 0x108d52908>, <Course.Course object at 0x108d52b00>, <Course.Course object at 0x108d52cc0>, <Course.Course object at 0x108d52eb8>, <Course.Course object at 0x108d2f0b8>, <Course.Course object at 0x108d2f278>, <Course.Course object at 0x108d2f470>, <Course.Course object at 0x108d2f668>, <Course.Course object at 0x108d2f828>, <Course.Course object at 0x108d2f9e8>, <Course.Course object at 0x108d2fba8>, <Course.Course object at 0x108d2fd68>, <Course.Course object at 0x108d2ff60>, <Course.Course object at 0x108d5a160>, <Course.Course object at 0x108d5a320>, <Course.Course object at 0x108d5a4e0>, <Course.Course object at 0x108d5a6a0>]
+         [<Course.Course object at 0x108df7128>]
+         [<Course.Course object at 0x108df7c50>]
+         [<Course.Course object at 0x108de1400>, <Course.Course object at 0x108de15c0>, <Course.Course object at 0x108de1710>, <Course.Course object at 0x108de19b0>, <Course.Course object at 0x108de1b00>, <Course.Course object at 0x108de1cf8>]
+         [<Course.Course object at 0x108de1128>]
+         [<Course.Course object at 0x108df20f0>, <Course.Course object at 0x108df21d0>, <Course.Course object at 0x108df22e8>, <Course.Course object at 0x108df2438>]
+         [<Course.Course object at 0x108dfcdd8>, <Course.Course object at 0x108dfcfd0>, <Course.Course object at 0x108dfe198>, <Course.Course object at 0x108dfe320>, <Course.Course object at 0x108dfe4a8>, <Course.Course object at 0x108dfe5c0>, <Course.Course object at 0x108dfe748>, <Course.Course object at 0x108dfe940>, <Course.Course object at 0x108dfeac8>]
+         [<Course.Course object at 0x108de8e80>, <Course.Course object at 0x108de90b8>, <Course.Course object at 0x108de92b0>, <Course.Course object at 0x108de94a8>]
+         [<Course.Course object at 0x108df0860>]
+         [<Course.Course object at 0x108e03400>, <Course.Course object at 0x108e03320>, <Course.Course object at 0x108e031d0>, <Course.Course object at 0x108e03080>, <Course.Course object at 0x108e000f0>, <Course.Course object at 0x108e002e8>, <Course.Course object at 0x108e00470>, <Course.Course object at 0x108e00588>, <Course.Course object at 0x108e00780>, <Course.Course object at 0x108e00978>, <Course.Course object at 0x108e00a90>, <Course.Course object at 0x108e00c88>, <Course.Course object at 0x108e00e10>]
+         [<Course.Course object at 0x108de1208>]
+         [<Course.Course object at 0x108de96a0>, <Course.Course object at 0x108de9860>, <Course.Course object at 0x108de9a20>, <Course.Course object at 0x108de9c18>, <Course.Course object at 0x108de9e10>, <Course.Course object at 0x108de9fd0>, <Course.Course object at 0x108de5eb8>, <Course.Course object at 0x108de5c18>, <Course.Course object at 0x108de5a58>, <Course.Course object at 0x108de5908>, <Course.Course object at 0x108de56a0>, <Course.Course object at 0x108de54e0>, <Course.Course object at 0x108de5208>, <Course.Course object at 0x108de5080>, <Course.Course object at 0x108de30b8>, <Course.Course object at 0x108de32b0>, <Course.Course object at 0x108de3470>, <Course.Course object at 0x108de3630>, <Course.Course object at 0x108de37f0>, <Course.Course object at 0x108de39b0>, <Course.Course object at 0x108de3b70>]
+         [<Course.Course object at 0x108df7710>, <Course.Course object at 0x108df75f8>, <Course.Course object at 0x108df74e0>, <Course.Course object at 0x108df7390>]
+         [<Course.Course object at 0x108de1e48>, <Course.Course object at 0x108ddff60>, <Course.Course object at 0x108ddfe48>, <Course.Course object at 0x108ddfc50>, <Course.Course object at 0x108ddf9b0>, <Course.Course object at 0x108ddf898>, <Course.Course object at 0x108ddf550>, <Course.Course object at 0x108ddf438>, <Course.Course object at 0x108ddf358>, <Course.Course object at 0x108ddf0f0>, <Course.Course object at 0x108ddb198>, <Course.Course object at 0x108ddb358>, <Course.Course object at 0x108ddb518>, <Course.Course object at 0x108ddb6d8>, <Course.Course object at 0x108ddb898>, <Course.Course object at 0x108ddba90>, <Course.Course object at 0x108ddbc50>, <Course.Course object at 0x108ddbe10>, <Course.Course object at 0x108ddbfd0>, <Course.Course object at 0x108d521d0>]
+         [<Course.Course object at 0x108df2748>, <Course.Course object at 0x108df2940>, <Course.Course object at 0x108df29e8>, <Course.Course object at 0x108df2b70>]
+         [<Course.Course object at 0x108de3ef0>]
+         [<Course.Course object at 0x108df0a20>, <Course.Course object at 0x108df0ba8>, <Course.Course object at 0x108df0da0>, <Course.Course object at 0x108df0f98>, <Course.Course object at 0x108deb1d0>]
+---- ARABIC
+         [<Course.Course object at 0x108d22710>]
+         [<Course.Course object at 0x108d22860>]
+         [<Course.Course object at 0x1090a45c0>]
+         [<Course.Course object at 0x108d229b0>]
+---- ART
+         [<Course.Course object at 0x1092ff550>, <Course.Course object at 0x1092ff630>]
+         [<Course.Course object at 0x1092ff7b8>]
+         [<Course.Course object at 0x1092f8ef0>]
+         [<Course.Course object at 0x1092ff9e8>]
+         [<Course.Course object at 0x109309668>, <Course.Course object at 0x109309860>]
+         [<Course.Course object at 0x1093100b8>]
+         [<Course.Course object at 0x109303438>, <Course.Course object at 0x109303630>, <Course.Course object at 0x109303828>, <Course.Course object at 0x109303a20>, <Course.Course object at 0x109303c18>, <Course.Course object at 0x109303e10>, <Course.Course object at 0x109305048>, <Course.Course object at 0x109305240>, <Course.Course object at 0x109305438>, <Course.Course object at 0x109305630>, <Course.Course object at 0x109305828>, <Course.Course object at 0x109305a20>, <Course.Course object at 0x109305c18>, <Course.Course object at 0x109305e10>, <Course.Course object at 0x109306048>, <Course.Course object at 0x109306240>, <Course.Course object at 0x109306438>, <Course.Course object at 0x109306630>, <Course.Course object at 0x109306828>, <Course.Course object at 0x109306a20>, <Course.Course object at 0x109306c18>, <Course.Course object at 0x109306e10>, <Course.Course object at 0x109307048>, <Course.Course object at 0x109307240>, <Course.Course object at 0x109307470>, <Course.Course object at 0x1093076a0>]
+         [<Course.Course object at 0x109310278>]
+         [<Course.Course object at 0x1092ffcc0>]
+         [<Course.Course object at 0x1092fd860>]
+         [<Course.Course object at 0x1092f8a58>]
+         [<Course.Course object at 0x1093099b0>]
+         [<Course.Course object at 0x1092fd4e0>, <Course.Course object at 0x1092fd6d8>]
+         [<Course.Course object at 0x1092f8d68>]
+         [<Course.Course object at 0x109309c18>, <Course.Course object at 0x109309da0>, <Course.Course object at 0x109309f98>, <Course.Course object at 0x10930b1d0>, <Course.Course object at 0x10930b3c8>, <Course.Course object at 0x10930b5c0>, <Course.Course object at 0x10930b7b8>, <Course.Course object at 0x10930b9b0>, <Course.Course object at 0x10930bba8>, <Course.Course object at 0x10930bda0>, <Course.Course object at 0x10930bf98>, <Course.Course object at 0x10930d1d0>, <Course.Course object at 0x10930d3c8>, <Course.Course object at 0x10930d5c0>, <Course.Course object at 0x10930d7b8>, <Course.Course object at 0x10930d9b0>, <Course.Course object at 0x10930dba8>, <Course.Course object at 0x10930dda0>, <Course.Course object at 0x10930df98>, <Course.Course object at 0x10930e1d0>, <Course.Course object at 0x10930e3c8>, <Course.Course object at 0x10930e5c0>, <Course.Course object at 0x10930e7b8>, <Course.Course object at 0x10930e9e8>, <Course.Course object at 0x10930ec18>, <Course.Course object at 0x10930ee48>]
+         [<Course.Course object at 0x109307a58>, <Course.Course object at 0x109307ba8>, <Course.Course object at 0x109307dd8>]
+         [<Course.Course object at 0x1092ffb70>]
+         [<Course.Course object at 0x1092fdcc0>, <Course.Course object at 0x1092fde10>]
+         [<Course.Course object at 0x1092fdba8>]
+         [<Course.Course object at 0x1092f88d0>]
+         [<Course.Course object at 0x1092f8be0>]
+         [<Course.Course object at 0x1092ff208>, <Course.Course object at 0x1092ff358>]
+         [<Course.Course object at 0x1093094a8>]
+         [<Course.Course object at 0x1092fdf98>]
+         [<Course.Course object at 0x1092fd0b8>, <Course.Course object at 0x1092fd1d0>, <Course.Course object at 0x1092fd358>]
+         [<Course.Course object at 0x1092ffe48>, <Course.Course object at 0x109302048>, <Course.Course object at 0x109302278>, <Course.Course object at 0x1093024a8>, <Course.Course object at 0x1093026d8>, <Course.Course object at 0x109302908>, <Course.Course object at 0x109302b38>, <Course.Course object at 0x109302d68>, <Course.Course object at 0x109302f98>, <Course.Course object at 0x109303208>]
+         [<Course.Course object at 0x108de1f98>]
+         [<Course.Course object at 0x1093103c8>, <Course.Course object at 0x1093105f8>, <Course.Course object at 0x1093107f0>, <Course.Course object at 0x1093109e8>, <Course.Course object at 0x109310be0>, <Course.Course object at 0x109310dd8>, <Course.Course object at 0x109310fd0>, <Course.Course object at 0x109311208>, <Course.Course object at 0x109311400>, <Course.Course object at 0x1093115f8>, <Course.Course object at 0x1093117f0>, <Course.Course object at 0x1093119e8>, <Course.Course object at 0x109311be0>, <Course.Course object at 0x109311dd8>, <Course.Course object at 0x109311fd0>, <Course.Course object at 0x109313208>, <Course.Course object at 0x109313400>, <Course.Course object at 0x1093135f8>, <Course.Course object at 0x1093137f0>, <Course.Course object at 0x1093139e8>, <Course.Course object at 0x109313be0>, <Course.Course object at 0x109313dd8>, <Course.Course object at 0x109313fd0>, <Course.Course object at 0x109314240>, <Course.Course object at 0x109314470>, <Course.Course object at 0x1093146a0>]
+         [<Course.Course object at 0x109307f98>, <Course.Course object at 0x109309128>, <Course.Course object at 0x1093092e8>]
+         [<Course.Course object at 0x1093078d0>]
+         [<Course.Course object at 0x1092fd9b0>]
+---- ART HIS
+         [<Course.Course object at 0x1093a37b8>, <Course.Course object at 0x1093a3978>, <Course.Course object at 0x1093a3b38>, <Course.Course object at 0x1093a3cf8>]
+         [<Course.Course object at 0x109397f28>, <Course.Course object at 0x10939d128>, <Course.Course object at 0x10939d198>]
+         [<Course.Course object at 0x10939d748>]
+         [<Course.Course object at 0x10939d2b0>]
+         [<Course.Course object at 0x10939d8d0>]
+         [<Course.Course object at 0x108d22ac8>, <Course.Course object at 0x1093977b8>, <Course.Course object at 0x109397898>, <Course.Course object at 0x1093979e8>, <Course.Course object at 0x109397b38>, <Course.Course object at 0x109397c88>, <Course.Course object at 0x109397dd8>]
+         [<Course.Course object at 0x10939d470>]
+         [<Course.Course object at 0x10939db70>]
+         [<Course.Course object at 0x10939d5f8>]
+         [<Course.Course object at 0x10939dcf8>]
+         [<Course.Course object at 0x10939d9e8>]
+         [<Course.Course object at 0x10939dda0>, <Course.Course object at 0x10939dfd0>, <Course.Course object at 0x1093a11d0>, <Course.Course object at 0x1093a1390>, <Course.Course object at 0x1093a1550>, <Course.Course object at 0x1093a1710>, <Course.Course object at 0x1093a18d0>, <Course.Course object at 0x1093a1a90>, <Course.Course object at 0x1093a1c50>, <Course.Course object at 0x1093a1e10>, <Course.Course object at 0x1093a1fd0>, <Course.Course object at 0x1093a31d0>, <Course.Course object at 0x1093a33c8>, <Course.Course object at 0x1093a35c0>]
+---- ARTS
+         [<Course.Course object at 0x1093140b8>]
+         [<Course.Course object at 0x1093a7940>]
+---- ARTSHUM
+---- ASIANAM
+         [<Course.Course object at 0x1081647f0>]
+         [<Course.Course object at 0x1081649e8>]
+         [<Course.Course object at 0x1081645f8>]
+         [<Course.Course object at 0x108164908>]
+         [<Course.Course object at 0x108160ba8>, <Course.Course object at 0x108160e10>, <Course.Course object at 0x108160e80>, <Course.Course object at 0x108160fd0>, <Course.Course object at 0x108164160>]
+         [<Course.Course object at 0x108169978>, <Course.Course object at 0x108169b38>]
+         [<Course.Course object at 0x108168be0>, <Course.Course object at 0x108168da0>, <Course.Course object at 0x108168f60>, <Course.Course object at 0x108169198>, <Course.Course object at 0x108169390>, <Course.Course object at 0x108169588>, <Course.Course object at 0x108169780>]
+         [<Course.Course object at 0x108166e48>, <Course.Course object at 0x108168048>, <Course.Course object at 0x108168208>, <Course.Course object at 0x108168400>, <Course.Course object at 0x1081685f8>, <Course.Course object at 0x1081687f0>, <Course.Course object at 0x1081689e8>]
+         [<Course.Course object at 0x109397a58>, <Course.Course object at 0x1081604a8>, <Course.Course object at 0x108160550>, <Course.Course object at 0x1081606a0>, <Course.Course object at 0x1081607f0>, <Course.Course object at 0x108160940>, <Course.Course object at 0x108160a58>]
+         [<Course.Course object at 0x108164b38>, <Course.Course object at 0x108164cc0>, <Course.Course object at 0x108164e80>, <Course.Course object at 0x1081660b8>, <Course.Course object at 0x1081662b0>, <Course.Course object at 0x1081664a8>, <Course.Course object at 0x1081666a0>, <Course.Course object at 0x108166898>, <Course.Course object at 0x108166a90>, <Course.Course object at 0x108166c50>]
+         [<Course.Course object at 0x1081642b0>, <Course.Course object at 0x108164438>]
+---- BATS
+         [<Course.Course object at 0x108a123c8>, <Course.Course object at 0x108a12588>, <Course.Course object at 0x108a12748>, <Course.Course object at 0x108a12908>, <Course.Course object at 0x108a12ac8>, <Course.Course object at 0x108a12c88>]
+         [<Course.Course object at 0x108a12e48>, <Course.Course object at 0x108a14048>, <Course.Course object at 0x108a14208>, <Course.Course object at 0x108a143c8>, <Course.Course object at 0x108a14588>, <Course.Course object at 0x108a14748>]
+         [<Course.Course object at 0x1093ae128>]
+         [<Course.Course object at 0x108a120b8>]
+         [<Course.Course object at 0x108a0bef0>]
+         [<Course.Course object at 0x108a12240>]
+---- BIO SCI
+         [<Course.Course object at 0x109987a20>]
+         [<Course.Course object at 0x109991748>]
+         [<Course.Course object at 0x10999a208>, <Course.Course object at 0x10999a3c8>, <Course.Course object at 0x10999a588>, <Course.Course object at 0x10999a748>, <Course.Course object at 0x10999a908>, <Course.Course object at 0x10999aac8>, <Course.Course object at 0x10999ac88>, <Course.Course object at 0x10999ae48>, <Course.Course object at 0x10999c080>, <Course.Course object at 0x10999c240>, <Course.Course object at 0x10999c400>, <Course.Course object at 0x10999c5c0>, <Course.Course object at 0x10999c780>, <Course.Course object at 0x10999c940>, <Course.Course object at 0x10999cb00>, <Course.Course object at 0x10999ccc0>, <Course.Course object at 0x10999ce80>, <Course.Course object at 0x10999e080>, <Course.Course object at 0x10999e240>, <Course.Course object at 0x10999e400>, <Course.Course object at 0x10999e5c0>, <Course.Course object at 0x10999e780>, <Course.Course object at 0x10999e940>, <Course.Course object at 0x10999eb00>, <Course.Course object at 0x10999ecc0>, <Course.Course object at 0x10999ee80>, <Course.Course object at 0x1099a0080>, <Course.Course object at 0x1099a0240>, <Course.Course object at 0x1099a0400>, <Course.Course object at 0x1099a05c0>, <Course.Course object at 0x1099a0780>, <Course.Course object at 0x1099a0940>, <Course.Course object at 0x1099a0b00>, <Course.Course object at 0x1099a0cc0>, <Course.Course object at 0x1099a0e80>, <Course.Course object at 0x1099a2080>, <Course.Course object at 0x1099a2240>, <Course.Course object at 0x1099a2400>, <Course.Course object at 0x1099a25c0>, <Course.Course object at 0x1099a2780>, <Course.Course object at 0x1099a2940>, <Course.Course object at 0x1099a2b00>, <Course.Course object at 0x1099a2cc0>, <Course.Course object at 0x1099a2e80>, <Course.Course object at 0x1099a40b8>, <Course.Course object at 0x1099a42b0>, <Course.Course object at 0x1099a4470>, <Course.Course object at 0x1099a4630>, <Course.Course object at 0x1099a47f0>, <Course.Course object at 0x1099a49b0>, <Course.Course object at 0x1099a4b70>, <Course.Course object at 0x1099a4d30>, <Course.Course object at 0x1099a4ef0>, <Course.Course object at 0x1099a60f0>, <Course.Course object at 0x1099a62e8>, <Course.Course object at 0x1099a64a8>, <Course.Course object at 0x1099a6668>, <Course.Course object at 0x1099a6828>, <Course.Course object at 0x1099a69e8>, <Course.Course object at 0x1099a6ba8>, <Course.Course object at 0x1099a6d68>, <Course.Course object at 0x1099a6f28>, <Course.Course object at 0x1099a7128>, <Course.Course object at 0x1099a72e8>, <Course.Course object at 0x1099a74a8>, <Course.Course object at 0x1099a7668>, <Course.Course object at 0x1099a7828>, <Course.Course object at 0x1099a79e8>, <Course.Course object at 0x1099a7ba8>, <Course.Course object at 0x1099a7da0>, <Course.Course object at 0x1099a7f60>, <Course.Course object at 0x1099a9160>, <Course.Course object at 0x1099a9320>, <Course.Course object at 0x1099a94e0>, <Course.Course object at 0x1099a96a0>, <Course.Course object at 0x1099a9860>, <Course.Course object at 0x1099a9a20>, <Course.Course object at 0x1099a9be0>, <Course.Course object at 0x1099a9da0>, <Course.Course object at 0x1099a9f60>, <Course.Course object at 0x1099ab160>, <Course.Course object at 0x1099ab320>, <Course.Course object at 0x1099ab518>, <Course.Course object at 0x1099ab6d8>, <Course.Course object at 0x1099ab898>, <Course.Course object at 0x1099aba58>, <Course.Course object at 0x1099abc18>, <Course.Course object at 0x1099abdd8>, <Course.Course object at 0x1099abf98>, <Course.Course object at 0x1099ad198>, <Course.Course object at 0x1099ad358>, <Course.Course object at 0x1099ad518>, <Course.Course object at 0x1099ad6d8>, <Course.Course object at 0x1099ad8d0>, <Course.Course object at 0x1099ada90>, <Course.Course object at 0x1099adc50>, <Course.Course object at 0x1099ade10>, <Course.Course object at 0x1099adfd0>, <Course.Course object at 0x1099af1d0>, <Course.Course object at 0x1099af390>, <Course.Course object at 0x1099af550>, <Course.Course object at 0x1099af710>, <Course.Course object at 0x1099af8d0>, <Course.Course object at 0x1099afac8>, <Course.Course object at 0x1099afc88>, <Course.Course object at 0x1099afe48>, <Course.Course object at 0x1099b1048>, <Course.Course object at 0x1099b1240>, <Course.Course object at 0x1099b1400>, <Course.Course object at 0x1099b15f8>, <Course.Course object at 0x1099b17b8>, <Course.Course object at 0x1099b1978>, <Course.Course object at 0x1099b1b38>, <Course.Course object at 0x1099b1cf8>, <Course.Course object at 0x1099b1eb8>, <Course.Course object at 0x1099b30b8>, <Course.Course object at 0x1099b32b0>, <Course.Course object at 0x1099b34a8>, <Course.Course object at 0x1099b3668>, <Course.Course object at 0x1099b3828>, <Course.Course object at 0x1099b39e8>, <Course.Course object at 0x1099b3ba8>, <Course.Course object at 0x1099b3d68>, <Course.Course object at 0x1099b3f28>, <Course.Course object at 0x1099b6128>, <Course.Course object at 0x1099b62e8>, <Course.Course object at 0x1099b64a8>, <Course.Course object at 0x1099b6668>, <Course.Course object at 0x1099b6828>, <Course.Course object at 0x1099b69e8>, <Course.Course object at 0x1099b6ba8>, <Course.Course object at 0x1099b6d68>, <Course.Course object at 0x1099b6f28>, <Course.Course object at 0x1099b7128>, <Course.Course object at 0x1099b72e8>, <Course.Course object at 0x1099b74a8>, <Course.Course object at 0x1099b7668>, <Course.Course object at 0x1099b7828>, <Course.Course object at 0x1099b7a20>, <Course.Course object at 0x1099b7be0>, <Course.Course object at 0x1099b7da0>, <Course.Course object at 0x1099b7f60>, <Course.Course object at 0x1099b9160>, <Course.Course object at 0x1099b9320>, <Course.Course object at 0x1099b94e0>, <Course.Course object at 0x1099b96a0>, <Course.Course object at 0x1099b9860>, <Course.Course object at 0x1099b9a20>, <Course.Course object at 0x1099b9be0>, <Course.Course object at 0x1099b9da0>, <Course.Course object at 0x1099b9f60>, <Course.Course object at 0x1099bb160>, <Course.Course object at 0x1099bb320>, <Course.Course object at 0x1099bb4e0>, <Course.Course object at 0x1099bb6a0>, <Course.Course object at 0x1099bb860>, <Course.Course object at 0x1099bba20>, <Course.Course object at 0x1099bbbe0>, <Course.Course object at 0x1099bbda0>, <Course.Course object at 0x1099bbf60>, <Course.Course object at 0x1099bd160>, <Course.Course object at 0x1099bd320>, <Course.Course object at 0x1099bd4e0>, <Course.Course object at 0x1099bd6a0>, <Course.Course object at 0x1099bd860>, <Course.Course object at 0x1099bda58>, <Course.Course object at 0x1099bdc18>, <Course.Course object at 0x1099bddd8>, <Course.Course object at 0x1099bdf98>, <Course.Course object at 0x1099be198>, <Course.Course object at 0x1099be358>, <Course.Course object at 0x1099be550>, <Course.Course object at 0x1099be710>, <Course.Course object at 0x1099be8d0>, <Course.Course object at 0x1099beac8>, <Course.Course object at 0x1099bec88>, <Course.Course object at 0x1099bee48>, <Course.Course object at 0x1099c0048>, <Course.Course object at 0x1099c0208>, <Course.Course object at 0x1099c03c8>, <Course.Course object at 0x1099c0588>, <Course.Course object at 0x1099c0748>, <Course.Course object at 0x1099c0908>, <Course.Course object at 0x1099c0ac8>, <Course.Course object at 0x1099c0c88>, <Course.Course object at 0x1099c0e48>, <Course.Course object at 0x1099c3048>, <Course.Course object at 0x1099c3208>, <Course.Course object at 0x1099c33c8>, <Course.Course object at 0x1099c3588>, <Course.Course object at 0x1099c3748>, <Course.Course object at 0x1099c3940>, <Course.Course object at 0x1099c3b38>, <Course.Course object at 0x1099c3cf8>, <Course.Course object at 0x1099c3ef0>, <Course.Course object at 0x1099c40f0>, <Course.Course object at 0x1099c42b0>, <Course.Course object at 0x1099c4470>, <Course.Course object at 0x1099c4630>, <Course.Course object at 0x1099c4828>, <Course.Course object at 0x1099c49e8>, <Course.Course object at 0x1099c4ba8>, <Course.Course object at 0x1099c4d68>, <Course.Course object at 0x1099c4f28>, <Course.Course object at 0x1099c6128>, <Course.Course object at 0x1099c62e8>, <Course.Course object at 0x1099c64a8>, <Course.Course object at 0x1099c6668>, <Course.Course object at 0x1099c6828>, <Course.Course object at 0x1099c69e8>, <Course.Course object at 0x1099c6ba8>, <Course.Course object at 0x1099c6d68>, <Course.Course object at 0x1099c6f28>, <Course.Course object at 0x1099c8128>, <Course.Course object at 0x1099c82e8>, <Course.Course object at 0x1099c84a8>, <Course.Course object at 0x1099c8668>, <Course.Course object at 0x1099c8860>, <Course.Course object at 0x1099c8a58>, <Course.Course object at 0x1099c8c18>, <Course.Course object at 0x1099c8dd8>, <Course.Course object at 0x1099c8fd0>, <Course.Course object at 0x1099ca1d0>, <Course.Course object at 0x1099ca390>, <Course.Course object at 0x1099ca550>, <Course.Course object at 0x1099ca710>, <Course.Course object at 0x1099ca8d0>, <Course.Course object at 0x1099caa90>, <Course.Course object at 0x1099cac50>, <Course.Course object at 0x1099cae48>, <Course.Course object at 0x1099cb048>, <Course.Course object at 0x1099cb240>, <Course.Course object at 0x1099cb400>, <Course.Course object at 0x1099cb5c0>, <Course.Course object at 0x1099cb7b8>, <Course.Course object at 0x1099cb978>, <Course.Course object at 0x1099cbb38>, <Course.Course object at 0x1099cbcf8>, <Course.Course object at 0x1099cbeb8>, <Course.Course object at 0x1099cd0b8>, <Course.Course object at 0x1099cd278>, <Course.Course object at 0x1099cd438>, <Course.Course object at 0x1099cd5f8>, <Course.Course object at 0x1099cd7f0>, <Course.Course object at 0x1099cd9b0>, <Course.Course object at 0x1099cdb70>, <Course.Course object at 0x1099cdd30>, <Course.Course object at 0x1099cdef0>, <Course.Course object at 0x1099d00f0>, <Course.Course object at 0x1099d02b0>, <Course.Course object at 0x1099d0470>, <Course.Course object at 0x1099d0630>, <Course.Course object at 0x1099d07f0>, <Course.Course object at 0x1099d09b0>, <Course.Course object at 0x1099d0b70>, <Course.Course object at 0x1099d0d30>, <Course.Course object at 0x1099d0ef0>, <Course.Course object at 0x1099d2128>, <Course.Course object at 0x1099d22e8>, <Course.Course object at 0x1099d24e0>, <Course.Course object at 0x1099d26a0>, <Course.Course object at 0x1099d2860>, <Course.Course object at 0x1099d2a20>, <Course.Course object at 0x1099d2be0>]
+         [<Course.Course object at 0x10995f860>]
+         [<Course.Course object at 0x109993ac8>]
+         [<Course.Course object at 0x109954f28>]
+         [<Course.Course object at 0x10997e128>, <Course.Course object at 0x10997e2e8>, <Course.Course object at 0x10997e470>, <Course.Course object at 0x10997e5c0>, <Course.Course object at 0x10997e748>]
+         [<Course.Course object at 0x1099540b8>, <Course.Course object at 0x109954828>, <Course.Course object at 0x1099549b0>]
+         [<Course.Course object at 0x109991fd0>]
+         [<Course.Course object at 0x109984438>, <Course.Course object at 0x109984550>, <Course.Course object at 0x109984630>, <Course.Course object at 0x109984860>, <Course.Course object at 0x1099849b0>, <Course.Course object at 0x109984be0>, <Course.Course object at 0x109984cf8>, <Course.Course object at 0x109984ef0>, <Course.Course object at 0x1099870b8>, <Course.Course object at 0x1099872b0>, <Course.Course object at 0x1099874e0>, <Course.Course object at 0x109987630>]
+         [<Course.Course object at 0x109954c50>, <Course.Course object at 0x109954d68>]
+         [<Course.Course object at 0x1099822e8>, <Course.Course object at 0x109982320>, <Course.Course object at 0x109982518>, <Course.Course object at 0x109982668>, <Course.Course object at 0x1099827b8>, <Course.Course object at 0x109982860>, <Course.Course object at 0x109982a20>, <Course.Course object at 0x109982b70>, <Course.Course object at 0x109982cc0>]
+         [<Course.Course object at 0x109975080>, <Course.Course object at 0x109975198>, <Course.Course object at 0x109975320>, <Course.Course object at 0x1099754a8>, <Course.Course object at 0x1099756a0>, <Course.Course object at 0x109975828>, <Course.Course object at 0x1099759b0>, <Course.Course object at 0x109975a58>, <Course.Course object at 0x109975be0>, <Course.Course object at 0x109975d68>, <Course.Course object at 0x109975ef0>, <Course.Course object at 0x109979128>, <Course.Course object at 0x1099792b0>, <Course.Course object at 0x109979358>, <Course.Course object at 0x109979470>, <Course.Course object at 0x1099795f8>, <Course.Course object at 0x109979780>, <Course.Course object at 0x109979908>, <Course.Course object at 0x109979b00>, <Course.Course object at 0x109979c88>, <Course.Course object at 0x109979e10>, <Course.Course object at 0x109979f98>, <Course.Course object at 0x1099d7668>, <Course.Course object at 0x1099d77b8>, <Course.Course object at 0x1099d7908>, <Course.Course object at 0x1099d7a58>, <Course.Course object at 0x1099d7be0>, <Course.Course object at 0x1099d7d68>, <Course.Course object at 0x1099d7ef0>, <Course.Course object at 0x1099d9048>, <Course.Course object at 0x1099d9240>, <Course.Course object at 0x1099d9390>, <Course.Course object at 0x1099d94e0>, <Course.Course object at 0x1099d9630>, <Course.Course object at 0x1099d9780>, <Course.Course object at 0x1099d98d0>]
+         [<Course.Course object at 0x109991940>]
+         [<Course.Course object at 0x10995fb70>]
+         [<Course.Course object at 0x109993400>]
+         [<Course.Course object at 0x109959160>]
+         [<Course.Course object at 0x10997b400>, <Course.Course object at 0x10997b518>]
+         [<Course.Course object at 0x1081604e0>]
+         [<Course.Course object at 0x109993240>]
+         [<Course.Course object at 0x109987e10>]
+         [<Course.Course object at 0x1099593c8>, <Course.Course object at 0x109959438>, <Course.Course object at 0x1099594e0>, <Course.Course object at 0x1099596d8>, <Course.Course object at 0x109959860>, <Course.Course object at 0x1099599e8>, <Course.Course object at 0x109959b70>, <Course.Course object at 0x109959cc0>, <Course.Course object at 0x109959e80>, <Course.Course object at 0x10995d048>, <Course.Course object at 0x10995d1d0>, <Course.Course object at 0x10995d358>, <Course.Course object at 0x10995d4e0>, <Course.Course object at 0x10995d668>, <Course.Course object at 0x10995d7f0>, <Course.Course object at 0x10995d940>, <Course.Course object at 0x10995dac8>, <Course.Course object at 0x10995dc50>, <Course.Course object at 0x10995ddd8>, <Course.Course object at 0x10995df28>, <Course.Course object at 0x10995f0f0>, <Course.Course object at 0x10995f2b0>, <Course.Course object at 0x10995f400>, <Course.Course object at 0x10995f588>, <Course.Course object at 0x10995f710>]
+         [<Course.Course object at 0x10995f9e8>]
+         [<Course.Course object at 0x109993908>]
+         [<Course.Course object at 0x10995fd68>, <Course.Course object at 0x10995fdd8>, <Course.Course object at 0x10995ff60>, <Course.Course object at 0x109962128>, <Course.Course object at 0x1099622b0>, <Course.Course object at 0x1099624a8>, <Course.Course object at 0x109962630>, <Course.Course object at 0x1099627b8>, <Course.Course object at 0x1099628d0>, <Course.Course object at 0x109962a58>, <Course.Course object at 0x109962be0>, <Course.Course object at 0x109962dd8>, <Course.Course object at 0x109962f60>, <Course.Course object at 0x109965128>, <Course.Course object at 0x109965240>, <Course.Course object at 0x1099653c8>, <Course.Course object at 0x109965550>, <Course.Course object at 0x109965668>, <Course.Course object at 0x1099657f0>, <Course.Course object at 0x109965978>, <Course.Course object at 0x109965b38>, <Course.Course object at 0x109965d30>, <Course.Course object at 0x109965eb8>, <Course.Course object at 0x109965fd0>, <Course.Course object at 0x109967198>, <Course.Course object at 0x109967320>, <Course.Course object at 0x1099674e0>, <Course.Course object at 0x1099676d8>, <Course.Course object at 0x109967860>, <Course.Course object at 0x1099679e8>, <Course.Course object at 0x109967b00>, <Course.Course object at 0x109967c88>, <Course.Course object at 0x109967e10>, <Course.Course object at 0x109967f28>, <Course.Course object at 0x1099690f0>, <Course.Course object at 0x109969278>, <Course.Course object at 0x109969400>, <Course.Course object at 0x109969588>, <Course.Course object at 0x1099697b8>, <Course.Course object at 0x1099698d0>, <Course.Course object at 0x109969a58>, <Course.Course object at 0x109969be0>, <Course.Course object at 0x109969dd8>, <Course.Course object at 0x109969f60>, <Course.Course object at 0x10996d128>, <Course.Course object at 0x10996d2b0>, <Course.Course object at 0x10996d358>, <Course.Course object at 0x10996d4e0>, <Course.Course object at 0x10996d668>, <Course.Course object at 0x10996d7f0>, <Course.Course object at 0x10996d978>, <Course.Course object at 0x10996db70>, <Course.Course object at 0x10996dcf8>, <Course.Course object at 0x10996de10>, <Course.Course object at 0x10996df98>, <Course.Course object at 0x109970160>, <Course.Course object at 0x109970358>, <Course.Course object at 0x1099704e0>, <Course.Course object at 0x109970668>, <Course.Course object at 0x109970780>, <Course.Course object at 0x109970908>, <Course.Course object at 0x109970a90>, <Course.Course object at 0x109970ba8>, <Course.Course object at 0x109970d68>, <Course.Course object at 0x109970eb8>, <Course.Course object at 0x109970fd0>, <Course.Course object at 0x1099720f0>, <Course.Course object at 0x109972240>, <Course.Course object at 0x109972390>, <Course.Course object at 0x1099725c0>, <Course.Course object at 0x109972710>, <Course.Course object at 0x109972860>, <Course.Course object at 0x109972908>, <Course.Course object at 0x109972a58>, <Course.Course object at 0x109972ba8>, <Course.Course object at 0x109972dd8>, <Course.Course object at 0x109972eb8>, <Course.Course object at 0x1099d2dd8>, <Course.Course object at 0x1099d2fd0>, <Course.Course object at 0x1099d3198>, <Course.Course object at 0x1099d3320>, <Course.Course object at 0x1099d3470>, <Course.Course object at 0x1099d35c0>, <Course.Course object at 0x1099d3710>, <Course.Course object at 0x1099d3860>, <Course.Course object at 0x1099d39b0>, <Course.Course object at 0x1099d3b00>, <Course.Course object at 0x1099d3c50>, <Course.Course object at 0x1099d3da0>, <Course.Course object at 0x1099d3ef0>, <Course.Course object at 0x1099d3fd0>, <Course.Course object at 0x1099d71d0>, <Course.Course object at 0x1099d7358>, <Course.Course object at 0x1099d74e0>]
+         [<Course.Course object at 0x1099935f8>]
+         [<Course.Course object at 0x10997b780>, <Course.Course object at 0x10997b940>, <Course.Course object at 0x10997b9e8>, <Course.Course object at 0x10997bba8>, <Course.Course object at 0x10997bd68>, <Course.Course object at 0x10997bf28>]
+         [<Course.Course object at 0x1099840f0>, <Course.Course object at 0x1099842e8>, <Course.Course object at 0x1099dc0f0>, <Course.Course object at 0x1099dc240>, <Course.Course object at 0x1099dc390>, <Course.Course object at 0x1099dc4e0>, <Course.Course object at 0x1099dc630>, <Course.Course object at 0x1099dc780>]
+         [<Course.Course object at 0x10997b160>, <Course.Course object at 0x10997b208>]
+         [<Course.Course object at 0x109997748>, <Course.Course object at 0x109997908>, <Course.Course object at 0x109997ac8>, <Course.Course object at 0x109997c88>, <Course.Course object at 0x109997e48>, <Course.Course object at 0x10999a048>]
+         [<Course.Course object at 0x10998a978>, <Course.Course object at 0x10998aba8>, <Course.Course object at 0x10998ada0>, <Course.Course object at 0x10998aeb8>, <Course.Course object at 0x10998d0b8>, <Course.Course object at 0x10998d2b0>, <Course.Course object at 0x10998d3c8>, <Course.Course object at 0x10998d588>, <Course.Course object at 0x10998d780>, <Course.Course object at 0x10998d898>, <Course.Course object at 0x10998d9e8>, <Course.Course object at 0x10998dbe0>, <Course.Course object at 0x10998dd68>, <Course.Course object at 0x10998deb8>, <Course.Course object at 0x1099910f0>, <Course.Course object at 0x109991278>, <Course.Course object at 0x1099913c8>, <Course.Course object at 0x1099915c0>]
+         [<Course.Course object at 0x109987f60>, <Course.Course object at 0x10998a128>, <Course.Course object at 0x10998a2e8>, <Course.Course object at 0x10998a4a8>, <Course.Course object at 0x10998a5f8>, <Course.Course object at 0x10998a7b8>]
+         [<Course.Course object at 0x109993748>, <Course.Course object at 0x1099937b8>]
+         [<Course.Course object at 0x109987c88>]
+         [<Course.Course object at 0x109982f98>]
+         [<Course.Course object at 0x109954ac8>]
+         [<Course.Course object at 0x109995400>, <Course.Course object at 0x109995550>, <Course.Course object at 0x109995748>, <Course.Course object at 0x109995908>, <Course.Course object at 0x109995a58>, <Course.Course object at 0x109995c50>, <Course.Course object at 0x109995e10>, <Course.Course object at 0x109995fd0>, <Course.Course object at 0x1099971d0>, <Course.Course object at 0x109997390>, <Course.Course object at 0x109997550>]
+         [<Course.Course object at 0x1099820f0>]
+         [<Course.Course object at 0x109987c18>]
+         [<Course.Course object at 0x109991e48>]
+         [<Course.Course object at 0x10997e8d0>, <Course.Course object at 0x10997eb38>, <Course.Course object at 0x10997ec18>, <Course.Course object at 0x10997eda0>, <Course.Course object at 0x10997ef28>]
+         [<Course.Course object at 0x109987860>]
+         [<Course.Course object at 0x109982e10>]
+         [<Course.Course object at 0x1099950b8>, <Course.Course object at 0x109995208>]
+         [<Course.Course object at 0x10997b668>, <Course.Course object at 0x1099d9a20>, <Course.Course object at 0x1099d9b70>, <Course.Course object at 0x1099d9cc0>, <Course.Course object at 0x1099d9e10>, <Course.Course object at 0x1099d9f60>]
+         [<Course.Course object at 0x1099931d0>]
+         [<Course.Course object at 0x1099591d0>]
+         [<Course.Course object at 0x109991a90>, <Course.Course object at 0x109991b38>, <Course.Course object at 0x109991cc0>]
+         [<Course.Course object at 0x109993d68>, <Course.Course object at 0x109993e80>]
+---- BIOCHEM
+         [<Course.Course object at 0x1099e0588>, <Course.Course object at 0x109b9c0f0>, <Course.Course object at 0x109b9c2b0>, <Course.Course object at 0x109b9c470>, <Course.Course object at 0x109b9c668>, <Course.Course object at 0x109b9c828>, <Course.Course object at 0x109b9c9e8>, <Course.Course object at 0x109b9cba8>, <Course.Course object at 0x109b9cd68>, <Course.Course object at 0x109b9cf60>, <Course.Course object at 0x109b9e198>, <Course.Course object at 0x109b9e390>, <Course.Course object at 0x109b9e550>, <Course.Course object at 0x109b9e710>, <Course.Course object at 0x109b9e8d0>, <Course.Course object at 0x109b9ea90>, <Course.Course object at 0x109b9ec50>, <Course.Course object at 0x109b9ee10>, <Course.Course object at 0x109b9efd0>, <Course.Course object at 0x109ba01d0>, <Course.Course object at 0x109ba0390>, <Course.Course object at 0x109ba0550>, <Course.Course object at 0x109ba0710>]
+         [<Course.Course object at 0x109bab588>]
+         [<Course.Course object at 0x109ba08d0>, <Course.Course object at 0x109ba0a90>, <Course.Course object at 0x109ba0c50>, <Course.Course object at 0x109ba0e10>, <Course.Course object at 0x109ba2048>, <Course.Course object at 0x109ba2208>, <Course.Course object at 0x109ba23c8>, <Course.Course object at 0x109ba2588>, <Course.Course object at 0x109ba2748>, <Course.Course object at 0x109ba2908>, <Course.Course object at 0x109ba2b00>, <Course.Course object at 0x109ba2cf8>, <Course.Course object at 0x109ba2eb8>, <Course.Course object at 0x109ba30f0>, <Course.Course object at 0x109ba32b0>, <Course.Course object at 0x109ba3470>, <Course.Course object at 0x109ba3630>, <Course.Course object at 0x109ba37f0>, <Course.Course object at 0x109ba39b0>, <Course.Course object at 0x109ba3b70>, <Course.Course object at 0x109ba3d30>, <Course.Course object at 0x109ba3ef0>]
+         [<Course.Course object at 0x109ba50f0>, <Course.Course object at 0x109ba52b0>, <Course.Course object at 0x109ba5470>, <Course.Course object at 0x109ba5668>, <Course.Course object at 0x109ba5828>, <Course.Course object at 0x109ba59e8>, <Course.Course object at 0x109ba5ba8>, <Course.Course object at 0x109ba5d68>, <Course.Course object at 0x109ba5f28>, <Course.Course object at 0x109ba7160>, <Course.Course object at 0x109ba7358>, <Course.Course object at 0x109ba7550>, <Course.Course object at 0x109ba7710>, <Course.Course object at 0x109ba78d0>, <Course.Course object at 0x109ba7a90>, <Course.Course object at 0x109ba7c50>, <Course.Course object at 0x109ba7e10>, <Course.Course object at 0x109ba7fd0>, <Course.Course object at 0x109ba91d0>, <Course.Course object at 0x109ba9390>, <Course.Course object at 0x109ba9550>, <Course.Course object at 0x109ba9710>, <Course.Course object at 0x109ba98d0>]
+         [<Course.Course object at 0x109ba9b70>, <Course.Course object at 0x109ba9dd8>, <Course.Course object at 0x109ba9f98>, <Course.Course object at 0x109bab1d0>, <Course.Course object at 0x109bab3c8>]
+         [<Course.Course object at 0x109ba9a90>]
+---- BME
+         [<Course.Course object at 0x109c1a0f0>, <Course.Course object at 0x109c1a2e8>, <Course.Course object at 0x109c1a4e0>, <Course.Course object at 0x109c1a6d8>, <Course.Course object at 0x109c1a8d0>, <Course.Course object at 0x109c1aac8>, <Course.Course object at 0x109c1acc0>, <Course.Course object at 0x109c1aeb8>, <Course.Course object at 0x109c1c0f0>, <Course.Course object at 0x109c1c2e8>, <Course.Course object at 0x109c1c4e0>, <Course.Course object at 0x109c1c6d8>, <Course.Course object at 0x109c1c8d0>, <Course.Course object at 0x109c1cac8>, <Course.Course object at 0x109c1ccc0>, <Course.Course object at 0x109c1ceb8>, <Course.Course object at 0x109c1d0f0>, <Course.Course object at 0x109c1d2e8>, <Course.Course object at 0x109c1d518>, <Course.Course object at 0x109c1d710>, <Course.Course object at 0x109c1d908>, <Course.Course object at 0x109c1db00>, <Course.Course object at 0x109c1dcf8>, <Course.Course object at 0x109c1def0>, <Course.Course object at 0x109c1f128>, <Course.Course object at 0x109c1f320>, <Course.Course object at 0x109c1f550>, <Course.Course object at 0x109c1f780>, <Course.Course object at 0x109c1f9b0>, <Course.Course object at 0x109c1fba8>, <Course.Course object at 0x109c1fda0>, <Course.Course object at 0x109c1ffd0>, <Course.Course object at 0x109c20208>, <Course.Course object at 0x109c20400>, <Course.Course object at 0x109c205f8>, <Course.Course object at 0x109c207f0>, <Course.Course object at 0x109c20a20>, <Course.Course object at 0x109c20c18>, <Course.Course object at 0x109c20e10>, <Course.Course object at 0x109c22048>, <Course.Course object at 0x109c22240>, <Course.Course object at 0x109c22438>, <Course.Course object at 0x109c22630>, <Course.Course object at 0x109c22828>, <Course.Course object at 0x109c22a20>, <Course.Course object at 0x109c22c18>]
+         [<Course.Course object at 0x109f77b00>, <Course.Course object at 0x109f77c50>, <Course.Course object at 0x109f77dd8>, <Course.Course object at 0x109f77f60>]
+         [<Course.Course object at 0x109f700b8>, <Course.Course object at 0x109f70828>, <Course.Course object at 0x109f70978>, <Course.Course object at 0x109f70a90>, <Course.Course object at 0x109f70c18>]
+         [<Course.Course object at 0x109f83828>, <Course.Course object at 0x109f83a58>, <Course.Course object at 0x109f83b70>, <Course.Course object at 0x109f83d68>]
+         [<Course.Course object at 0x109f83550>]
+         [<Course.Course object at 0x109f85400>]
+         [<Course.Course object at 0x109f83fd0>]
+         [<Course.Course object at 0x109f88278>, <Course.Course object at 0x109f88400>, <Course.Course object at 0x109f885f8>, <Course.Course object at 0x109f887f0>, <Course.Course object at 0x109f889e8>, <Course.Course object at 0x109f88be0>, <Course.Course object at 0x109f88dd8>, <Course.Course object at 0x109f88fd0>, <Course.Course object at 0x109f8a208>, <Course.Course object at 0x109f8a400>, <Course.Course object at 0x109f8a5f8>, <Course.Course object at 0x109f8a7f0>, <Course.Course object at 0x109f8a9e8>, <Course.Course object at 0x109f8abe0>, <Course.Course object at 0x109f8add8>, <Course.Course object at 0x109f8afd0>, <Course.Course object at 0x109f8b208>, <Course.Course object at 0x109f8b400>, <Course.Course object at 0x109f8b630>, <Course.Course object at 0x109f8b828>, <Course.Course object at 0x109f8ba20>, <Course.Course object at 0x109f8bc18>, <Course.Course object at 0x109f8be10>, <Course.Course object at 0x109f8d048>, <Course.Course object at 0x109f8d240>, <Course.Course object at 0x109f8d438>, <Course.Course object at 0x109f8d668>, <Course.Course object at 0x109f8d898>, <Course.Course object at 0x109f8dac8>, <Course.Course object at 0x109f8dcf8>, <Course.Course object at 0x109f8def0>, <Course.Course object at 0x109f8e128>, <Course.Course object at 0x109f8e358>, <Course.Course object at 0x109f8e550>, <Course.Course object at 0x109f8e748>, <Course.Course object at 0x109f8e940>, <Course.Course object at 0x109f8eb38>, <Course.Course object at 0x109f8ed68>, <Course.Course object at 0x109f8ef60>, <Course.Course object at 0x109c0e198>, <Course.Course object at 0x109c0e390>, <Course.Course object at 0x109c0e588>, <Course.Course object at 0x109c0e780>, <Course.Course object at 0x109c0e978>, <Course.Course object at 0x109c0eb70>, <Course.Course object at 0x109c0ed68>]
+         [<Course.Course object at 0x109995240>]
+         [<Course.Course object at 0x109f83eb8>]
+         [<Course.Course object at 0x109f7a7f0>]
+         [<Course.Course object at 0x109f75470>, <Course.Course object at 0x109f755c0>, <Course.Course object at 0x109f756d8>, <Course.Course object at 0x109f758d0>]
+         [<Course.Course object at 0x109f77160>, <Course.Course object at 0x109f77208>, <Course.Course object at 0x109f77358>, <Course.Course object at 0x109f77518>, <Course.Course object at 0x109f776a0>]
+         [<Course.Course object at 0x109f85208>]
+         [<Course.Course object at 0x109f77828>, <Course.Course object at 0x109f779b0>]
+         [<Course.Course object at 0x109f7a9e8>, <Course.Course object at 0x109f7abe0>, <Course.Course object at 0x109f7add8>, <Course.Course object at 0x109f7afd0>, <Course.Course object at 0x109f7c208>, <Course.Course object at 0x109f7c400>, <Course.Course object at 0x109f7c5f8>, <Course.Course object at 0x109f7c7f0>, <Course.Course object at 0x109f7c9e8>, <Course.Course object at 0x109f7cbe0>, <Course.Course object at 0x109f7cdd8>, <Course.Course object at 0x109f7cfd0>, <Course.Course object at 0x109f7d208>, <Course.Course object at 0x109f7d400>, <Course.Course object at 0x109f7d5f8>, <Course.Course object at 0x109f7d7f0>, <Course.Course object at 0x109f7d9e8>, <Course.Course object at 0x109f7dbe0>, <Course.Course object at 0x109f7de10>, <Course.Course object at 0x109f7f048>, <Course.Course object at 0x109f7f240>, <Course.Course object at 0x109f7f438>, <Course.Course object at 0x109f7f630>, <Course.Course object at 0x109f7f828>, <Course.Course object at 0x109f7fa20>, <Course.Course object at 0x109f7fc18>, <Course.Course object at 0x109f7fe48>, <Course.Course object at 0x109f800b8>, <Course.Course object at 0x109f802e8>, <Course.Course object at 0x109f804e0>, <Course.Course object at 0x109f806d8>, <Course.Course object at 0x109f80908>, <Course.Course object at 0x109f80b00>, <Course.Course object at 0x109f80cf8>, <Course.Course object at 0x109f80ef0>, <Course.Course object at 0x109f82128>, <Course.Course object at 0x109f82358>, <Course.Course object at 0x109f82550>, <Course.Course object at 0x109f82748>, <Course.Course object at 0x109f82940>, <Course.Course object at 0x109f82b38>, <Course.Course object at 0x109f82d30>, <Course.Course object at 0x109f82f28>, <Course.Course object at 0x109f83160>, <Course.Course object at 0x109f83358>]
+         [<Course.Course object at 0x109f83748>]
+         [<Course.Course object at 0x109f7a128>, <Course.Course object at 0x109f7a2b0>, <Course.Course object at 0x109f7a400>, <Course.Course object at 0x109f7a550>, <Course.Course object at 0x109f7a6d8>]
+         [<Course.Course object at 0x109f70dd8>, <Course.Course object at 0x109f70f60>, <Course.Course object at 0x109f750b8>, <Course.Course object at 0x109f75198>, <Course.Course object at 0x109f752e8>]
+         [<Course.Course object at 0x109f850f0>]
+         [<Course.Course object at 0x109c18ef0>]
+         [<Course.Course object at 0x109c0ef60>, <Course.Course object at 0x109c10198>, <Course.Course object at 0x109c10390>, <Course.Course object at 0x109c10588>, <Course.Course object at 0x109c10780>, <Course.Course object at 0x109c10978>, <Course.Course object at 0x109c10b70>, <Course.Course object at 0x109c10d68>, <Course.Course object at 0x109c10f60>, <Course.Course object at 0x109c12198>, <Course.Course object at 0x109c12390>, <Course.Course object at 0x109c12588>, <Course.Course object at 0x109c12780>, <Course.Course object at 0x109c12978>, <Course.Course object at 0x109c12b70>, <Course.Course object at 0x109c12d68>, <Course.Course object at 0x109c12f60>, <Course.Course object at 0x109c13198>, <Course.Course object at 0x109c13390>, <Course.Course object at 0x109c135c0>, <Course.Course object at 0x109c137b8>, <Course.Course object at 0x109c139b0>, <Course.Course object at 0x109c13ba8>, <Course.Course object at 0x109c13da0>, <Course.Course object at 0x109c13f98>, <Course.Course object at 0x109c151d0>, <Course.Course object at 0x109c153c8>, <Course.Course object at 0x109c155f8>, <Course.Course object at 0x109c15828>, <Course.Course object at 0x109c15a58>, <Course.Course object at 0x109c15c88>, <Course.Course object at 0x109c15e80>, <Course.Course object at 0x109c160b8>, <Course.Course object at 0x109c162e8>, <Course.Course object at 0x109c164e0>, <Course.Course object at 0x109c166d8>, <Course.Course object at 0x109c168d0>, <Course.Course object at 0x109c16ac8>, <Course.Course object at 0x109c16cf8>, <Course.Course object at 0x109c16ef0>, <Course.Course object at 0x109c18128>, <Course.Course object at 0x109c18320>, <Course.Course object at 0x109c18518>, <Course.Course object at 0x109c18710>, <Course.Course object at 0x109c18908>, <Course.Course object at 0x109c18b00>, <Course.Course object at 0x109c18cf8>]
+         [<Course.Course object at 0x109f75a20>, <Course.Course object at 0x109f75ba8>, <Course.Course object at 0x109f75cf8>, <Course.Course object at 0x109f75e48>, <Course.Course object at 0x109f75f60>]
+         [<Course.Course object at 0x109f85550>, <Course.Course object at 0x109f85780>, <Course.Course object at 0x109f85978>, <Course.Course object at 0x109f85b70>, <Course.Course object at 0x109f85d68>, <Course.Course object at 0x109f85f60>, <Course.Course object at 0x109f87198>, <Course.Course object at 0x109f87390>, <Course.Course object at 0x109f875c0>, <Course.Course object at 0x109f877f0>, <Course.Course object at 0x109f87a20>, <Course.Course object at 0x109f87c50>, <Course.Course object at 0x109f87e48>, <Course.Course object at 0x109f88080>]
+---- BSEMD
+         [<Course.Course object at 0x109bab1d0>]
+         [<Course.Course object at 0x109c48128>]
+         [<Course.Course object at 0x109c482b0>]
+         [<Course.Course object at 0x109c48470>]
+---- CAMPREC
+         [<Course.Course object at 0x10a1f2be0>, <Course.Course object at 0x10a1f2d30>, <Course.Course object at 0x10a1f5550>]
+         [<Course.Course object at 0x10a1f51d0>, <Course.Course object at 0x10a1f52b0>]
+         [<Course.Course object at 0x10a1f2ef0>, <Course.Course object at 0x10a1f2f98>, <Course.Course object at 0x10a1f5470>]
+         [<Course.Course object at 0x109f70f28>, <Course.Course object at 0x10a1e04e0>, <Course.Course object at 0x10a1e05f8>, <Course.Course object at 0x10a1e07f0>, <Course.Course object at 0x10a1e0940>, <Course.Course object at 0x10a1e0ac8>, <Course.Course object at 0x10a1e0c18>, <Course.Course object at 0x10a1e0d68>, <Course.Course object at 0x10a1e0eb8>, <Course.Course object at 0x10a1e0fd0>, <Course.Course object at 0x10a1e51d0>, <Course.Course object at 0x10a1e5358>, <Course.Course object at 0x10a1e5470>, <Course.Course object at 0x10a1e5668>, <Course.Course object at 0x10a1e5780>, <Course.Course object at 0x10a1e5940>, <Course.Course object at 0x10a1e5b00>, <Course.Course object at 0x10a1e5c88>, <Course.Course object at 0x10a1e5d68>, <Course.Course object at 0x10a1e5eb8>, <Course.Course object at 0x10a1e7080>, <Course.Course object at 0x10a1e7240>, <Course.Course object at 0x10a1e7320>, <Course.Course object at 0x10a1e7518>, <Course.Course object at 0x10a1e76a0>, <Course.Course object at 0x10a1e7828>, <Course.Course object at 0x10a1e7940>, <Course.Course object at 0x10a1e7b00>, <Course.Course object at 0x10a1e7be0>, <Course.Course object at 0x10a1e7d30>, <Course.Course object at 0x10a1e7eb8>, <Course.Course object at 0x10a1e9080>, <Course.Course object at 0x10a1e9208>, <Course.Course object at 0x10a1e93c8>, <Course.Course object at 0x10a1e9518>, <Course.Course object at 0x10a1e9668>, <Course.Course object at 0x10a1e97b8>, <Course.Course object at 0x10a1e98d0>, <Course.Course object at 0x10a1e9ac8>, <Course.Course object at 0x10a1e9be0>, <Course.Course object at 0x10a1e9dd8>, <Course.Course object at 0x10a1e9f60>, <Course.Course object at 0x10a1ec0b8>, <Course.Course object at 0x10a1ec208>, <Course.Course object at 0x10a1ec3c8>, <Course.Course object at 0x10a1ec5f8>, <Course.Course object at 0x10a1ec780>, <Course.Course object at 0x10a1ec898>, <Course.Course object at 0x10a1ecac8>, <Course.Course object at 0x10a1ecc88>, <Course.Course object at 0x10a1ecda0>, <Course.Course object at 0x10a1ecf98>, <Course.Course object at 0x10a1ee198>, <Course.Course object at 0x10a1ee390>, <Course.Course object at 0x10a1ee470>, <Course.Course object at 0x10a1ee668>, <Course.Course object at 0x10a1ee7b8>, <Course.Course object at 0x10a1ee940>, <Course.Course object at 0x10a1eeac8>, <Course.Course object at 0x10a1eec50>, <Course.Course object at 0x10a1eedd8>, <Course.Course object at 0x10a1eef60>, <Course.Course object at 0x10a1f00f0>, <Course.Course object at 0x10a1f02e8>, <Course.Course object at 0x10a1f0470>, <Course.Course object at 0x10a1f05f8>, <Course.Course object at 0x10a1f0780>, <Course.Course object at 0x10a1f0908>, <Course.Course object at 0x10a1f0a90>, <Course.Course object at 0x10a1f0c18>, <Course.Course object at 0x10a1f0da0>, <Course.Course object at 0x10a1f0e80>, <Course.Course object at 0x10a1f0f98>, <Course.Course object at 0x10a1f21d0>, <Course.Course object at 0x10a1f2358>, <Course.Course object at 0x10a1f2470>, <Course.Course object at 0x10a1f25f8>, <Course.Course object at 0x10a1f27b8>, <Course.Course object at 0x10a1f2940>, <Course.Course object at 0x10a1f2b00>, <Course.Course object at 0x10a1f5710>, <Course.Course object at 0x10a1f57f0>, <Course.Course object at 0x10a1f5908>, <Course.Course object at 0x10a1f5a90>, <Course.Course object at 0x10a1f5c50>, <Course.Course object at 0x10a1f5e48>, <Course.Course object at 0x10a1f5f28>, <Course.Course object at 0x10a1f7128>, <Course.Course object at 0x10a1f7240>, <Course.Course object at 0x10a1f7438>, <Course.Course object at 0x10a1f7550>, <Course.Course object at 0x10a1f76a0>, <Course.Course object at 0x10a1f7908>, <Course.Course object at 0x10a1f79e8>, <Course.Course object at 0x10a1f7c50>, <Course.Course object at 0x10a1f7da0>, <Course.Course object at 0x10a1f7f28>, <Course.Course object at 0x10a1fa0b8>, <Course.Course object at 0x10a1fa240>, <Course.Course object at 0x10a1fa400>, <Course.Course object at 0x10a1fa4a8>, <Course.Course object at 0x10a1fa668>, <Course.Course object at 0x10a1fa780>, <Course.Course object at 0x10a1fa9b0>, <Course.Course object at 0x10a1fab38>, <Course.Course object at 0x10a1facc0>]
+---- CBEMS
+         [<Course.Course object at 0x109b8b390>, <Course.Course object at 0x109b8b160>, <Course.Course object at 0x109b8c0b8>, <Course.Course object at 0x109b8c278>, <Course.Course object at 0x109b8c438>, <Course.Course object at 0x109b8c5f8>, <Course.Course object at 0x109b8c7b8>, <Course.Course object at 0x109b8c978>, <Course.Course object at 0x109b8cb38>, <Course.Course object at 0x109b8ccf8>, <Course.Course object at 0x109b8ceb8>, <Course.Course object at 0x108cdd0b8>, <Course.Course object at 0x108cdd278>, <Course.Course object at 0x108cdd438>, <Course.Course object at 0x108cdd5f8>, <Course.Course object at 0x108cdd7b8>, <Course.Course object at 0x108cdd9b0>, <Course.Course object at 0x108cddba8>, <Course.Course object at 0x108cddda0>, <Course.Course object at 0x108cddf60>, <Course.Course object at 0x108cdbef0>, <Course.Course object at 0x108cdbda0>, <Course.Course object at 0x108cdbba8>, <Course.Course object at 0x108cdb9e8>, <Course.Course object at 0x108cdb828>, <Course.Course object at 0x108cdb630>, <Course.Course object at 0x108cdb4e0>, <Course.Course object at 0x108cdb2b0>, <Course.Course object at 0x108cdb080>, <Course.Course object at 0x108ceceb8>, <Course.Course object at 0x108cecda0>, <Course.Course object at 0x108ceca58>, <Course.Course object at 0x108cec860>, <Course.Course object at 0x108cec710>, <Course.Course object at 0x108cec5f8>, <Course.Course object at 0x108cec390>, <Course.Course object at 0x108cec1d0>, <Course.Course object at 0x108ce4080>, <Course.Course object at 0x108ce4240>, <Course.Course object at 0x108ce4400>]
+         [<Course.Course object at 0x109c484e0>, <Course.Course object at 0x109bad710>]
+         [<Course.Course object at 0x109b9a400>]
+         [<Course.Course object at 0x109bb9b00>]
+         [<Course.Course object at 0x108ce4710>, <Course.Course object at 0x108ce4978>, <Course.Course object at 0x108ce4b38>, <Course.Course object at 0x108ce4cf8>, <Course.Course object at 0x108ce4eb8>, <Course.Course object at 0x108cf3748>, <Course.Course object at 0x108cf3eb8>, <Course.Course object at 0x108cf3c50>, <Course.Course object at 0x108cf3a20>, <Course.Course object at 0x108cf39b0>, <Course.Course object at 0x108cf3518>, <Course.Course object at 0x108cf35c0>, <Course.Course object at 0x108cf32e8>, <Course.Course object at 0x108cf3128>, <Course.Course object at 0x108d090b8>, <Course.Course object at 0x108d09278>, <Course.Course object at 0x108d09470>, <Course.Course object at 0x108d09668>, <Course.Course object at 0x108d09860>, <Course.Course object at 0x108d09a20>, <Course.Course object at 0x108d09be0>, <Course.Course object at 0x108d09da0>, <Course.Course object at 0x108d09f60>, <Course.Course object at 0x108d18160>, <Course.Course object at 0x108d18358>, <Course.Course object at 0x108d18518>, <Course.Course object at 0x108d186d8>, <Course.Course object at 0x108d18898>, <Course.Course object at 0x108d18a90>, <Course.Course object at 0x108d18c50>, <Course.Course object at 0x108d18e10>, <Course.Course object at 0x108d18fd0>, <Course.Course object at 0x108d1af28>, <Course.Course object at 0x108d1ad30>, <Course.Course object at 0x108d1a9e8>, <Course.Course object at 0x108d1a940>, <Course.Course object at 0x108d1a6d8>, <Course.Course object at 0x108d1a4e0>, <Course.Course object at 0x108d1a320>, <Course.Course object at 0x108d1a128>]
+         [<Course.Course object at 0x108ce45f8>]
+         [<Course.Course object at 0x109b9a4e0>]
+         [<Course.Course object at 0x109bb5278>, <Course.Course object at 0x109bb5470>, <Course.Course object at 0x109bb5630>, <Course.Course object at 0x109bb57f0>, <Course.Course object at 0x109bb59b0>, <Course.Course object at 0x109bb5b70>, <Course.Course object at 0x109bb5d30>, <Course.Course object at 0x109bb5ef0>, <Course.Course object at 0x109bb00f0>, <Course.Course object at 0x109bb02b0>, <Course.Course object at 0x109bb0470>, <Course.Course object at 0x109bb0630>, <Course.Course object at 0x109bb07f0>, <Course.Course object at 0x109bb09b0>, <Course.Course object at 0x109bb0b70>, <Course.Course object at 0x109bb0d68>, <Course.Course object at 0x109bb0f60>, <Course.Course object at 0x109bb2dd8>, <Course.Course object at 0x109bb2da0>, <Course.Course object at 0x109bb2be0>, <Course.Course object at 0x109bb29b0>, <Course.Course object at 0x109bb26d8>, <Course.Course object at 0x109bb25f8>, <Course.Course object at 0x109bb24a8>, <Course.Course object at 0x109bb2240>, <Course.Course object at 0x109bb20f0>, <Course.Course object at 0x109baee48>, <Course.Course object at 0x109baed68>, <Course.Course object at 0x109baeba8>, <Course.Course object at 0x109bae9b0>, <Course.Course object at 0x109bae6d8>, <Course.Course object at 0x109bae550>, <Course.Course object at 0x109bae438>, <Course.Course object at 0x109bae240>, <Course.Course object at 0x109b9a048>, <Course.Course object at 0x109b9a208>]
+         [<Course.Course object at 0x109bb9128>, <Course.Course object at 0x109bb9278>]
+         [<Course.Course object at 0x109bade80>]
+         [<Course.Course object at 0x109bb5198>]
+         [<Course.Course object at 0x109b9a898>, <Course.Course object at 0x109b9aa90>, <Course.Course object at 0x109b9ac50>, <Course.Course object at 0x109b9ae10>, <Course.Course object at 0x109b9afd0>, <Course.Course object at 0x109b981d0>, <Course.Course object at 0x109b98390>, <Course.Course object at 0x109b98550>, <Course.Course object at 0x109b98710>, <Course.Course object at 0x109b988d0>, <Course.Course object at 0x109b98a90>, <Course.Course object at 0x109b98c88>, <Course.Course object at 0x109b98e48>, <Course.Course object at 0x109b90da0>, <Course.Course object at 0x109b90e80>]
+         [<Course.Course object at 0x109bb9470>, <Course.Course object at 0x109bb96a0>, <Course.Course object at 0x109bb97f0>, <Course.Course object at 0x109bb9940>]
+         [<Course.Course object at 0x109b90cf8>, <Course.Course object at 0x109b90b00>, <Course.Course object at 0x109b90898>, <Course.Course object at 0x109b90710>, <Course.Course object at 0x109b904e0>, <Course.Course object at 0x109b90198>, <Course.Course object at 0x109b90208>, <Course.Course object at 0x109b8e0b8>, <Course.Course object at 0x109b8e278>, <Course.Course object at 0x109b8e438>, <Course.Course object at 0x109b8e5f8>, <Course.Course object at 0x109b8e7b8>, <Course.Course object at 0x109b8e978>, <Course.Course object at 0x109b8eb38>, <Course.Course object at 0x109b8ecf8>, <Course.Course object at 0x109b8eeb8>, <Course.Course object at 0x109b920f0>, <Course.Course object at 0x109b922e8>, <Course.Course object at 0x109b924e0>, <Course.Course object at 0x109b926a0>, <Course.Course object at 0x109b92860>, <Course.Course object at 0x109b92a20>, <Course.Course object at 0x109b92be0>, <Course.Course object at 0x109b92da0>, <Course.Course object at 0x109b92f98>, <Course.Course object at 0x109b8deb8>, <Course.Course object at 0x109b8dcc0>, <Course.Course object at 0x109b8d9e8>, <Course.Course object at 0x109b8d908>, <Course.Course object at 0x109b8d710>, <Course.Course object at 0x109b8d588>, <Course.Course object at 0x109b8d3c8>, <Course.Course object at 0x109b8d128>, <Course.Course object at 0x109b8d080>, <Course.Course object at 0x109b8be48>, <Course.Course object at 0x109b8bcc0>, <Course.Course object at 0x109b8bb00>, <Course.Course object at 0x109b8b940>, <Course.Course object at 0x109b8b6d8>, <Course.Course object at 0x109b8b518>]
+         [<Course.Course object at 0x109bb9a90>]
+         [<Course.Course object at 0x109bb9cf8>, <Course.Course object at 0x109bb9e80>, <Course.Course object at 0x109bb9fd0>]
+         [<Course.Course object at 0x109bb93c8>]
+         [<Course.Course object at 0x109b9a5f8>, <Course.Course object at 0x109b9a828>]
+---- CEM
+---- CHC/LAT
+         [<Course.Course object at 0x109bb9cf8>, <Course.Course object at 0x1099284a8>, <Course.Course object at 0x109928c88>, <Course.Course object at 0x109928dd8>, <Course.Course object at 0x109928f28>, <Course.Course object at 0x109921080>, <Course.Course object at 0x109921208>]
+         [<Course.Course object at 0x109921278>, <Course.Course object at 0x109921470>, <Course.Course object at 0x1099214a8>, <Course.Course object at 0x109921668>]
+         [<Course.Course object at 0x109915c88>, <Course.Course object at 0x1099159b0>, <Course.Course object at 0x1099159e8>, <Course.Course object at 0x1099157f0>, <Course.Course object at 0x1099155c0>, <Course.Course object at 0x109915438>, <Course.Course object at 0x109915240>, <Course.Course object at 0x109917f60>, <Course.Course object at 0x109917dd8>, <Course.Course object at 0x109917d30>, <Course.Course object at 0x109917ac8>, <Course.Course object at 0x109917828>]
+         [<Course.Course object at 0x1099164e0>, <Course.Course object at 0x1099166a0>, <Course.Course object at 0x109916860>, <Course.Course object at 0x109916a20>, <Course.Course object at 0x109916be0>, <Course.Course object at 0x109916da0>, <Course.Course object at 0x109916f60>, <Course.Course object at 0x10990e160>, <Course.Course object at 0x10990e320>, <Course.Course object at 0x10990e4e0>, <Course.Course object at 0x10990e6a0>, <Course.Course object at 0x10990e860>]
+         [<Course.Course object at 0x109916208>]
+         [<Course.Course object at 0x109917630>, <Course.Course object at 0x109917588>, <Course.Course object at 0x109917400>, <Course.Course object at 0x109917198>, <Course.Course object at 0x109913cf8>, <Course.Course object at 0x109913ef0>, <Course.Course object at 0x109913a90>, <Course.Course object at 0x109913ac8>, <Course.Course object at 0x1099137f0>, <Course.Course object at 0x109913710>, <Course.Course object at 0x109913518>, <Course.Course object at 0x109913390>]
+         [<Course.Course object at 0x10990ea20>, <Course.Course object at 0x10990ebe0>, <Course.Course object at 0x10990eda0>, <Course.Course object at 0x10990ef60>, <Course.Course object at 0x10990f160>, <Course.Course object at 0x10990f320>, <Course.Course object at 0x10990f4e0>, <Course.Course object at 0x10990f6a0>, <Course.Course object at 0x10990f860>, <Course.Course object at 0x10990fa20>, <Course.Course object at 0x10990fbe0>, <Course.Course object at 0x10990fda0>]
+         [<Course.Course object at 0x10991f198>, <Course.Course object at 0x10991e048>, <Course.Course object at 0x10991e208>, <Course.Course object at 0x10991e3c8>, <Course.Course object at 0x10991e588>, <Course.Course object at 0x10991e748>, <Course.Course object at 0x10991e908>, <Course.Course object at 0x10991eac8>, <Course.Course object at 0x10991ec88>, <Course.Course object at 0x10991ee48>, <Course.Course object at 0x109915f60>, <Course.Course object at 0x109915e10>]
+         [<Course.Course object at 0x109921cc0>]
+         [<Course.Course object at 0x10991f940>, <Course.Course object at 0x10991f780>, <Course.Course object at 0x10991f7b8>, <Course.Course object at 0x10991f4e0>]
+         [<Course.Course object at 0x10991fba8>]
+         [<Course.Course object at 0x10991fbe0>]
+         [<Course.Course object at 0x10991f3c8>, <Course.Course object at 0x10991f208>]
+         [<Course.Course object at 0x10991fcc0>]
+         [<Course.Course object at 0x1099131d0>]
+         [<Course.Course object at 0x109921e48>]
+         [<Course.Course object at 0x109916320>]
+         [<Course.Course object at 0x109921f98>]
+         [<Course.Course object at 0x10991ff98>]
+         [<Course.Course object at 0x10991f978>]
+         [<Course.Course object at 0x109916048>]
+         [<Course.Course object at 0x109921828>, <Course.Course object at 0x109921940>, <Course.Course object at 0x109921ac8>, <Course.Course object at 0x109921b38>]
+---- CHEM
+         31519362 function calls (31503322 primitive calls) in 34.137 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    122/1    0.010    0.000   34.137   34.137 {built-in method builtins.exec}
+        1    0.000    0.000   34.137   34.137 populate_redis.py:1(<module>)
+        1    0.004    0.004   33.994   33.994 populate_redis.py:23(populate_redis)
+       21    0.009    0.000   33.671    1.603 scrape_websoc.py:52(get_department)
+     2084    0.010    0.000   16.276    0.008 Course.py:56(__init__)
+     2084    0.046    0.000   16.266    0.008 Course.py:64(_parse)
+     2084    1.225    0.001   16.018    0.008 Course.py:106(_get_name_and_num)
+   461222    0.629    0.000   14.075    0.000 element.py:1240(find_all)
+   461199    0.965    0.000   14.037    0.000 element.py:986(__getattr__)
+   461222    2.067    0.000   13.446    0.000 element.py:502(_find_all)
+   461200    0.575    0.000   12.867    0.000 element.py:1229(find)
+       22    0.001    0.000    6.676    0.303 __init__.py:82(__init__)
+       22    0.000    0.000    6.669    0.303 __init__.py:235(_feed)
+       22    0.000    0.000    6.668    0.303 _htmlparser.py:159(feed)
+       22    0.000    0.000    6.668    0.303 parser.py:104(feed)
+       22    0.676    0.031    6.668    0.303 parser.py:134(goahead)
+     1855    0.005    0.000    6.606    0.004 socket.py:557(readinto)
+     1854    0.005    0.000    6.574    0.004 ssl.py:913(recv_into)
+     1854    0.004    0.000    6.568    0.004 ssl.py:778(read)
+     1854    0.003    0.000    6.564    0.004 ssl.py:563(read)
+     1854    6.561    0.004    6.561    0.004 {method 'read' of '_ssl._SSLSocket' objects}
+     2123    0.011    0.000    5.596    0.003 {method 'readline' of '_io.BufferedReader' objects}
+   788673    1.054    0.000    4.811    0.000 element.py:1627(search)
+       23    0.000    0.000    4.731    0.206 client.py:422(read)
+       22    0.005    0.000    4.731    0.215 client.py:538(_readall_chunked)
+       22    0.000    0.000    4.454    0.202 request.py:139(urlopen)
+    23/22    0.000    0.000    4.449    0.202 request.py:447(open)
+    47/45    0.000    0.000    4.447    0.099 request.py:436(_call_chain)
+       23    0.000    0.000    4.447    0.193 request.py:475(_open)
+       23    0.001    0.000    4.446    0.193 request.py:1200(do_open)
+       22    0.000    0.000    4.412    0.201 request.py:1281(https_open)
+   461222    1.176    0.000    4.091    0.000 element.py:1523(__init__)
+  7480913    1.725    0.000    3.960    0.000 {built-in method builtins.isinstance}
+     1918    0.005    0.000    3.684    0.002 client.py:514(_get_chunk_left)
+     1918    0.009    0.000    3.604    0.002 client.py:484(_read_next_chunk_size)
+    76168    0.739    0.000    3.516    0.000 parser.py:293(parse_starttag)
+   232994    0.648    0.000    3.153    0.000 element.py:1586(search_tag)
+  1200167    0.874    0.000    2.963    0.000 element.py:1550(_normalize_search_value)
+   975525    1.398    0.000    2.235    0.000 abc.py:178(__instancecheck__)
+       23    0.000    0.000    2.128    0.093 client.py:1081(request)
+       23    0.000    0.000    2.128    0.093 client.py:1109(_send_request)
+       23    0.000    0.000    2.126    0.092 client.py:1066(endheaders)
+       23    0.000    0.000    2.126    0.092 client.py:901(_send_output)
+       44    0.000    0.000    2.125    0.048 client.py:846(send)
+       22    0.000    0.000    2.111    0.096 client.py:1226(connect)
+       23    0.000    0.000    2.013    0.088 client.py:1130(getresponse)
+       23    0.000    0.000    2.012    0.087 client.py:275(begin)
+       23    0.001    0.000    2.004    0.087 client.py:242(_read_status)
+    76168    0.208    0.000    1.838    0.000 _htmlparser.py:52(handle_starttag)
+  1221495    0.412    0.000    1.818    0.000 {built-in method builtins.next}
+   277722    0.564    0.000    1.672    0.000 element.py:1653(_matches)
+    76168    0.242    0.000    1.630    0.000 __init__.py:386(handle_starttag)
+    74938    0.279    0.000    1.583    0.000 parser.py:378(parse_endtag)
+       22    0.000    0.000    1.489    0.068 ssl.py:368(wrap_socket)
+       22    0.001    0.000    1.489    0.068 ssl.py:662(__init__)
+       22    0.000    0.000    1.486    0.068 ssl.py:976(do_handshake)
+       22    0.000    0.000    1.486    0.068 ssl.py:626(do_handshake)
+       22    1.481    0.067    1.481    0.067 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+  1254511    0.814    0.000    1.424    0.000 element.py:1265(descendants)
+    76166    0.057    0.000    1.130    0.000 _htmlparser.py:64(handle_endtag)
+    76166    0.087    0.000    1.073    0.000 __init__.py:413(handle_endtag)
+     3793    0.011    0.000    1.046    0.000 client.py:576(_safe_read)
+     3792    0.010    0.000    1.031    0.000 {method 'read' of '_io.BufferedReader' objects}
+    76190    0.362    0.000    1.031    0.000 element.py:779(__init__)
+   152930    0.267    0.000    0.854    0.000 __init__.py:287(endData)
+  1951054    0.837    0.000    0.837    0.000 _weakrefset.py:70(__contains__)
+   583669    0.719    0.000    0.719    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+       23    0.001    0.000    0.634    0.028 client.py:823(connect)
+       23    0.000    0.000    0.633    0.028 socket.py:673(create_connection)
+       24    0.620    0.026    0.620    0.026 {method 'connect' of '_socket.socket' objects}
+  1296639    0.577    0.000    0.577    0.000 {built-in method builtins.hasattr}
+   455503    0.463    0.000    0.550    0.000 element.py:282(_last_descendant)
+   461222    0.510    0.000    0.511    0.000 element.py:1711(__init__)
+    64957    0.291    0.000    0.437    0.000 __init__.py:148(_replace_cdata_list_attribute_values)
+   466118    0.265    0.000    0.401    0.000 element.py:939(get)
+   224638    0.368    0.000    0.380    0.000 element.py:189(setup)
+    76168    0.111    0.000    0.350    0.000 parser.py:344(check_for_whole_start_tag)
+   335038    0.231    0.000    0.336    0.000 _markupbase.py:48(updatepos)
+    76166    0.205    0.000    0.310    0.000 __init__.py:363(_popToTag)
+   878696    0.309    0.000    0.309    0.000 element.py:556(previous_elements)
+       22    0.000    0.000    0.304    0.014 client.py:1205(__init__)
+       22    0.000    0.000    0.303    0.014 ssl.py:425(create_default_context)
+    74224    0.149    0.000    0.299    0.000 __init__.py:317(object_was_parsed)
+       22    0.000    0.000    0.299    0.014 ssl.py:416(load_default_certs)
+       22    0.299    0.014    0.299    0.014 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+    74224    0.112    0.000    0.274    0.000 element.py:676(__new__)
+        1    0.000    0.000    0.274    0.274 populate_redis.py:11(get_all_departments)
+   754593    0.241    0.000    0.241    0.000 {method 'startswith' of 'str' objects}
+   284060    0.235    0.000    0.235    0.000 {method 'search' of '_sre.SRE_Pattern' objects}
+  1286629    0.191    0.000    0.191    0.000 element.py:967(__bool__)
+    76190    0.150    0.000    0.185    0.000 __init__.py:278(pushTag)
+   620443    0.175    0.000    0.175    0.000 {method 'get' of 'dict' objects}
+    135/6    0.001    0.000    0.148    0.025 <frozen importlib._bootstrap>:966(_find_and_load)
+    135/6    0.001    0.000    0.148    0.025 <frozen importlib._bootstrap>:939(_find_and_load_unlocked)
+    125/6    0.001    0.000    0.147    0.024 <frozen importlib._bootstrap>:659(_load_unlocked)
+    103/6    0.001    0.000    0.146    0.024 <frozen importlib._bootstrap_external>:656(exec_module)
+    161/6    0.000    0.000    0.145    0.024 <frozen importlib._bootstrap>:214(_call_with_frames_removed)
+    23/22    0.000    0.000    0.142    0.006 request.py:574(http_response)
+        1    0.000    0.000    0.142    0.142 request.py:490(error)
+        1    0.000    0.000    0.142    0.142 request.py:633(http_error_302)
+1133279/1133091    0.142    0.000    0.142    0.000 {built-in method builtins.len}
+    94702    0.062    0.000    0.126    0.000 _htmlparser.py:67(handle_data)
+     2084    0.017    0.000    0.116    0.000 Course.py:15(__init__)
+80142/66251    0.084    0.000    0.103    0.000 element.py:848(string)
+    66937    0.100    0.000    0.100    0.000 {method 'keys' of 'dict' objects}
+   246205    0.098    0.000    0.098    0.000 {method 'count' of 'str' objects}
+   481137    0.096    0.000    0.096    0.000 {method 'append' of 'list' objects}
+    76168    0.078    0.000    0.093    0.000 __init__.py:269(popTag)
+        5    0.000    0.000    0.090    0.018 __init__.py:1(<module>)
+   286203    0.090    0.000    0.090    0.000 {method 'group' of '_sre.SRE_Match' objects}
+        1    0.000    0.000    0.088    0.088 schedule.py:1(<module>)
+      971    0.004    0.000    0.081    0.000 Course.py:26(<listcomp>)
+     1942    0.004    0.000    0.077    0.000 {built-in method strptime}
+     1942    0.007    0.000    0.071    0.000 _strptime.py:497(_strptime_datetime)
+    25483    0.031    0.000    0.070    0.000 Course.py:149(_str)
+   407135    0.069    0.000    0.069    0.000 {method 'lower' of 'str' objects}
+       23    0.000    0.000    0.066    0.003 client.py:385(_close_conn)
+       23    0.000    0.000    0.066    0.003 {method 'close' of '_io.BufferedReader' objects}
+       23    0.062    0.003    0.066    0.003 socket.py:634(close)
+   110427    0.032    0.000    0.066    0.000 __init__.py:122(unescape)
+   534590    0.065    0.000    0.065    0.000 {method 'items' of 'dict' objects}
+    94989    0.044    0.000    0.064    0.000 __init__.py:418(handle_data)
+     1942    0.036    0.000    0.064    0.000 _strptime.py:298(_strptime)
+   356036    0.056    0.000    0.056    0.000 {method 'end' of '_sre.SRE_Match' objects}
+    11273    0.041    0.000    0.053    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+    74465    0.051    0.000    0.051    0.000 {built-in method __new__ of type object at 0x1073a7e90}
+        1    0.000    0.000    0.049    0.049 scrape_websoc.py:1(<module>)
+     8355    0.016    0.000    0.049    0.000 Course.py:153(strip_soup)
+     1228    0.002    0.000    0.048    0.000 parser.py:418(handle_startendtag)
+        1    0.000    0.000    0.047    0.047 client.py:1(<module>)
+        1    0.000    0.000    0.046    0.046 request.py:68(<module>)
+    16126    0.019    0.000    0.045    0.000 _htmlparser.py:88(handle_entityref)
+        1    0.000    0.000    0.039    0.039 Course.py:1(<module>)
+    76190    0.039    0.000    0.039    0.000 __init__.py:104(can_be_empty_element)
+        1    0.000    0.000    0.038    0.038 __init__.py:17(<module>)
+    16/13    0.000    0.000    0.038    0.003 {built-in method builtins.__import__}
+        1    0.000    0.000    0.034    0.034 request.py:1267(http_open)
+    74938    0.031    0.000    0.031    0.000 parser.py:127(clear_cdata_mode)
+      132    0.002    0.000    0.031    0.000 <frozen importlib._bootstrap>:879(_find_spec)
+      103    0.001    0.000    0.030    0.000 <frozen importlib._bootstrap_external>:726(get_code)
+   167784    0.030    0.000    0.030    0.000 {method 'start' of '_sre.SRE_Match' objects}
+        1    0.000    0.000    0.028    0.028 element.py:1(<module>)
+  278/231    0.000    0.000    0.028    0.000 <frozen importlib._bootstrap>:996(_handle_fromlist)
+      128    0.000    0.000    0.027    0.000 <frozen importlib._bootstrap_external>:1130(find_spec)
+      128    0.001    0.000    0.027    0.000 <frozen importlib._bootstrap_external>:1098(_get_spec)
+    76426    0.027    0.000    0.027    0.000 {method 'endswith' of 'str' objects}
+      192    0.001    0.000    0.026    0.000 re.py:278(_compile)
+       91    0.000    0.000    0.025    0.000 re.py:222(compile)
+  438/436    0.010    0.000    0.025    0.000 {built-in method builtins.__build_class__}
+       61    0.001    0.000    0.025    0.000 sre_compile.py:531(compile)
+    76190    0.025    0.000    0.025    0.000 __init__.py:258(set_up_substitutions)
+        1    0.000    0.000    0.024    0.024 client.py:69(<module>)
+       18    0.000    0.000    0.022    0.001 client.py:2586(execute)
+      505    0.006    0.000    0.022    0.000 <frozen importlib._bootstrap_external>:1212(find_spec)
+        1    0.000    0.000    0.022    0.022 parser.py:5(<module>)
+       18    0.001    0.000    0.021    0.001 client.py:2473(_execute_transaction)
+        1    0.000    0.000    0.021    0.021 feedparser.py:20(<module>)
+        1    0.021    0.021    0.021    0.021 {method 'recv_into' of '_socket.socket' objects}
+      103    0.000    0.000    0.021    0.000 <frozen importlib._bootstrap_external>:471(_compile_bytecode)
+      103    0.020    0.000    0.020    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.019    0.019 connection.py:1(<module>)
+     4189    0.004    0.000    0.019    0.000 element.py:890(stripped_strings)
+    89944    0.018    0.000    0.018    0.000 {method 'strip' of 'str' objects}
+      265    0.017    0.000    0.017    0.000 {built-in method _pickle.dumps}
+        1    0.000    0.000    0.016    0.016 message.py:5(<module>)
+        1    0.000    0.000    0.016    0.016 pdb.py:65(<module>)
+79399/79355    0.015    0.000    0.016    0.000 {method 'join' of 'str' objects}
+    76253    0.016    0.000    0.016    0.000 {method 'pop' of 'list' objects}
+     1944    0.003    0.000    0.016    0.000 _strptime.py:29(_getlang)
+     4189    0.007    0.000    0.015    0.000 element.py:870(_all_strings)
+       24    0.000    0.000    0.013    0.001 socket.py:711(getaddrinfo)
+    63/61    0.000    0.000    0.013    0.000 sre_parse.py:819(parse)
+     2084    0.002    0.000    0.013    0.000 Course.py:16(<listcomp>)
+     1944    0.003    0.000    0.013    0.000 locale.py:562(getlocale)
+       24    0.009    0.000    0.013    0.001 {built-in method _socket.getaddrinfo}
+      125    0.000    0.000    0.013    0.000 <frozen importlib._bootstrap>:570(module_from_spec)
+   174/63    0.001    0.000    0.012    0.000 sre_parse.py:429(_parse_sub)
+   211/66    0.005    0.000    0.012    0.000 sre_parse.py:491(_parse)
+       18    0.001    0.000    0.012    0.001 __init__.py:349(namedtuple)
+     8542    0.009    0.000    0.011    0.000 __init__.py:91(_replace_charref)
+    16849    0.011    0.000    0.011    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.011    0.011 tempfile.py:24(<module>)
+        1    0.000    0.000    0.011    0.011 lock.py:1(<module>)
+       61    0.000    0.000    0.011    0.000 sre_compile.py:516(_code)
+        1    0.000    0.000    0.011    0.011 bdb.py:1(<module>)
+        1    0.000    0.000    0.010    0.010 uuid.py:45(<module>)
+        1    0.000    0.000    0.010    0.010 shutil.py:5(<module>)
+        1    0.000    0.000    0.010    0.010 dammit.py:8(<module>)
+       18    0.001    0.000    0.010    0.001 connection.py:628(pack_commands)
+        1    0.000    0.000    0.009    0.009 inspect.py:27(<module>)
+        1    0.000    0.000    0.009    0.009 ssl.py:88(<module>)
+      337    0.003    0.000    0.009    0.000 connection.py:596(pack_command)
+        1    0.000    0.000    0.008    0.008 utils.py:5(<module>)
+       18    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:900(create_module)
+       18    0.008    0.000    0.008    0.000 {built-in method _imp.create_dynamic}
+      265    0.001    0.000    0.008    0.000 _markupbase.py:168(parse_comment)
+     1944    0.002    0.000    0.007    0.000 locale.py:459(_parse_localename)
+   344/61    0.002    0.000    0.007    0.000 sre_compile.py:64(_compile)
+        1    0.000    0.000    0.007    0.007 _compat.py:1(<module>)
+     2567    0.003    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:50(_path_join)
+      337    0.000    0.000    0.007    0.000 client.py:2563(parse_response)
+    13859    0.007    0.000    0.007    0.000 {method 'rindex' of 'str' objects}
+       23    0.001    0.000    0.007    0.000 client.py:179(parse_headers)
+      337    0.000    0.000    0.007    0.000 client.py:580(parse_response)
+      265    0.001    0.000    0.006    0.000 _htmlparser.py:96(handle_comment)
+      337    0.000    0.000    0.006    0.000 connection.py:569(read_response)
+        1    0.000    0.000    0.006    0.006 util.py:1(<module>)
+  638/337    0.001    0.000    0.006    0.000 connection.py:224(read_response)
+        1    0.000    0.000    0.006    0.006 _htmlparser.py:1(<module>)
+       23    0.000    0.000    0.006    0.000 parser.py:60(parsestr)
+       23    0.000    0.000    0.005    0.000 parser.py:42(parse)
+        1    0.000    0.000    0.005    0.005 parser.py:1(<module>)
+      773    0.001    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:68(_path_stat)
+     1944    0.004    0.000    0.005    0.000 locale.py:376(normalize)
+      147    0.000    0.000    0.005    0.000 sre_compile.py:221(_compile_charset)
+        1    0.000    0.000    0.005    0.005 request.py:515(build_opener)
+       44    0.000    0.000    0.005    0.000 _htmlparser.py:141(prepare_markup)
+        1    0.000    0.000    0.005    0.005 threading.py:1(<module>)
+      803    0.005    0.000    0.005    0.000 {built-in method posix.stat}
+       22    0.000    0.000    0.005    0.000 dammit.py:342(__init__)
+      103    0.003    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:813(get_data)
+      147    0.003    0.000    0.005    0.000 sre_compile.py:248(_optimize_charset)
+        1    0.000    0.000    0.004    0.004 socket.py:47(<module>)
+      638    0.001    0.000    0.004    0.000 connection.py:157(readline)
+        1    0.000    0.000    0.004    0.004 pickle.py:24(<module>)
+       23    0.000    0.000    0.004    0.000 feedparser.py:175(feed)
+        1    0.000    0.000    0.004    0.004 traceback.py:1(<module>)
+       46    0.000    0.000    0.004    0.000 feedparser.py:180(_call_parse)
+       46    0.001    0.000    0.004    0.000 feedparser.py:217(_parsegen)
+      125    0.001    0.000    0.004    0.000 <frozen importlib._bootstrap>:510(_init_module_attrs)
+        1    0.000    0.000    0.004    0.004 request.py:728(__init__)
+        1    0.000    0.000    0.004    0.004 request.py:2505(getproxies)
+      286    0.004    0.000    0.004    0.000 {built-in method builtins.print}
+      585    0.001    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1061(_path_importer_cache)
+     1855    0.002    0.000    0.004    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+     2567    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:52(<listcomp>)
+     4453    0.004    0.000    0.004    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.004    0.004 __init__.py:3(<module>)
+       23    0.000    0.000    0.004    0.000 socket.py:389(_decref_socketios)
+       46    0.000    0.000    0.004    0.000 socket.py:399(close)
+       22    0.000    0.000    0.003    0.000 ssl.py:359(__new__)
+        1    0.001    0.001    0.003    0.003 linecache.py:6(<module>)
+        1    0.000    0.000    0.003    0.003 request.py:2489(getproxies_macosx_sysconf)
+        1    0.003    0.003    0.003    0.003 {built-in method _scproxy._get_proxies}
+     2183    0.003    0.000    0.003    0.000 {method 'split' of '_sre.SRE_Pattern' objects}
+       22    0.003    0.000    0.003    0.000 ssl.py:972(_real_close)
+        2    0.000    0.000    0.003    0.002 __init__.py:69(search_function)
+     5600    0.003    0.000    0.003    0.000 {method 'join' of 'bytes' objects}
+        1    0.000    0.000    0.003    0.003 _policybase.py:4(<module>)
+       61    0.001    0.000    0.003    0.000 sre_compile.py:412(_compile_info)
+       21    0.000    0.000    0.003    0.000 scrape_websoc.py:20(make_websoc_request)
+     2883    0.001    0.000    0.003    0.000 sre_parse.py:247(get)
+       18    0.000    0.000    0.003    0.000 connection.py:531(send_packed_command)
+        1    0.000    0.000    0.003    0.003 idna.py:3(<module>)
+       11    0.001    0.000    0.003    0.000 enum.py:88(__new__)
+        1    0.000    0.000    0.003    0.003 dyld.py:3(<module>)
+     1944    0.003    0.000    0.003    0.000 {method 'groupdict' of '_sre.SRE_Match' objects}
+     1944    0.003    0.000    0.003    0.000 {built-in method _locale.setlocale}
+      167    0.003    0.000    0.003    0.000 {built-in method posix.getcwd}
+        1    0.000    0.000    0.003    0.003 parse.py:28(<module>)
+     1204    0.001    0.000    0.003    0.000 connection.py:580(encode)
+     4576    0.003    0.000    0.003    0.000 {built-in method builtins.min}
+       22    0.000    0.000    0.003    0.000 dammit.py:408(_convert_from)
+     2084    0.002    0.000    0.002    0.000 element.py:956(__iter__)
+      206    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:243(cache_from_source)
+      135    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:163(__enter__)
+        6    0.000    0.000    0.002    0.000 enum.py:526(_convert)
+        1    0.000    0.000    0.002    0.002 bz2.py:5(<module>)
+        1    0.000    0.000    0.002    0.002 string.py:15(<module>)
+       26    0.000    0.000    0.002    0.000 connection.py:113(_read_from_socket)
+        1    0.000    0.000    0.002    0.002 subprocess.py:356(<module>)
+     1918    0.002    0.000    0.002    0.000 {method 'find' of 'bytes' objects}
+       22    0.002    0.000    0.002    0.000 dammit.py:435(_to_unicode)
+        1    0.000    0.000    0.002    0.002 dammit.py:51(EntitySubstitution)
+     3651    0.002    0.000    0.002    0.000 sre_parse.py:226(__next)
+      100    0.000    0.000    0.002    0.000 enum.py:209(__call__)
+        1    0.000    0.000    0.002    0.002 code.py:3(<module>)
+        1    0.000    0.000    0.002    0.002 dis.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 string.py:61(__init__)
+       23    0.000    0.000    0.002    0.000 request.py:265(__init__)
+        1    0.000    0.000    0.002    0.002 tokenize.py:21(<module>)
+     1364    0.002    0.000    0.002    0.000 {method 'replace' of 'datetime.time' objects}
+      224    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:406(cached)
+       22    0.000    0.000    0.002    0.000 ssl.py:583(getpeercert)
+     1878    0.002    0.000    0.002    0.000 socket.py:596(readable)
+     7169    0.002    0.000    0.002    0.000 element.py:700(__getattr__)
+       26    0.002    0.000    0.002    0.000 {method 'recv' of '_socket.socket' objects}
+     1855    0.002    0.000    0.002    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+       22    0.002    0.000    0.002    0.000 {method 'peer_certificate' of '_ssl._SSLSocket' objects}
+       22    0.000    0.000    0.002    0.000 parser.py:248(parse_html_declaration)
+     2507    0.002    0.000    0.002    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.002    0.002 _parseaddr.py:7(<module>)
+        1    0.000    0.000    0.002    0.002 header.py:5(<module>)
+       44    0.000    0.000    0.002    0.000 dammit.py:238(encodings)
+       43    0.000    0.000    0.002    0.000 ssl.py:876(sendall)
+     1901    0.001    0.000    0.002    0.000 _compat.py:68(b)
+        1    0.000    0.000    0.002    0.002 datetime.py:5(<module>)
+        1    0.000    0.000    0.002    0.002 charset.py:6(<module>)
+       22    0.000    0.000    0.002    0.000 ssl.py:254(match_hostname)
+        1    0.000    0.000    0.002    0.002 tarfile.py:30(<module>)
+       21    0.000    0.000    0.002    0.000 parse.py:753(urlencode)
+      121    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:339(_get_cached)
+        1    0.000    0.000    0.002    0.002 ipaddress.py:9(<module>)
+       22    0.002    0.000    0.002    0.000 {method 'set_ciphers' of '_ssl._SSLContext' objects}
+       22    0.000    0.000    0.002    0.000 _htmlparser.py:101(handle_decl)
+        1    0.000    0.000    0.002    0.002 dammit.py:55(_populate_class_variables)
+        6    0.000    0.000    0.002    0.000 enum.py:308(_create_)
+      103    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:416(_validate_bytecode_header)
+       22    0.000    0.000    0.002    0.000 dammit.py:297(find_declared_encoding)
+      103    0.002    0.000    0.002    0.000 {method 'read' of '_io.FileIO' objects}
+       43    0.000    0.000    0.002    0.000 ssl.py:849(send)
+       18    0.000    0.000    0.001    0.000 connection.py:265(<listcomp>)
+       43    0.000    0.000    0.001    0.000 ssl.py:575(write)
+       65    0.001    0.000    0.001    0.000 {method 'sendall' of '_socket.socket' objects}
+      154    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:87(_path_isfile)
+      165    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:78(_path_is_mode_type)
+      143    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:176(_get_module_lock)
+        1    0.000    0.000    0.001    0.001 lzma.py:9(<module>)
+     1339    0.001    0.000    0.001    0.000 sre_parse.py:157(__getitem__)
+       22    0.000    0.000    0.001    0.000 ipaddress.py:27(ip_address)
+       23    0.001    0.000    0.001    0.000 feedparser.py:470(_parse_headers)
+      210    0.000    0.000    0.001    0.000 parse.py:714(quote_plus)
+      134    0.001    0.000    0.001    0.000 client.py:1038(putheader)
+  462/193    0.001    0.000    0.001    0.000 sre_parse.py:167(getwidth)
+       43    0.001    0.000    0.001    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+      209    0.001    0.000    0.001    0.000 message.py:463(get)
+       23    0.000    0.000    0.001    0.000 request.py:289(full_url)
+     5481    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+       22    0.001    0.000    0.001    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.001    0.001 _strptime.py:12(<module>)
+        1    0.000    0.000    0.001    0.001 connection.py:430(connect)
+        1    0.000    0.000    0.001    0.001 signal.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 connection.py:453(_connect)
+       92    0.000    0.000    0.001    0.000 message.py:565(get_content_type)
+      121    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1207(_get_spec)
+     1450    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
+       10    0.000    0.000    0.001    0.000 request.py:385(add_handler)
+        1    0.000    0.000    0.001    0.001 _strptime.py:181(__init__)
+        1    0.000    0.000    0.001    0.001 random.py:37(<module>)
+     2548    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:363(_verbose_message)
+        1    0.000    0.000    0.001    0.001 framework.py:3(<module>)
+       14    0.000    0.000    0.001    0.000 abc.py:132(__new__)
+     3509    0.001    0.000    0.001    0.000 {method 'encode' of 'str' objects}
+       23    0.000    0.000    0.001    0.000 request.py:320(_parse)
+        1    0.000    0.000    0.001    0.001 dylib.py:3(<module>)
+      210    0.000    0.000    0.001    0.000 parse.py:670(quote)
+       23    0.000    0.000    0.001    0.000 client.py:212(__init__)
+      125    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:321(__exit__)
+      265    0.000    0.000    0.001    0.000 client.py:1038(set)
+        1    0.000    0.000    0.001    0.001 version.py:27(<module>)
+       86    0.000    0.000    0.001    0.000 ipaddress.py:1251(__init__)
+        1    0.000    0.000    0.001    0.001 selectors.py:5(<module>)
+     3885    0.001    0.000    0.001    0.000 {method 'toordinal' of 'datetime.date' objects}
+      103    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:823(path_stats)
+        1    0.000    0.000    0.001    0.001 stringprep.py:6(<module>)
+        1    0.000    0.000    0.001    0.001 element.py:120(PageElement)
+        1    0.000    0.000    0.001    0.001 _markupbase.py:6(<module>)
+       69    0.000    0.000    0.001    0.000 message.py:589(get_content_maintype)
+       41    0.000    0.000    0.001    0.000 ipaddress.py:1099(_ip_int_from_string)
+      135    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:170(__exit__)
+       23    0.000    0.000    0.001    0.000 client.py:915(putrequest)
+      154    0.000    0.000    0.001    0.000 enum.py:51(__setitem__)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1257(_fill_cache)
+        1    0.000    0.000    0.001    0.001 error.py:12(<module>)
+       23    0.001    0.000    0.001    0.000 socket.py:204(makefile)
+        1    0.000    0.000    0.001    0.001 request.py:871(AbstractBasicAuthHandler)
+        1    0.000    0.000    0.001    0.001 opcode.py:5(<module>)
+        1    0.000    0.000    0.001    0.001 hashlib.py:53(<module>)
+      304    0.000    0.000    0.001    0.000 client.py:2420(execute_command)
+       23    0.000    0.000    0.001    0.000 feedparser.py:186(close)
+        1    0.000    0.000    0.001    0.001 errors.py:5(<module>)
+       23    0.001    0.000    0.001    0.000 socket.py:395(_real_close)
+       14    0.001    0.000    0.001    0.000 {built-in method posix.listdir}
+     1311    0.000    0.000    0.001    0.000 sre_parse.py:242(match)
+        1    0.000    0.000    0.001    0.001 ipaddress.py:2257(_IPv6Constants)
+      210    0.000    0.000    0.001    0.000 parse.py:731(quote_from_bytes)
+       42    0.000    0.000    0.001    0.000 sre_compile.py:374(_mk_bitmap)
+      121    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:510(spec_from_file_location)
+      143    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:119(release)
+       94    0.000    0.000    0.001    0.000 socket.py:87(_intenum_converter)
+        1    0.000    0.000    0.001    0.001 argparse.py:62(<module>)
+       28    0.000    0.000    0.001    0.000 ipaddress.py:2151(__init__)
+        1    0.001    0.001    0.001    0.001 entities.py:1(<module>)
+     3794    0.001    0.000    0.001    0.000 ssl.py:766(_checkClosed)
+        1    0.000    0.000    0.001    0.001 __init__.py:24(<module>)
+     2105    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.001    0.001 pickle.py:180(<listcomp>)
+      248    0.000    0.000    0.001    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.001    0.001 bisect.py:1(<module>)
+        6    0.000    0.000    0.001    0.000 enum.py:541(<dictcomp>)
+       16    0.001    0.000    0.001    0.000 {built-in method builtins.dir}
+        1    0.000    0.000    0.001    0.001 utils.py:1(<module>)
+       46    0.001    0.000    0.001    0.000 socket.py:129(__init__)
+       22    0.000    0.000    0.001    0.000 request.py:247(request_host)
+        1    0.000    0.000    0.001    0.001 base64.py:3(<module>)
+      101    0.000    0.000    0.001    0.000 re.py:160(match)
+        1    0.000    0.000    0.001    0.001 calendar.py:6(<module>)
+      143    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:94(acquire)
+        1    0.000    0.000    0.001    0.001 version.py:93(StrictVersion)
+       22    0.000    0.000    0.001    0.000 parser.py:123(set_cdata_mode)
+      179    0.000    0.000    0.001    0.000 _policybase.py:307(header_fetch_parse)
+       23    0.000    0.000    0.001    0.000 request.py:1160(do_request_)
+       22    0.000    0.000    0.001    0.000 {built-in method _warnings.warn}
+       23    0.000    0.000    0.001    0.000 parse.py:870(splittype)
+        1    0.000    0.000    0.001    0.001 _strptime.py:52(__init__)
+        1    0.000    0.000    0.001    0.001 ipaddress.py:1553(_IPv4Constants)
+       25    0.000    0.000    0.001    0.000 parse.py:288(urlparse)
+      378    0.001    0.000    0.001    0.000 sre_parse.py:105(__init__)
+        1    0.000    0.000    0.000    0.000 message.py:106(Message)
+       46    0.000    0.000    0.000    0.000 idna.py:147(encode)
+      136    0.000    0.000    0.000    0.000 _policybase.py:289(header_source_parse)
+       18    0.000    0.000    0.000    0.000 ipaddress.py:1454(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1044(_path_hooks)
+      218    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      134    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__init__)
+      205    0.000    0.000    0.000    0.000 feedparser.py:128(__next__)
+      194    0.000    0.000    0.000    0.000 enum.py:295(__setattr__)
+     1500    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        4    0.000    0.000    0.000    0.000 _strptime.py:243(pattern)
+       42    0.000    0.000    0.000    0.000 sre_compile.py:376(<listcomp>)
+      179    0.000    0.000    0.000    0.000 _policybase.py:277(_sanitize_header)
+        1    0.000    0.000    0.000    0.000 _encoded_words.py:6(<module>)
+        1    0.000    0.000    0.000    0.000 _lxml.py:2(<module>)
+       22    0.000    0.000    0.000    0.000 __init__.py:245(reset)
+      206    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:56(_path_split)
+      265    0.000    0.000    0.000    0.000 client.py:357(<lambda>)
+       23    0.000    0.000    0.000    0.000 feedparser.py:139(__init__)
+     1942    0.000    0.000    0.000    0.000 {method 'time' of 'datetime.datetime' objects}
+        1    0.000    0.000    0.000    0.000 enum.py:1(<module>)
+       80    0.000    0.000    0.000    0.000 client.py:2385(reset)
+     1228    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 _strptime.py:266(compile)
+        3    0.000    0.000    0.000    0.000 vendor.py:29(add)
+      567    0.000    0.000    0.000    0.000 sre_parse.py:165(append)
+        1    0.000    0.000    0.000    0.000 element.py:59(ContentMetaAttributeValue)
+      547    0.000    0.000    0.000    0.000 sre_parse.py:276(tell)
+      140    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       23    0.000    0.000    0.000    0.000 parse.py:883(splithost)
+       22    0.000    0.000    0.000    0.000 __init__.py:38(lookup)
+        1    0.000    0.000    0.000    0.000 request.py:2383(getproxies_environment)
+      130    0.000    0.000    0.000    0.000 sre_compile.py:386(_simple)
+      638    0.000    0.000    0.000    0.000 _compat.py:61(byte_to_chr)
+        1    0.000    0.000    0.000    0.000 random.py:84(__init__)
+      388    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:856(__exit__)
+        1    0.000    0.000    0.000    0.000 random.py:93(seed)
+       98    0.000    0.000    0.000    0.000 ipaddress.py:1125(_parse_octet)
+        1    0.000    0.000    0.000    0.000 version.py:267(LooseVersion)
+       22    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+      132    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:716(find_spec)
+        1    0.000    0.000    0.000    0.000 _html5lib.py:2(<module>)
+        1    0.000    0.000    0.000    0.000 warnings.py:10(showwarning)
+        1    0.000    0.000    0.000    0.000 util.py:81(find_library)
+        1    0.000    0.000    0.000    0.000 __init__.py:5(HTTPStatus)
+        3    0.000    0.000    0.000    0.000 dyld.py:116(dyld_find)
+       23    0.000    0.000    0.000    0.000 client.py:355(_check_close)
+        1    0.000    0.000    0.000    0.000 quoprimime.py:27(<module>)
+       22    0.000    0.000    0.000    0.000 socket.py:415(family)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1298(path_hook_for_FileFinder)
+       45    0.000    0.000    0.000    0.000 _collections_abc.py:675(__iter__)
+       65    0.000    0.000    0.000    0.000 sre_parse.py:217(__init__)
+      388    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:852(__enter__)
+      304    0.000    0.000    0.000    0.000 client.py:2458(pipeline_execute_command)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+      558    0.000    0.000    0.000    0.000 sre_parse.py:153(__len__)
+     1942    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 warnings.py:22(formatwarning)
+        1    0.000    0.000    0.000    0.000 ast.py:26(<module>)
+      121    0.000    0.000    0.000    0.000 ipaddress.py:1875(__init__)
+      206    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:45(_r_long)
+        1    0.000    0.000    0.000    0.000 glob.py:1(<module>)
+       77    0.000    0.000    0.000    0.000 sre_parse.py:78(opengroup)
+       50    0.000    0.000    0.000    0.000 ipaddress.py:1623(_ip_int_from_string)
+      136    0.000    0.000    0.000    0.000 element.py:522(<genexpr>)
+       23    0.000    0.000    0.000    0.000 feedparser.py:98(push)
+      265    0.000    0.000    0.000    0.000 _compat.py:63(nativestr)
+      624    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 linecache.py:15(getline)
+     1313    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        1    0.000    0.000    0.000    0.000 linecache.py:37(getlines)
+       40    0.000    0.000    0.000    0.000 sre_parse.py:260(getuntil)
+      205    0.000    0.000    0.000    0.000 feedparser.py:75(readline)
+       21    0.000    0.000    0.000    0.000 client.py:2009(zadd)
+       22    0.000    0.000    0.000    0.000 idna.py:184(decode)
+      337    0.000    0.000    0.000    0.000 connection.py:69(__init__)
+        1    0.000    0.000    0.000    0.000 linecache.py:82(updatecache)
+        1    0.000    0.000    0.000    0.000 exceptions.py:1(<module>)
+        3    0.000    0.000    0.000    0.000 site.py:188(addsitedir)
+        4    0.000    0.000    0.000    0.000 ssl.py:115(_import_symbols)
+      124    0.000    0.000    0.000    0.000 enum.py:8(_is_descriptor)
+        1    0.000    0.000    0.000    0.000 queue.py:1(<module>)
+      505    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:30(_relax_case)
+        1    0.000    0.000    0.000    0.000 _compression.py:1(<module>)
+       23    0.000    0.000    0.000    0.000 client.py:726(__init__)
+        1    0.000    0.000    0.000    0.000 client.py:203(HTTPResponse)
+      134    0.000    0.000    0.000    0.000 {method 'fullmatch' of '_sre.SRE_Pattern' objects}
+       18    0.000    0.000    0.000    0.000 connection.py:903(release)
+       25    0.000    0.000    0.000    0.000 parse.py:321(urlsplit)
+       38    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+       22    0.000    0.000    0.000    0.000 dammit.py:216(__init__)
+       14    0.000    0.000    0.000    0.000 abc.py:135(<setcomp>)
+       23    0.000    0.000    0.000    0.000 client.py:390(close)
+       46    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+       88    0.000    0.000    0.000    0.000 message.py:30(_splitparam)
+        1    0.000    0.000    0.000    0.000 _strptime.py:98(__calc_month)
+      132    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(__init__)
+      545    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+      134    0.000    0.000    0.000    0.000 request.py:1226(<genexpr>)
+       22    0.000    0.000    0.000    0.000 dammit.py:446(find_codec)
+       59    0.000    0.000    0.000    0.000 os.py:676(__getitem__)
+      102    0.000    0.000    0.000    0.000 __init__.py:414(<genexpr>)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:737(create_module)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+      531    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       94    0.000    0.000    0.000    0.000 enum.py:453(__new__)
+      128    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:789(find_spec)
+      488    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+      716    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BytesIO' objects}
+      664    0.000    0.000    0.000    0.000 {method 'endswith' of 'bytes' objects}
+       22    0.000    0.000    0.000    0.000 ssl.py:194(_dnsname_match)
+       23    0.000    0.000    0.000    0.000 socket.py:545(__init__)
+        1    0.000    0.000    0.000    0.000 _compat_pickle.py:9(<module>)
+       62    0.000    0.000    0.000    0.000 sre_parse.py:312(_class_escape)
+      125    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:419(parent)
+        6    0.000    0.000    0.000    0.000 _strptime.py:224(__seqToRE)
+      972    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:379(_check_name_wrapper)
+       71    0.000    0.000    0.000    0.000 sre_parse.py:362(_escape)
+      282    0.000    0.000    0.000    0.000 sre_parse.py:75(groups)
+      157    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       18    0.000    0.000    0.000    0.000 connection.py:886(get_connection)
+      179    0.000    0.000    0.000    0.000 utils.py:51(_has_surrogates)
+        1    0.000    0.000    0.000    0.000 quoprimime.py:55(<listcomp>)
+       61    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       91    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+      664    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BytesIO' objects}
+       24    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1175(__init__)
+       18    0.000    0.000    0.000    0.000 client.py:1489(sadd)
+       23    0.000    0.000    0.000    0.000 client.py:832(close)
+        1    0.000    0.000    0.000    0.000 _strptime.py:90(__calc_weekday)
+       22    0.000    0.000    0.000    0.000 dammit.py:457(_codec)
+       26    0.000    0.000    0.000    0.000 calendar.py:55(__getitem__)
+      273    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       23    0.000    0.000    0.000    0.000 {function HTTPResponse.close at 0x1080116a8}
+      215    0.000    0.000    0.000    0.000 socket.py:81(<lambda>)
+        1    0.000    0.000    0.000    0.000 enum.py:447(Enum)
+      496    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:324(<genexpr>)
+      125    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:314(__enter__)
+       23    0.000    0.000    0.000    0.000 feedparser.py:199(_new_message)
+       18    0.000    0.000    0.000    0.000 client.py:2551(raise_first_error)
+       88    0.000    0.000    0.000    0.000 request.py:351(add_unredirected_header)
+      102    0.000    0.000    0.000    0.000 __init__.py:412(<genexpr>)
+        1    0.000    0.000    0.000    0.000 response.py:7(<module>)
+       24    0.000    0.000    0.000    0.000 request.py:328(get_method)
+      214    0.000    0.000    0.000    0.000 socket.py:76(<lambda>)
+      157    0.000    0.000    0.000    0.000 client.py:894(_output)
+       22    0.000    0.000    0.000    0.000 parser.py:87(__init__)
+       44    0.000    0.000    0.000    0.000 _weakrefset.py:36(__init__)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:783(__init__)
+       50    0.000    0.000    0.000    0.000 _strptime.py:239(<genexpr>)
+        9    0.000    0.000    0.000    0.000 datetime.py:338(__new__)
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+       14    0.000    0.000    0.000    0.000 calendar.py:74(__getitem__)
+       11    0.000    0.000    0.000    0.000 enum.py:400(_find_new_)
+        1    0.000    0.000    0.000    0.000 queue.py:21(Queue)
+        1    0.000    0.000    0.000    0.000 client.py:281(StrictRedis)
+      153    0.000    0.000    0.000    0.000 {method 'issuperset' of 'frozenset' objects}
+      123    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:225(_verbose_message)
+      135    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(__init__)
+       23    0.000    0.000    0.000    0.000 client.py:1111(<listcomp>)
+       26    0.000    0.000    0.000    0.000 dyld.py:94(dyld_default_search)
+      136    0.000    0.000    0.000    0.000 message.py:480(set_raw)
+      122    0.000    0.000    0.000    0.000 sre_compile.py:513(isstring)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:92(_path_isdir)
+        1    0.000    0.000    0.000    0.000 pdb.py:135(Pdb)
+        1    0.000    0.000    0.000    0.000 _policybase.py:99(_extend_docstrings)
+      217    0.000    0.000    0.000    0.000 sre_compile.py:101(fixup)
+       63    0.000    0.000    0.000    0.000 sre_parse.py:70(__init__)
+      163    0.000    0.000    0.000    0.000 enum.py:16(_is_dunder)
+        3    0.000    0.000    0.000    0.000 abc.py:194(__subclasscheck__)
+       22    0.000    0.000    0.000    0.000 element.py:70(__new__)
+       36    0.000    0.000    0.000    0.000 connection.py:876(_checkpid)
+        1    0.000    0.000    0.000    0.000 __init__.py:262(_reset_cache)
+       21    0.000    0.000    0.000    0.000 client.py:1973(pipeline)
+       46    0.000    0.000    0.000    0.000 message.py:121(__init__)
+      111    0.000    0.000    0.000    0.000 {method 'title' of 'str' objects}
+      125    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:310(__init__)
+       10    0.000    0.000    0.000    0.000 functools.py:43(update_wrapper)
+        1    0.000    0.000    0.000    0.000 <string>:5(Attribute)
+       46    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
+       22    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+       63    0.000    0.000    0.000    0.000 sre_parse.py:797(fix_flags)
+       22    0.000    0.000    0.000    0.000 socket.py:421(type)
+      388    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 connection.py:271(HiredisParser)
+       45    0.000    0.000    0.000    0.000 re.py:240(escape)
+       23    0.000    0.000    0.000    0.000 genericpath.py:27(isfile)
+      825    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+      103    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       57    0.000    0.000    0.000    0.000 __init__.py:19(__new__)
+      128    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 _endian.py:1(<module>)
+       92    0.000    0.000    0.000    0.000 os.py:756(decode)
+        1    0.000    0.000    0.000    0.000 _strptime.py:93(<listcomp>)
+        1    0.000    0.000    0.000    0.000 _strptime.py:100(<listcomp>)
+        3    0.000    0.000    0.000    0.000 __init__.py:73(CFUNCTYPE)
+       23    0.000    0.000    0.000    0.000 client.py:769(_get_hostport)
+       22    0.000    0.000    0.000    0.000 parser.py:96(reset)
+        1    0.000    0.000    0.000    0.000 pprint.py:35(<module>)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       22    0.000    0.000    0.000    0.000 dammit.py:271(strip_byte_order_mark)
+       60    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 tokenize.py:450(open)
+       18    0.000    0.000    0.000    0.000 client.py:2475(<listcomp>)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:908(exec_module)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1286(<setcomp>)
+        1    0.000    0.000    0.000    0.000 _strptime.py:101(<listcomp>)
+       53    0.000    0.000    0.000    0.000 parse.py:100(_coerce_args)
+       23    0.000    0.000    0.000    0.000 feedparser.py:69(close)
+       59    0.000    0.000    0.000    0.000 os.py:752(encode)
+       29    0.000    0.000    0.000    0.000 posixpath.py:71(join)
+      111    0.000    0.000    0.000    0.000 {method 'capitalize' of 'str' objects}
+      196    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 os.py:40(_get_exports_list)
+       46    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+       22    0.000    0.000    0.000    0.000 ssl.py:543(context)
+        1    0.000    0.000    0.000    0.000 inspect.py:2635(Signature)
+        8    0.000    0.000    0.000    0.000 sre_compile.py:379(_bytes_to_codes)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:195(_lock_unlock_module)
+       45    0.000    0.000    0.000    0.000 os.py:699(__iter__)
+       14    0.000    0.000    0.000    0.000 __init__.py:142(_check_size)
+      108    0.000    0.000    0.000    0.000 dammit.py:228(_usable)
+      287    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       46    0.000    0.000    0.000    0.000 feedparser.py:122(pushlines)
+       67    0.000    0.000    0.000    0.000 signal.py:10(<lambda>)
+       22    0.000    0.000    0.000    0.000 client.py:500(_read_and_discard_trailer)
+        2    0.000    0.000    0.000    0.000 __init__.py:331(__init__)
+        1    0.000    0.000    0.000    0.000 _strptime.py:117(__calc_date_time)
+       28    0.000    0.000    0.000    0.000 ipaddress.py:1605(_make_netmask)
+      496    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+      134    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:190(cb)
+        1    0.000    0.000    0.000    0.000 token.py:1(<module>)
+       26    0.000    0.000    0.000    0.000 connection.py:176(purge)
+       23    0.000    0.000    0.000    0.000 feedparser.py:53(__init__)
+      281    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+       23    0.000    0.000    0.000    0.000 request.py:333(get_full_url)
+        1    0.000    0.000    0.000    0.000 request.py:599(redirect_request)
+        3    0.000    0.000    0.000    0.000 site.py:89(makepath)
+       23    0.000    0.000    0.000    0.000 parse.py:861(unwrap)
+       21    0.000    0.000    0.000    0.000 client.py:2373(__exit__)
+       22    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+      261    0.000    0.000    0.000    0.000 element.py:951(__getitem__)
+        1    0.000    0.000    0.000    0.000 uu.py:31(<module>)
+      136    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 enum.py:355(_get_mixins_)
+       46    0.000    0.000    0.000    0.000 ipaddress.py:158(_split_optional_netmask)
+        1    0.000    0.000    0.000    0.000 pickle.py:975(_Unpickler)
+        3    0.000    0.000    0.000    0.000 __init__.py:475(PYFUNCTYPE)
+      154    0.000    0.000    0.000    0.000 enum.py:24(_is_sunder)
+        1    0.000    0.000    0.000    0.000 codeop.py:57(<module>)
+       23    0.000    0.000    0.000    0.000 request.py:306(data)
+        8    0.000    0.000    0.000    0.000 re.py:323(_subx)
+        4    0.000    0.000    0.000    0.000 functools.py:422(decorating_function)
+       23    0.000    0.000    0.000    0.000 client.py:402(flush)
+       21    0.000    0.000    0.000    0.000 client.py:2359(__init__)
+        1    0.000    0.000    0.000    0.000 parse.py:407(urljoin)
+      210    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 _strptime.py:94(<listcomp>)
+        1    0.000    0.000    0.000    0.000 threading.py:1197(__init__)
+        1    0.000    0.000    0.000    0.000 token.py:74(<dictcomp>)
+       18    0.000    0.000    0.000    0.000 ipaddress.py:1075(_make_netmask)
+        4    0.000    0.000    0.000    0.000 ssl.py:329(__new__)
+       23    0.000    0.000    0.000    0.000 feedparser.py:209(_pop_message)
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+       22    0.000    0.000    0.000    0.000 ssl.py:538(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _ctypes.POINTER}
+        1    0.000    0.000    0.000    0.000 inspect.py:2348(_ParameterKind)
+        1    0.000    0.000    0.000    0.000 datetime.py:1310(datetime)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:436(spec_from_loader)
+       22    0.000    0.000    0.000    0.000 socket.py:405(detach)
+       31    0.000    0.000    0.000    0.000 ipaddress.py:1727(_parse_hextet)
+       21    0.000    0.000    0.000    0.000 _compat.py:55(iteritems)
+       22    0.000    0.000    0.000    0.000 _htmlparser.py:134(__init__)
+       15    0.000    0.000    0.000    0.000 sre_compile.py:391(_generate_overlap_table)
+       69    0.000    0.000    0.000    0.000 request.py:283(full_url)
+       35    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 parse.py:751(<listcomp>)
+        8    0.000    0.000    0.000    0.000 re.py:306(_compile_repl)
+       11    0.000    0.000    0.000    0.000 enum.py:84(__prepare__)
+        9    0.000    0.000    0.000    0.000 {built-in method _bisect.insort}
+       26    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+       23    0.000    0.000    0.000    0.000 parse.py:945(splittag)
+        1    0.000    0.000    0.000    0.000 cmd.py:43(<module>)
+       79    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+      109    0.000    0.000    0.000    0.000 request.py:355(has_header)
+        3    0.000    0.000    0.000    0.000 posixpath.py:355(abspath)
+       64    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 __future__.py:48(<module>)
+      114    0.000    0.000    0.000    0.000 opcode.py:41(def_op)
+        2    0.000    0.000    0.000    0.000 posixpath.py:221(expanduser)
+       11    0.000    0.000    0.000    0.000 _collections_abc.py:592(get)
+       11    0.000    0.000    0.000    0.000 enum.py:99(<dictcomp>)
+        3    0.000    0.000    0.000    0.000 dyld.py:70(dyld_override_search)
+        1    0.000    0.000    0.000    0.000 client.py:393(__init__)
+        8    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 _policybase.py:94(_append_doc)
+        4    0.000    0.000    0.000    0.000 {built-in method _ssl.txt2obj}
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:58(__iter__)
+       91    0.000    0.000    0.000    0.000 request.py:302(data)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:846(parse_template)
+       42    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+       46    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+      142    0.000    0.000    0.000    0.000 sre_parse.py:161(__setitem__)
+       95    0.000    0.000    0.000    0.000 ssl.py:131(<lambda>)
+       23    0.000    0.000    0.000    0.000 parser.py:18(__init__)
+       12    0.000    0.000    0.000    0.000 client.py:56(string_keys_to_dict)
+      125    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:427(has_location)
+        1    0.000    0.000    0.000    0.000 ssl.py:345(Purpose)
+       52    0.000    0.000    0.000    0.000 posixpath.py:39(_get_sep)
+       58    0.000    0.000    0.000    0.000 {method 'groups' of '_sre.SRE_Match' objects}
+       24    0.000    0.000    0.000    0.000 ipaddress.py:476(_prefix_from_prefix_string)
+       23    0.000    0.000    0.000    0.000 message.py:304(set_payload)
+        1    0.000    0.000    0.000    0.000 argparse.py:144(HelpFormatter)
+       46    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+       44    0.000    0.000    0.000    0.000 ssl.py:557(server_hostname)
+        1    0.000    0.000    0.000    0.000 calendar.py:47(_localized_month)
+       46    0.000    0.000    0.000    0.000 ipaddress.py:607(__init__)
+        3    0.000    0.000    0.000    0.000 genericpath.py:16(exists)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:808(get_filename)
+        7    0.000    0.000    0.000    0.000 sre_parse.py:251(getwhile)
+        6    0.000    0.000    0.000    0.000 parse.py:664(__missing__)
+        8    0.000    0.000    0.000    0.000 dyld.py:31(dyld_env)
+       20    0.000    0.000    0.000    0.000 client.py:2376(__del__)
+      184    0.000    0.000    0.000    0.000 ipaddress.py:550(__int__)
+        1    0.000    0.000    0.000    0.000 tokenize.py:357(detect_encoding)
+      162    0.000    0.000    0.000    0.000 ipaddress.py:417(_check_int_address)
+        3    0.000    0.000    0.000    0.000 posixpath.py:318(normpath)
+        1    0.000    0.000    0.000    0.000 tarfile.py:1380(TarFile)
+       23    0.000    0.000    0.000    0.000 request.py:344(has_proxy)
+        1    0.000    0.000    0.000    0.000 _markupbase.py:23(ParserBase)
+        9    0.000    0.000    0.000    0.000 enum.py:254(__getattr__)
+        2    0.000    0.000    0.000    0.000 __init__.py:357(__getattr__)
+       77    0.000    0.000    0.000    0.000 sre_parse.py:90(closegroup)
+        1    0.000    0.000    0.000    0.000 base64mime.py:25(<module>)
+        1    0.000    0.000    0.000    0.000 datetime.py:1820(timezone)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.uname}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1245(IPv4Address)
+       26    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.BytesIO' objects}
+       88    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 enum.py:121(<setcomp>)
+        1    0.000    0.000    0.000    0.000 tarfile.py:723(TarInfo)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 threading.py:764(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 fnmatch.py:11(<module>)
+        2    0.000    0.000    0.000    0.000 charset.py:211(__init__)
+       11    0.000    0.000    0.000    0.000 enum.py:47(__init__)
+        8    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+       15    0.000    0.000    0.000    0.000 posixpath.py:136(basename)
+        3    0.000    0.000    0.000    0.000 datetime.py:1318(__new__)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1869(IPv6Address)
+        1    0.000    0.000    0.000    0.000 pickle.py:344(_Pickler)
+       63    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+      142    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+       88    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1181(<genexpr>)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:653(create_module)
+        2    0.000    0.000    0.000    0.000 functools.py:192(total_ordering)
+       10    0.000    0.000    0.000    0.000 _policybase.py:104(<genexpr>)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 client.py:60(dict_merge)
+        2    0.000    0.000    0.000    0.000 __init__.py:42(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 __init__.py:1056(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 pprint.py:98(PrettyPrinter)
+      102    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:889(__init__)
+        1    0.000    0.000    0.000    0.000 contextlib.py:103(contextmanager)
+        4    0.000    0.000    0.000    0.000 uuid.py:104(__init__)
+        1    0.000    0.000    0.000    0.000 element.py:775(Tag)
+        6    0.000    0.000    0.000    0.000 framework.py:19(framework_info)
+        2    0.000    0.000    0.000    0.000 __init__.py:364(__getitem__)
+        3    0.000    0.000    0.000    0.000 _collections_abc.py:340(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 client.py:107(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 dammit.py:323(UnicodeDammit)
+       22    0.000    0.000    0.000    0.000 ssl.py:365(__init__)
+        1    0.000    0.000    0.000    0.000 encoders.py:5(<module>)
+        2    0.000    0.000    0.000    0.000 client.py:62(<listcomp>)
+        6    0.000    0.000    0.000    0.000 hashlib.py:98(__get_openssl_constructor)
+        1    0.000    0.000    0.000    0.000 _strptime.py:162(__calc_timezone)
+       16    0.000    0.000    0.000    0.000 request.py:561(__lt__)
+        1    0.000    0.000    0.000    0.000 os.py:44(<listcomp>)
+        1    0.000    0.000    0.000    0.000 calendar.py:49(<listcomp>)
+        1    0.000    0.000    0.000    0.000 __init__.py:761(__init__)
+      121    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 connection.py:896(make_connection)
+        3    0.000    0.000    0.000    0.000 parse.py:313(_splitnetloc)
+       85    0.000    0.000    0.000    0.000 _compat_pickle.py:167(<genexpr>)
+       18    0.000    0.000    0.000    0.000 {built-in method _struct.calcsize}
+       22    0.000    0.000    0.000    0.000 _markupbase.py:36(reset)
+        3    0.000    0.000    0.000    0.000 site.py:133(_init_pathinfo)
+        1    0.000    0.000    0.000    0.000 _policybase.py:112(Policy)
+       23    0.000    0.000    0.000    0.000 feedparser.py:148(<lambda>)
+        3    0.000    0.000    0.000    0.000 dyld.py:56(dyld_image_suffix_search)
+        1    0.000    0.000    0.000    0.000 threading.py:496(__init__)
+        1    0.000    0.000    0.000    0.000 request.py:263(Request)
+        1    0.000    0.000    0.000    0.000 message.py:946(MIMEPart)
+        1    0.000    0.000    0.000    0.000 uuid.py:56(UUID)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1439(IPv4Network)
+        1    0.000    0.000    0.000    0.000 <string>:5(usage)
+       23    0.000    0.000    0.000    0.000 request.py:1213(<genexpr>)
+        5    0.000    0.000    0.000    0.000 datetime.py:264(_check_date_fields)
+        1    0.000    0.000    0.000    0.000 bz2.py:31(BZ2File)
+        3    0.000    0.000    0.000    0.000 dyld.py:39(dyld_image_suffix)
+        3    0.000    0.000    0.000    0.000 posixpath.py:145(dirname)
+        1    0.000    0.000    0.000    0.000 argparse.py:1046(_SubParsersAction)
+        1    0.000    0.000    0.000    0.000 quopri.py:3(<module>)
+        1    0.000    0.000    0.000    0.000 datetime.py:641(date)
+        2    0.000    0.000    0.000    0.000 _collections_abc.py:599(__contains__)
+        1    0.000    0.000    0.000    0.000 threading.py:745(Thread)
+        1    0.000    0.000    0.000    0.000 connection.py:841(__init__)
+       22    0.000    0.000    0.000    0.000 dammit.py:440(declared_html_encoding)
+        1    0.000    0.000    0.000    0.000 iterators.py:5(<module>)
+        9    0.000    0.000    0.000    0.000 request.py:554(add_parent)
+        1    0.000    0.000    0.000    0.000 subprocess.py:833(Popen)
+        1    0.000    0.000    0.000    0.000 request.py:1591(URLopener)
+        1    0.000    0.000    0.000    0.000 __init__.py:291(register_treebuilders_from)
+        1    0.000    0.000    0.000    0.000 socket.py:123(socket)
+       38    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+      159    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 <string>:5(_Instruction)
+       23    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x108011730}
+        1    0.000    0.000    0.000    0.000 connection.py:503(on_connect)
+        1    0.000    0.000    0.000    0.000 <string>:5(TokenInfo)
+       44    0.000    0.000    0.000    0.000 __init__.py:101(reset)
+       23    0.000    0.000    0.000    0.000 parse.py:527(unquote)
+        1    0.000    0.000    0.000    0.000 random.py:68(Random)
+        5    0.000    0.000    0.000    0.000 datetime.py:277(_check_time_fields)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:745(exec_module)
+        1    0.000    0.000    0.000    0.000 <string>:5(FullArgSpec)
+        1    0.000    0.000    0.000    0.000 <string>:5(ParseResult)
+        1    0.000    0.000    0.000    0.000 parse.py:377(urlunparse)
+       32    0.000    0.000    0.000    0.000 enum.py:140(<genexpr>)
+        4    0.000    0.000    0.000    0.000 codecs.py:318(decode)
+        3    0.000    0.000    0.000    0.000 dyld.py:53(dyld_fallback_library_path)
+       53    0.000    0.000    0.000    0.000 parse.py:89(_noop)
+       35    0.000    0.000    0.000    0.000 datetime.py:247(_check_int_field)
+        1    0.000    0.000    0.000    0.000 threading.py:213(__init__)
+       18    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 threading.py:510(set)
+        1    0.000    0.000    0.000    0.000 connection.py:387(__init__)
+        1    0.000    0.000    0.000    0.000 client.py:716(HTTPConnection)
+       22    0.000    0.000    0.000    0.000 element.py:971(__setitem__)
+       19    0.000    0.000    0.000    0.000 tokenize.py:111(group)
+        3    0.000    0.000    0.000    0.000 dyld.py:47(dyld_library_path)
+        1    0.000    0.000    0.000    0.000 request.py:2037(FancyURLopener)
+        1    0.000    0.000    0.000    0.000 _strptime.py:105(__calc_am_pm)
+        2    0.000    0.000    0.000    0.000 datetime.py:1029(__new__)
+        1    0.000    0.000    0.000    0.000 calendar.py:66(_localized_day)
+       24    0.000    0.000    0.000    0.000 ipaddress.py:433(_ip_int_from_prefix)
+        1    0.000    0.000    0.000    0.000 ssl.py:522(SSLObject)
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x107fad598}
+        1    0.000    0.000    0.000    0.000 idna.py:300(getregentry)
+        1    0.000    0.000    0.000    0.000 tokenize.py:381(read_or_stop)
+        1    0.000    0.000    0.000    0.000 request.py:374(__init__)
+        1    0.000    0.000    0.000    0.000 ssl.py:657(SSLSocket)
+        1    0.000    0.000    0.000    0.000 <string>:5(FrameInfo)
+       43    0.000    0.000    0.000    0.000 _compat_pickle.py:165(<genexpr>)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:26(__exit__)
+        1    0.000    0.000    0.000    0.000 parse.py:656(__init__)
+       11    0.000    0.000    0.000    0.000 opcode.py:45(name_op)
+       46    0.000    0.000    0.000    0.000 ipaddress.py:553(__eq__)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1049(_BaseV4)
+       44    0.000    0.000    0.000    0.000 __init__.py:124(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 tempfile.py:619(SpooledTemporaryFile)
+        1    0.000    0.000    0.000    0.000 weakref.py:101(__init__)
+        3    0.000    0.000    0.000    0.000 genericpath.py:39(isdir)
+        1    0.000    0.000    0.000    0.000 <string>:5(DefaultVerifyPaths)
+        1    0.000    0.000    0.000    0.000 latin_1.py:41(getregentry)
+       22    0.000    0.000    0.000    0.000 ssl.py:770(_check_connected)
+       66    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:178(SAXTreeBuilder)
+        1    0.000    0.000    0.000    0.000 datetime.py:513(__neg__)
+        1    0.000    0.000    0.000    0.000 <string>:5(Traceback)
+        1    0.000    0.000    0.000    0.000 bdb.py:14(Bdb)
+       23    0.000    0.000    0.000    0.000 client.py:707(info)
+        1    0.000    0.000    0.000    0.000 client.py:1957(Redis)
+        3    0.000    0.000    0.000    0.000 site.py:204(<listcomp>)
+        9    0.000    0.000    0.000    0.000 enum.py:279(__members__)
+       46    0.000    0.000    0.000    0.000 feedparser.py:125(__iter__)
+        1    0.000    0.000    0.000    0.000 <string>:5(SelectorKey)
+        5    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
+        2    0.000    0.000    0.000    0.000 datetime.py:671(__new__)
+        8    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1585(_BaseV6)
+        1    0.000    0.000    0.000    0.000 <string>:5(SplitResult)
+        1    0.000    0.000    0.000    0.000 datetime.py:319(timedelta)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:598(_BaseNetwork)
+        1    0.000    0.000    0.000    0.000 <string>:5(ArgInfo)
+        1    0.000    0.000    0.000    0.000 <string>:5(ModuleInfo)
+        1    0.000    0.000    0.000    0.000 enum.py:550(IntEnum)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:235(_requires_builtin_wrapper)
+        1    0.000    0.000    0.000    0.000 connection.py:869(reset)
+       21    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 connection.py:204(on_connect)
+        1    0.000    0.000    0.000    0.000 tarfile.py:328(_Stream)
+        1    0.000    0.000    0.000    0.000 __init__.py:742(_addHandlerRef)
+        1    0.000    0.000    0.000    0.000 <string>:5(ClosureVars)
+        1    0.000    0.000    0.000    0.000 lzma.py:37(LZMAFile)
+        1    0.000    0.000    0.000    0.000 Course.py:55(Course)
+       18    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.000    0.000 {built-in method time.tzset}
+        1    0.000    0.000    0.000    0.000 <string>:5(_ASN1Object)
+        1    0.000    0.000    0.000    0.000 vendor.py:24(<module>)
+        1    0.000    0.000    0.000    0.000 connection.py:383(Connection)
+        1    0.000    0.000    0.000    0.000 __init__.py:9(<module>)
+        2    0.000    0.000    0.000    0.000 codecs.py:93(__new__)
+        1    0.000    0.000    0.000    0.000 client.py:2338(BasePipeline)
+        1    0.000    0.000    0.000    0.000 <string>:5(ArgSpec)
+        1    0.000    0.000    0.000    0.000 threading.py:355(notify_all)
+       45    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        2    0.000    0.000    0.000    0.000 copyreg.py:96(_slotnames)
+       14    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        2    0.000    0.000    0.000    0.000 types.py:120(__init__)
+       62    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        1    0.000    0.000    0.000    0.000 argparse.py:1577(ArgumentParser)
+        1    0.000    0.000    0.000    0.000 calendar.py:259(TextCalendar)
+       15    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:20(__enter__)
+        1    0.000    0.000    0.000    0.000 codeop.py:61(<listcomp>)
+        1    0.000    0.000    0.000    0.000 client.py:2041(PubSub)
+        1    0.000    0.000    0.000    0.000 header.py:413(_ValueFormatter)
+        2    0.000    0.000    0.000    0.000 {built-in method math.log}
+        1    0.000    0.000    0.000    0.000 message.py:383(__getitem__)
+        1    0.000    0.000    0.000    0.000 <string>:5(Arguments)
+        2    0.000    0.000    0.000    0.000 functools.py:195(<listcomp>)
+        6    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 datetime.py:1004(time)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 functools.py:73(wraps)
+        1    0.000    0.000    0.000    0.000 __init__.py:32(register)
+        1    0.000    0.000    0.000    0.000 <string>:5(DefragResult)
+        2    0.000    0.000    0.000    0.000 client.py:1085(_set_content_length)
+        1    0.000    0.000    0.000    0.000 error.py:39(HTTPError)
+        1    0.000    0.000    0.000    0.000 threading.py:573(Barrier)
+        1    0.000    0.000    0.000    0.000 _compression.py:33(DecompressReader)
+        1    0.000    0.000    0.000    0.000 __init__.py:1224(Logger)
+        7    0.000    0.000    0.000    0.000 opcode.py:49(jrel_op)
+        1    0.000    0.000    0.000    0.000 __init__.py:50(BeautifulSoup)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+        1    0.000    0.000    0.000    0.000 element.py:85(HTMLAwareEntitySubstitution)
+        9    0.000    0.000    0.000    0.000 _collections_abc.py:343(<genexpr>)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:385(_IPAddressBase)
+        1    0.000    0.000    0.000    0.000 charset.py:167(Charset)
+        1    0.000    0.000    0.000    0.000 tokenize.py:387(find_cookie)
+        1    0.000    0.000    0.000    0.000 __init__.py:80(TreeBuilder)
+       22    0.000    0.000    0.000    0.000 {function socket.detach at 0x10796b048}
+        1    0.000    0.000    0.000    0.000 inspect.py:2366(Parameter)
+       69    0.000    0.000    0.000    0.000 signal.py:22(<lambda>)
+        1    0.000    0.000    0.000    0.000 _encoded_words.py:73(_QByteMap)
+        1    0.000    0.000    0.000    0.000 __init__.py:752(Handler)
+        1    0.000    0.000    0.000    0.000 client.py:1198(HTTPSConnection)
+        1    0.000    0.000    0.000    0.000 connection.py:731(ConnectionPool)
+        1    0.000    0.000    0.000    0.000 __init__.py:1556(LoggerAdapter)
+        1    0.000    0.000    0.000    0.000 threading.py:332(notify)
+        1    0.000    0.000    0.000    0.000 lock.py:9(Lock)
+       22    0.000    0.000    0.000    0.000 dammit.py:220(<listcomp>)
+        1    0.000    0.000    0.000    0.000 cmd.py:52(Cmd)
+        1    0.000    0.000    0.000    0.000 parse.py:388(urlunsplit)
+        3    0.000    0.000    0.000    0.000 element.py:13(_alias)
+       68    0.000    0.000    0.000    0.000 signal.py:17(<lambda>)
+        1    0.000    0.000    0.000    0.000 message.py:424(__contains__)
+        1    0.000    0.000    0.000    0.000 parser.py:63(HTMLParser)
+        1    0.000    0.000    0.000    0.000 selectors.py:70(BaseSelector)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:92(checkgroup)
+        1    0.000    0.000    0.000    0.000 tarfile.py:608(_FileInFile)
+        4    0.000    0.000    0.000    0.000 _weakrefset.py:81(add)
+        1    0.000    0.000    0.000    0.000 calendar.py:126(Calendar)
+        1    0.000    0.000    0.000    0.000 __init__.py:1548(__init__)
+        4    0.000    0.000    0.000    0.000 posixpath.py:50(normcase)
+        1    0.000    0.000    0.000    0.000 parse.py:133(_NetlocResultMixinBase)
+        1    0.000    0.000    0.000    0.000 argparse.py:1216(_ActionsContainer)
+        1    0.000    0.000    0.000    0.000 feedparser.py:136(FeedParser)
+        1    0.000    0.000    0.000    0.000 calendar.py:69(<listcomp>)
+        1    0.000    0.000    0.000    0.000 __init__.py:224(HTMLTreeBuilder)
+        6    0.000    0.000    0.000    0.000 opcode.py:53(jabs_op)
+        1    0.000    0.000    0.000    0.000 calendar.py:376(HTMLCalendar)
+        1    0.000    0.000    0.000    0.000 feedparser.py:45(BufferedSubFile)
+        1    0.000    0.000    0.000    0.000 enum.py:82(EnumMeta)
+        9    0.000    0.000    0.000    0.000 __future__.py:79(__init__)
+        1    0.000    0.000    0.000    0.000 request.py:1481(CacheFTPHandler)
+        1    0.000    0.000    0.000    0.000 __init__.py:1239(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:201(Condition)
+       16    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 version.py:31(Version)
+        1    0.000    0.000    0.000    0.000 selectors.py:334(PollSelector)
+        1    0.000    0.000    0.000    0.000 parser.py:72(HeaderParser)
+       14    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 _collections_abc.py:611(items)
+        1    0.000    0.000    0.000    0.000 socket.py:528(SocketIO)
+        1    0.000    0.000    0.000    0.000 header.py:179(Header)
+        1    0.000    0.000    0.000    0.000 enum.py:32(_make_class_unpicklable)
+        1    0.000    0.000    0.000    0.000 element.py:671(NavigableString)
+        3    0.000    0.000    0.000    0.000 posixpath.py:61(isabs)
+        1    0.000    0.000    0.000    0.000 _parseaddr.py:203(AddrlistClass)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        4    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method math.exp}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:2049(IPv6Interface)
+        1    0.000    0.000    0.000    0.000 connection.py:100(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:900(_set_tstate_lock)
+        1    0.000    0.000    0.000    0.000 subprocess.py:374(CalledProcessError)
+        1    0.000    0.000    0.000    0.000 _htmlparser.py:51(BeautifulSoupHTMLParser)
+        4    0.000    0.000    0.000    0.000 functools.py:391(lru_cache)
+        1    0.000    0.000    0.000    0.000 dyld.py:50(dyld_fallback_framework_path)
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 __init__.py:418(Formatter)
+       21    0.000    0.000    0.000    0.000 client.py:2370(__enter__)
+        1    0.000    0.000    0.000    0.000 dyld.py:44(dyld_framework_path)
+        1    0.000    0.000    0.000    0.000 tempfile.py:767(TemporaryDirectory)
+        1    0.000    0.000    0.000    0.000 pickle.py:183(_Framer)
+        1    0.000    0.000    0.000    0.000 tempfile.py:415(_TemporaryFileCloser)
+        1    0.000    0.000    0.000    0.000 tempfile.py:136(_RandomNameSequence)
+        9    0.000    0.000    0.000    0.000 abc.py:9(abstractmethod)
+        1    0.000    0.000    0.000    0.000 __init__.py:231(LogRecord)
+        4    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        1    0.000    0.000    0.000    0.000 _policybase.py:18(_PolicyBase)
+        1    0.000    0.000    0.000    0.000 {method 'union' of 'frozenset' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _ctypes.dlopen}
+        1    0.000    0.000    0.000    0.000 request.py:981(AbstractDigestAuthHandler)
+        1    0.000    0.000    0.000    0.000 bdb.py:478(Breakpoint)
+        1    0.000    0.000    0.000    0.000 traceback.py:300(StackSummary)
+        1    0.000    0.000    0.000    0.000 header.py:541(_Accumulator)
+        1    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:211(_acquireLock)
+        1    0.000    0.000    0.000    0.000 __init__.py:790(createLock)
+        1    0.000    0.000    0.000    0.000 ssl.py:324(_ASN1Object)
+        1    0.000    0.000    0.000    0.000 request.py:1276(__init__)
+        1    0.000    0.000    0.000    0.000 inspect.py:2503(BoundArguments)
+        1    0.000    0.000    0.000    0.000 dammit.py:196(EncodingDetector)
+        1    0.000    0.000    0.000    0.000 calendar.py:132(__init__)
+        1    0.000    0.000    0.000    0.000 datetime.py:934(tzinfo)
+        1    0.000    0.000    0.000    0.000 ssl.py:352(SSLContext)
+        1    0.000    0.000    0.000    0.000 parse.py:275(_fix_result_transcoding)
+        1    0.000    0.000    0.000    0.000 request.py:373(OpenerDirector)
+        1    0.000    0.000    0.000    0.000 _policybase.py:267(Compat32)
+        1    0.000    0.000    0.000    0.000 lock.py:186(LuaLock)
+        1    0.000    0.000    0.000    0.000 tarfile.py:304(_LowLevelFile)
+       22    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 tokenize.py:113(maybe)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:539(_BaseAddress)
+        1    0.000    0.000    0.000    0.000 __init__.py:1121(__init__)
+        1    0.000    0.000    0.000    0.000 dis.py:407(Bytecode)
+        1    0.000    0.000    0.000    0.000 __init__.py:462(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:28(__init__)
+        3    0.000    0.000    0.000    0.000 datetime.py:40(_days_before_year)
+        1    0.000    0.000    0.000    0.000 selectors.py:281(SelectSelector)
+        1    0.000    0.000    0.000    0.000 pickle.py:219(_Unframer)
+        1    0.000    0.000    0.000    0.000 message.py:425(<listcomp>)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:16(__init__)
+        1    0.000    0.000    0.000    0.000 random.py:639(SystemRandom)
+        1    0.000    0.000    0.000    0.000 argparse.py:900(_StoreFalseAction)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1357(IPv4Interface)
+        1    0.000    0.000    0.000    0.000 request.py:766(HTTPPasswordMgr)
+        1    0.000    0.000    0.000    0.000 threading.py:85(_RLock)
+       38    0.000    0.000    0.000    0.000 {built-in method _ctypes.sizeof}
+        1    0.000    0.000    0.000    0.000 tokenize.py:112(any)
+        2    0.000    0.000    0.000    0.000 threading.py:72(RLock)
+        1    0.000    0.000    0.000    0.000 traceback.py:393(TracebackException)
+        1    0.000    0.000    0.000    0.000 request.py:1152(AbstractHTTPHandler)
+        1    0.000    0.000    0.000    0.000 threading.py:485(Event)
+        1    0.000    0.000    0.000    0.000 tempfile.py:458(_TemporaryFileWrapper)
+        1    0.000    0.000    0.000    0.000 _parseaddr.py:495(AddressList)
+       10    0.000    0.000    0.000    0.000 dammit.py:37(chardet_dammit)
+        2    0.000    0.000    0.000    0.000 calendar.py:71(__init__)
+        1    0.000    0.000    0.000    0.000 request.py:2288(ftpwrapper)
+        1    0.000    0.000    0.000    0.000 request.py:1365(FileHandler)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:855(addgroup)
+        1    0.000    0.000    0.000    0.000 request.py:840(HTTPPasswordMgrWithPriorAuth)
+        1    0.000    0.000    0.000    0.000 traceback.py:217(FrameSummary)
+        1    0.000    0.000    0.000    0.000 connection.py:99(SocketBuffer)
+        1    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
+        5    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 __init__.py:476(CFunctionType)
+       22    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 string.py:170(Formatter)
+        1    0.000    0.000    0.000    0.000 element.py:1519(SoupStrainer)
+        3    0.000    0.000    0.000    0.000 _weakrefset.py:52(_commit_removals)
+        1    0.000    0.000    0.000    0.000 response.py:14(addbase)
+        2    0.000    0.000    0.000    0.000 __init__.py:411(__init__)
+        1    0.000    0.000    0.000    0.000 connection.py:81(BaseParser)
+        1    0.000    0.000    0.000    0.000 pprint.py:72(_safe_key)
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        1    0.000    0.000    0.000    0.000 argparse.py:109(_AttributeHolder)
+        1    0.000    0.000    0.000    0.000 connection.py:919(BlockingConnectionPool)
+        1    0.000    0.000    0.000    0.000 tarfile.py:578(_StreamProxy)
+        1    0.000    0.000    0.000    0.000 calendar.py:488(different_locale)
+        1    0.000    0.000    0.000    0.000 subprocess.py:401(TimeoutExpired)
+        1    0.000    0.000    0.000    0.000 code.py:163(InteractiveConsole)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:2135(IPv6Network)
+        1    0.000    0.000    0.000    0.000 idna.py:146(Codec)
+        1    0.000    0.000    0.000    0.000 parse.py:648(Quoter)
+        1    0.000    0.000    0.000    0.000 __init__.py:370(PercentStyle)
+        2    0.000    0.000    0.000    0.000 __init__.py:341(_FuncPtr)
+        1    0.000    0.000    0.000    0.000 threading.py:367(Semaphore)
+        1    0.000    0.000    0.000    0.000 parser.py:17(Parser)
+        3    0.000    0.000    0.000    0.000 dyld.py:87(dyld_executable_path_search)
+        1    0.000    0.000    0.000    0.000 tarfile.py:2406(TarIter)
+        1    0.000    0.000    0.000    0.000 __init__.py:220(_releaseLock)
+        2    0.000    0.000    0.000    0.000 {built-in method maketrans}
+        1    0.000    0.000    0.000    0.000 request.py:724(ProxyHandler)
+        1    0.000    0.000    0.000    0.000 config.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 errors.py:90(NonPrintableDefect)
+        2    0.000    0.000    0.000    0.000 request.py:1154(__init__)
+        1    0.000    0.000    0.000    0.000 request.py:1122(HTTPDigestAuthHandler)
+        2    0.000    0.000    0.000    0.000 {method 'deleter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 calendar.py:531(LocaleHTMLCalendar)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 __init__.py:937(StreamHandler)
+        1    0.000    0.000    0.000    0.000 __init__.py:5(<module>)
+        1    0.000    0.000    0.000    0.000 _compression.py:9(BaseStream)
+        1    0.000    0.000    0.000    0.000 request.py:1289(HTTPCookieProcessor)
+        1    0.000    0.000    0.000    0.000 _strptime.py:178(TimeRE)
+        1    0.000    0.000    0.000    0.000 selectors.py:196(_BaseSelectorImpl)
+        1    0.000    0.000    0.000    0.000 selectors.py:512(KqueueSelector)
+        1    0.000    0.000    0.000    0.000 _strptime.py:138(<listcomp>)
+        1    0.000    0.000    0.000    0.000 tokenize.py:98(TokenInfo)
+        1    0.000    0.000    0.000    0.000 weakref.py:255(update)
+        1    0.000    0.000    0.000    0.000 response.py:68(addinfourl)
+        1    0.000    0.000    0.000    0.000 parser.py:80(BytesParser)
+        1    0.000    0.000    0.000    0.000 _htmlparser.py:127(HTMLParserTreeBuilder)
+        3    0.000    0.000    0.000    0.000 datetime.py:1843(_create)
+        1    0.000    0.000    0.000    0.000 connection.py:189(PythonParser)
+        1    0.000    0.000    0.000    0.000 request.py:1274(HTTPSHandler)
+        1    0.000    0.000    0.000    0.000 request.py:570(HTTPErrorProcessor)
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 calendar.py:500(LocaleTextCalendar)
+        1    0.000    0.000    0.000    0.000 _strptime.py:33(LocaleTime)
+        2    0.000    0.000    0.000    0.000 __init__.py:675(__init__)
+        1    0.000    0.000    0.000    0.000 string.py:73(Template)
+        1    0.000    0.000    0.000    0.000 connection.py:688(UnixDomainSocketConnection)
+        1    0.000    0.000    0.000    0.000 calendar.py:138(setfirstweekday)
+        4    0.000    0.000    0.000    0.000 parse.py:360(<genexpr>)
+        1    0.000    0.000    0.000    0.000 Course.py:14(CourseTime)
+        1    0.000    0.000    0.000    0.000 connection.py:649(SSLConnection)
+        1    0.000    0.000    0.000    0.000 request.py:1423(FTPHandler)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:762(is_package)
+        1    0.000    0.000    0.000    0.000 request.py:551(BaseHandler)
+        1    0.000    0.000    0.000    0.000 request.py:591(HTTPRedirectHandler)
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 client.py:2311(PubSubWorkerThread)
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:1116(Manager)
+        1    0.000    0.000    0.000    0.000 queue.py:214(PriorityQueue)
+        5    0.000    0.000    0.000    0.000 datetime.py:292(_check_tzinfo_arg)
+        2    0.000    0.000    0.000    0.000 __init__.py:182(_checkLevel)
+        1    0.000    0.000    0.000    0.000 code.py:16(InteractiveInterpreter)
+        1    0.000    0.000    0.000    0.000 errors.py:33(MessageDefect)
+        1    0.000    0.000    0.000    0.000 subprocess.py:632(CompletedProcess)
+        1    0.000    0.000    0.000    0.000 _policybase.py:41(__init__)
+        1    0.000    0.000    0.000    0.000 connection.py:193(__init__)
+        1    0.000    0.000    0.000    0.000 connection.py:63(Token)
+        1    0.000    0.000    0.000    0.000 client.py:1270(IncompleteRead)
+        1    0.000    0.000    0.000    0.000 response.py:37(addclosehook)
+        1    0.000    0.000    0.000    0.000 _collections_abc.py:631(__init__)
+        1    0.000    0.000    0.000    0.000 queue.py:17(Full)
+        1    0.000    0.000    0.000    0.000 argparse.py:917(_AppendAction)
+        1    0.000    0.000    0.000    0.000 parse.py:165(_NetlocResultMixinStr)
+        1    0.000    0.000    0.000    0.000 bdb.py:644(Tdb)
+        1    0.000    0.000    0.000    0.000 threading.py:447(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 shutil.py:49(Error)
+        1    0.000    0.000    0.000    0.000 tarfile.py:712(ExFileObject)
+        1    0.000    0.000    0.000    0.000 parse.py:125(_ResultMixinBytes)
+        1    0.000    0.000    0.000    0.000 ast.py:258(NodeTransformer)
+        1    0.000    0.000    0.000    0.000 client.py:149(HTTPMessage)
+        1    0.000    0.000    0.000    0.000 error.py:23(URLError)
+        1    0.000    0.000    0.000    0.000 request.py:1534(DataHandler)
+        1    0.000    0.000    0.000    0.000 idna.py:218(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 parse.py:250(ParseResult)
+        1    0.000    0.000    0.000    0.000 pdb.py:84(Restart)
+        1    0.000    0.000    0.000    0.000 message.py:1140(EmailMessage)
+        1    0.000    0.000    0.000    0.000 __init__.py:184(c_int)
+        1    0.000    0.000    0.000    0.000 argparse.py:194(_Section)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 errors.py:20(BoundaryError)
+        5    0.000    0.000    0.000    0.000 datetime.py:45(_days_in_month)
+        1    0.000    0.000    0.000    0.000 request.py:962(ProxyBasicAuthHandler)
+        1    0.000    0.000    0.000    0.000 inspect.py:855(BlockFinder)
+        3    0.000    0.000    0.000    0.000 __init__.py:99(CFunctionType)
+        1    0.000    0.000    0.000    0.000 pickle.py:63(PickleError)
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 argparse.py:954(_AppendConstAction)
+        1    0.000    0.000    0.000    0.000 calendar.py:28(IllegalWeekdayError)
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getfilesystemencoding}
+        1    0.000    0.000    0.000    0.000 string.py:51(_TemplateMetaclass)
+        2    0.000    0.000    0.000    0.000 calendar.py:52(__init__)
+        1    0.000    0.000    0.000    0.000 calendar.py:21(IllegalMonthError)
+        1    0.000    0.000    0.000    0.000 exceptions.py:67(LockError)
+        6    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:376(__init__)
+        1    0.000    0.000    0.000    0.000 argparse.py:1557(_MutuallyExclusiveGroup)
+        1    0.000    0.000    0.000    0.000 errors.py:50(FirstHeaderLineIsContinuationDefect)
+        1    0.000    0.000    0.000    0.000 __init__.py:228(c_byte)
+        1    0.000    0.000    0.000    0.000 tarfile.py:297(SubsequentHeaderError)
+        1    0.000    0.000    0.000    0.000 parse.py:195(_NetlocResultMixinBytes)
+        1    0.000    0.000    0.000    0.000 errors.py:87(HeaderMissingRequiredValue)
+        1    0.000    0.000    0.000    0.000 argparse.py:1142(FileType)
+        1    0.000    0.000    0.000    0.000 pickle.py:67(PicklingError)
+        1    0.000    0.000    0.000    0.000 parse.py:245(SplitResult)
+        1    0.000    0.000    0.000    0.000 element.py:741(ProcessingInstruction)
+        1    0.000    0.000    0.000    0.000 pdb.py:122(_rstr)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread._set_sentinel}
+        1    0.000    0.000    0.000    0.000 argparse.py:1048(_ChoicesPseudoAction)
+        1    0.000    0.000    0.000    0.000 element.py:736(CData)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha512}
+        1    0.000    0.000    0.000    0.000 __init__.py:1050(_StderrHandler)
+        1    0.000    0.000    0.000    0.000 __init__.py:1902(NullHandler)
+        1    0.000    0.000    0.000    0.000 threading.py:252(_is_owned)
+        1    0.000    0.000    0.000    0.000 request.py:951(HTTPBasicAuthHandler)
+        1    0.000    0.000    0.000    0.000 argparse.py:1001(_HelpAction)
+        1    0.000    0.000    0.000    0.000 argparse.py:883(_StoreTrueAction)
+        1    0.000    0.000    0.000    0.000 threading.py:1195(_MainThread)
+        1    0.000    0.000    0.000    0.000 queue.py:233(LifoQueue)
+        1    0.000    0.000    0.000    0.000 errors.py:28(CharsetError)
+        1    0.000    0.000    0.000    0.000 argparse.py:1020(_VersionAction)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        5    0.000    0.000    0.000    0.000 _strptime.py:215(<genexpr>)
+        1    0.000    0.000    0.000    0.000 dis.py:165(Instruction)
+        1    0.000    0.000    0.000    0.000 selectors.py:50(_SelectorMapping)
+        1    0.000    0.000    0.000    0.000 response.py:57(addinfo)
+        1    0.000    0.000    0.000    0.000 __init__.py:446(BeautifulStoneSoup)
+        1    0.000    0.000    0.000    0.000 element.py:1708(ResultSet)
+        1    0.000    0.000    0.000    0.000 threading.py:1165(Timer)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:457(StopParsing)
+        1    0.000    0.000    0.000    0.000 error.py:77(ContentTooShortError)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 codeop.py:139(CommandCompiler)
+        1    0.000    0.000    0.000    0.000 request.py:1307(UnknownHandler)
+        1    0.000    0.000    0.000    0.000 client.py:1304(LineTooLong)
+        1    0.000    0.000    0.000    0.000 idna.py:253(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 __init__.py:200(c_longdouble)
+        1    0.000    0.000    0.000    0.000 element.py:25(NamespacedAttribute)
+        1    0.000    0.000    0.000    0.000 client.py:1294(ResponseNotReady)
+        1    0.000    0.000    0.000    0.000 shutil.py:52(SameFileError)
+        1    0.000    0.000    0.000    0.000 shutil.py:62(ReadError)
+        3    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+        1    0.000    0.000    0.000    0.000 exceptions.py:19(AuthenticationError)
+        1    0.000    0.000    0.000    0.000 __init__.py:314(CDLL)
+        1    0.000    0.000    0.000    0.000 __init__.py:304(ParserRejectedMarkup)
+        1    0.000    0.000    0.000    0.000 __init__.py:670(Filterer)
+        1    0.000    0.000    0.000    0.000 __init__.py:385(StrFormatStyle)
+        1    0.000    0.000    0.000    0.000 __init__.py:988(FileHandler)
+        1    0.000    0.000    0.000    0.000 argparse.py:980(_CountAction)
+        1    0.000    0.000    0.000    0.000 errors.py:67(UndecodableBytesDefect)
+        1    0.000    0.000    0.000    0.000 parser.py:127(BytesHeaderParser)
+        1    0.000    0.000    0.000    0.000 element.py:40(AttributeValueWithCharsetSubstitution)
+        1    0.000    0.000    0.000    0.000 __init__.py:26(TreeBuilderRegistry)
+        1    0.000    0.000    0.000    0.000 errors.py:41(NoBoundaryInMultipartDefect)
+        1    0.000    0.000    0.000    0.000 ast.py:221(NodeVisitor)
+        1    0.000    0.000    0.000    0.000 pickle.py:74(UnpicklingError)
+        1    0.000    0.000    0.000    0.000 errors.py:78(HeaderDefect)
+        1    0.000    0.000    0.000    0.000 element.py:723(PreformattedString)
+        1    0.000    0.000    0.000    0.000 tokenize.py:224(Untokenizer)
+        1    0.000    0.000    0.000    0.000 __init__.py:410(LibraryLoader)
+        1    0.000    0.000    0.000    0.000 socket.py:120(_GiveupOnSendfile)
+        1    0.000    0.000    0.000    0.000 element.py:752(Declaration)
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 __future__.py:78(_Feature)
+        1    0.000    0.000    0.000    0.000 request.py:1140(ProxyDigestAuthHandler)
+        1    0.000    0.000    0.000    0.000 idna.py:292(StreamWriter)
+        1    0.000    0.000    0.000    0.000 __init__.py:259(c_wchar)
+        1    0.000    0.000    0.000    0.000 _htmlparser.py:14(HTMLParseError)
+        1    0.000    0.000    0.000    0.000 argparse.py:672(MetavarTypeHelpFormatter)
+        1    0.000    0.000    0.000    0.000 parse.py:237(DefragResult)
+        1    0.000    0.000    0.000    0.000 request.py:830(HTTPPasswordMgrWithDefaultRealm)
+        1    0.000    0.000    0.000    0.000 __init__.py:370(PyDLL)
+        1    0.000    0.000    0.000    0.000 __init__.py:394(StringTemplateStyle)
+        1    0.000    0.000    0.000    0.000 threading.py:1214(_DummyThread)
+        1    0.000    0.000    0.000    0.000 argparse.py:860(_StoreConstAction)
+        1    0.000    0.000    0.000    0.000 __init__.py:154(py_object)
+        1    0.000    0.000    0.000    0.000 exceptions.py:39(ResponseError)
+        1    0.000    0.000    0.000    0.000 exceptions.py:27(TimeoutError)
+        1    0.000    0.000    0.000    0.000 client.py:1267(UnimplementedFileMode)
+        1    0.000    0.000    0.000    0.000 errors.py:44(StartBoundaryNotFoundDefect)
+        1    0.000    0.000    0.000    0.000 argparse.py:1523(_ArgumentGroup)
+        1    0.000    0.000    0.000    0.000 element.py:43(CharsetMetaAttributeValue)
+        1    0.000    0.000    0.000    0.000 errors.py:104(NonASCIILocalPartDefect)
+        1    0.000    0.000    0.000    0.000 errors.py:56(MissingHeaderBodySeparatorDefect)
+        1    0.000    0.000    0.000    0.000 ssl.py:190(CertificateError)
+        1    0.000    0.000    0.000    0.000 inspect.py:853(EndOfBlock)
+        1    0.000    0.000    0.000    0.000 client.py:1259(UnknownProtocol)
+        1    0.000    0.000    0.000    0.000 tarfile.py:288(TruncatedHeaderError)
+        1    0.000    0.000    0.000    0.000 argparse.py:825(_StoreAction)
+        1    0.000    0.000    0.000    0.000 __init__.py:591(BufferingFormatter)
+        1    0.000    0.000    0.000    0.000 argparse.py:1196(Namespace)
+        1    0.000    0.000    0.000    0.000 request.py:1265(HTTPHandler)
+        1    0.000    0.000    0.000    0.000 threading.py:897(_set_ident)
+        1    0.000    0.000    0.000    0.000 __init__.py:7(<module>)
+        1    0.000    0.000    0.000    0.000 argparse.py:734(Action)
+        1    0.000    0.000    0.000    0.000 pickle.py:87(_Stop)
+        1    0.000    0.000    0.000    0.000 tarfile.py:291(EOFHeaderError)
+        1    0.000    0.000    0.000    0.000 client.py:1309(RemoteDisconnected)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:278(seek)
+        1    0.000    0.000    0.000    0.000 ssl.py:134(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 client.py:2657(Script)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:19(AddressValueError)
+        1    0.000    0.000    0.000    0.000 client.py:1285(ImproperConnectionState)
+        1    0.000    0.000    0.000    0.000 __init__.py:1542(RootLogger)
+        3    0.000    0.000    0.000    0.000 sre_parse.py:95(checklookbehindgroup)
+        1    0.000    0.000    0.000    0.000 feedparser.py:531(BytesFeedParser)
+        1    0.000    0.000    0.000    0.000 argparse.py:705(ArgumentError)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
+        4    0.000    0.000    0.000    0.000 message.py:607(get_default_type)
+        1    0.000    0.000    0.000    0.000 __init__.py:192(c_float)
+        1    0.000    0.000    0.000    0.000 element.py:757(Doctype)
+        1    0.000    0.000    0.000    0.000 shutil.py:59(ExecError)
+        1    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+        1    0.000    0.000    0.000    0.000 _endian.py:46(BigEndianStructure)
+        1    0.000    0.000    0.000    0.000 argparse.py:633(RawDescriptionHelpFormatter)
+        1    0.000    0.000    0.000    0.000 __init__.py:171(c_long)
+        1    0.000    0.000    0.000    0.000 tarfile.py:282(HeaderError)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:23(NetmaskValueError)
+        1    0.000    0.000    0.000    0.000 tarfile.py:270(ExtractError)
+        1    0.000    0.000    0.000    0.000 tarfile.py:267(TarError)
+        1    0.000    0.000    0.000    0.000 tarfile.py:294(InvalidHeaderError)
+        1    0.000    0.000    0.000    0.000 client.py:2652(Pipeline)
+        1    0.000    0.000    0.000    0.000 parse.py:117(_ResultMixinStr)
+        1    0.000    0.000    0.000    0.000 enum.py:40(_EnumDict)
+        1    0.000    0.000    0.000    0.000 codeop.py:124(Compile)
+        1    0.000    0.000    0.000    0.000 argparse.py:644(RawTextHelpFormatter)
+        1    0.000    0.000    0.000    0.000 __init__.py:633(Filter)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
+        1    0.000    0.000    0.000    0.000 client.py:1248(HTTPException)
+        1    0.000    0.000    0.000    0.000 shutil.py:55(SpecialFileError)
+        1    0.000    0.000    0.000    0.000 __init__.py:460(FeatureNotFound)
+        1    0.000    0.000    0.000    0.000 tarfile.py:276(CompressionError)
+        1    0.000    0.000    0.000    0.000 request.py:587(HTTPDefaultErrorHandler)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha224}
+        1    0.000    0.000    0.000    0.000 tarfile.py:273(ReadError)
+        1    0.000    0.000    0.000    0.000 argparse.py:655(ArgumentDefaultsHelpFormatter)
+        1    0.000    0.000    0.000    0.000 __init__.py:163(c_short)
+        1    0.000    0.000    0.000    0.000 __init__.py:188(c_uint)
+        1    0.000    0.000    0.000    0.000 exceptions.py:35(InvalidResponse)
+        1    0.000    0.000    0.000    0.000 utils.py:29(dummy)
+        1    0.000    0.000    0.000    0.000 client.py:1253(NotConnected)
+        1    0.000    0.000    0.000    0.000 __init__.py:196(c_double)
+        1    0.000    0.000    0.000    0.000 __init__.py:254(c_wchar_p)
+        1    0.000    0.000    0.000    0.000 element.py:746(Comment)
+        1    0.000    0.000    0.000    0.000 __init__.py:244(c_void_p)
+        1    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 inspect.py:2340(_void)
+        1    0.000    0.000    0.000    0.000 client.py:1264(UnknownTransferEncoding)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha384}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 request.py:622(<genexpr>)
+        1    0.000    0.000    0.000    0.000 subprocess.py:371(SubprocessError)
+        1    0.000    0.000    0.000    0.000 __init__.py:249(c_bool)
+        2    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 tarfile.py:285(EmptyHeaderError)
+        1    0.000    0.000    0.000    0.000 errors.py:64(InvalidMultipartContentTransferEncodingDefect)
+        1    0.000    0.000    0.000    0.000 __init__.py:1074(PlaceHolder)
+        1    0.000    0.000    0.000    0.000 errors.py:12(MessageParseError)
+        1    0.000    0.000    0.000    0.000 parse.py:269(ParseResultBytes)
+        1    0.000    0.000    0.000    0.000 _endian.py:23(_swapped_meta)
+        1    0.000    0.000    0.000    0.000 bdb.py:10(BdbQuit)
+        1    0.000    0.000    0.000    0.000 __init__.py:175(c_ulong)
+        1    0.000    0.000    0.000    0.000 errors.py:84(InvalidHeaderDefect)
+        1    0.000    0.000    0.000    0.000 errors.py:61(MultipartInvariantViolationDefect)
+        1    0.000    0.000    0.000    0.000 tarfile.py:279(StreamError)
+        1    0.000    0.000    0.000    0.000 __init__.py:167(c_ushort)
+        1    0.000    0.000    0.000    0.000 exceptions.py:63(ReadOnlyError)
+        1    0.000    0.000    0.000    0.000 client.py:1297(BadStatusLine)
+        1    0.000    0.000    0.000    0.000 uu.py:39(Error)
+        1    0.000    0.000    0.000    0.000 tokenize.py:221(StopTokenizing)
+        4    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 errors.py:53(MisplacedEnvelopeHeaderDefect)
+        1    0.000    0.000    0.000    0.000 client.py:1291(CannotSendHeader)
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 errors.py:101(ObsoleteHeaderDefect)
+        2    0.000    0.000    0.000    0.000 calendar.py:50(<lambda>)
+        1    0.000    0.000    0.000    0.000 exceptions.py:51(WatchError)
+        1    0.000    0.000    0.000    0.000 parse.py:256(DefragResultBytes)
+        1    0.000    0.000    0.000    0.000 errors.py:47(CloseBoundaryNotFoundDefect)
+        1    0.000    0.000    0.000    0.000 inspect.py:2344(_empty)
+        1    0.000    0.000    0.000    0.000 errors.py:16(HeaderParseError)
+        1    0.000    0.000    0.000    0.000 client.py:2647(StrictPipeline)
+        1    0.000    0.000    0.000    0.000 idna.py:295(StreamReader)
+        1    0.000    0.000    0.000    0.000 exceptions.py:31(BusyLoadingError)
+        1    0.000    0.000    0.000    0.000 client.py:1256(InvalidURL)
+        1    0.000    0.000    0.000    0.000 __init__.py:221(c_ubyte)
+        1    0.000    0.000    0.000    0.000 errors.py:24(MultipartConversionError)
+        1    0.000    0.000    0.000    0.000 errors.py:70(InvalidBase64PaddingDefect)
+        1    0.000    0.000    0.000    0.000 queue.py:13(Empty)
+        1    0.000    0.000    0.000    0.000 exceptions.py:5(RedisError)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 threading.py:727(BrokenBarrierError)
+        1    0.000    0.000    0.000    0.000 __init__.py:238(c_char_p)
+        1    0.000    0.000    0.000    0.000 client.py:1288(CannotSendRequest)
+        1    0.000    0.000    0.000    0.000 exceptions.py:47(PubSubError)
+        1    0.000    0.000    0.000    0.000 tokenize.py:219(TokenError)
+        1    0.000    0.000    0.000    0.000 exceptions.py:55(NoScriptError)
+        1    0.000    0.000    0.000    0.000 parse.py:264(SplitResultBytes)
+        1    0.000    0.000    0.000    0.000 exceptions.py:23(ConnectionError)
+        1    0.000    0.000    0.000    0.000 exceptions.py:43(DataError)
+        1    0.000    0.000    0.000    0.000 errors.py:8(MessageError)
+        1    0.000    0.000    0.000    0.000 argparse.py:725(ArgumentTypeError)
+        1    0.000    0.000    0.000    0.000 errors.py:73(InvalidBase64CharactersDefect)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha1}
+        1    0.000    0.000    0.000    0.000 exceptions.py:59(ExecAbortError)
+        1    0.000    0.000    0.000    0.000 shutil.py:65(RegistryError)
+        1    0.000    0.000    0.000    0.000 __init__.py:233(c_char)
+
+

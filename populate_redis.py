@@ -35,5 +35,5 @@ def populate_redis():
                     print('        ', c)
                 pipe.execute()
     print('========\nDone!')
-
-populate_redis()
+if __name__ == "__main__":
+    populate_redis()
