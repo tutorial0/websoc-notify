@@ -81,7 +81,9 @@ def get_department(dept: str) -> {str: [Course]}:
             # TODO: dedupe
             new_c = Course(course)
             c_num = new_c.num
-            d[c_num].append(new_c)
+            if not (34000 <= new_c.code <=37999):
+                if 'CSE' not in new_c.name:
+                    d[c_num].append(new_c)
     return d
 
 def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
