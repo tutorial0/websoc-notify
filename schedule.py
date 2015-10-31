@@ -36,9 +36,13 @@ def exclude_duplicates(cs: iter):
             yield i
 
 if __name__ == '__main__':
-    courses = get_department('CSE')
+    courses = get_department('I&C Sci')
     d = parse_sections(courses)
-    sub = {k: d[k] for k in ('CSE 41', 'CSE 31L')}
+    sub = {k: d[k] for k in ('I&C Sci 53','I&C Sci 53L',)}
+    courses = get_department('COMPSCI')
+    d = parse_sections(courses)
+    sub2 = {k: d[k] for k in ('CompSci 178',)}
+    sub.update(sub2)
 
     i = 0
     start = datetime.now()

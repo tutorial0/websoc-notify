@@ -105,7 +105,7 @@ def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
         d[p]
         p_set.add(p)
         for course in i:
-            if course.c_type == "Lab":      # special case for CS labs
+            if p.c_type == "Lec" and course.c_type == "Lab":      # special case for CS labs
                 l_set.add(course)
             elif p.c_type == course.c_type: # is a new lecture
                 p = course                  # change pointer
@@ -122,7 +122,7 @@ def parse_sections(courses: {str: [Course]}) -> {str: {Course: [Course]}}:
 
 
 if __name__ == '__main__':
-    courses = get_department('CSE')
+    courses = get_department('I&C SCI')
     d = parse_sections(courses)
 
     for k,v in sorted(d.items()):
